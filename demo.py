@@ -12,7 +12,7 @@ def main():
 
 def get_analytics_for_company(company):
     print('==========================')
-    quotes = load_market_data_with_np('10yearsHistory/' + company + '.csv')
+    quotes = load_market_data_with_np('historical_data/10years/' + company + '.csv')
     money = 50_000
     stocks = 0
     initial_money = round(money + stocks * quotes[200].open_price, 2)
