@@ -5,7 +5,7 @@ from Quote import Quote
 
 class Solution:
 
-    def should_buy(quotes: List[Quote]) -> bool:
+    def should_buy(quotes: List[Quote]):
         current_day = quotes[len(quotes) - 1]
         middle_local_max_index = -2
         first_local_min_index = -1
@@ -26,13 +26,11 @@ class Solution:
                 is_growth_tendency = True
             if second_local_min_index > 0:
                 if is_growth_tendency and current_day.close_price > resistance_level:
-                    return True
+                    return [middle_local_max_index,resistance_level]
                 break
-        if second_local_min_index < 0:
-            raise ValueError('Please provide more values.')
-        return False
+        return None
 
-    def should_sell(quotes: List[Quote]) -> bool:
+    def should_sell(quotes: List[Quote]):
         current_day = quotes[len(quotes) - 1]
         middle_local_min_index = -2
         first_local_max_index = -1
@@ -53,8 +51,6 @@ class Solution:
                 is_declining_tendency = True
             if second_local_max_index > 0:
                 if is_declining_tendency and current_day.close_price < support_level:
-                    return True
+                    return [middle_local_min_index,support_level]
                 break
-        if second_local_max_index < 0:
-            raise ValueError('Please provide more values.')
-        return False
+        return None

@@ -20,13 +20,15 @@ def get_analytics_for_company(company):
     alreadyBought = False
     alreadySold = True
     for i in range(200, len(quotes) - 1, 1):
-        if Solution.should_buy(quotes[0:i - 1]) and not alreadyBought:
+        begin, resistance_level = Solution.should_buy(quotes[0:i - 1]) or (None, None)
+        if not alreadyBought and not(begin is None):
             # print(str(quotes[i].date) + " buy  " + company)
             alreadyBought = True
             alreadySold = False
             stocks = int(money / quotes[i].open_price)
             money -= stocks * quotes[i].open_price
-        if Solution.should_sell(quotes[0:i - 1]) and not alreadySold:
+        begin, support_level = Solution.should_sell(quotes[0:i - 1]) or (None, None)
+        if not alreadySold and not (begin is None):
             # print(str(quotes[i].date) + " sell " + company)
             alreadySold = True
             alreadyBought = False
