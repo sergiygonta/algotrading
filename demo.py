@@ -3,6 +3,9 @@ from datetime import datetime
 from Quote import load_market_data_with_np
 from Solution import Solution
 
+import plotly.graph_objects as go
+import pandas as pd
+
 
 def main():
     companies = ['FB', 'AAPL', 'AMZN', 'NFLX', 'GOOG', 'MSFT']
@@ -13,6 +16,15 @@ def main():
 def get_analytics_for_company(company):
     print('==========================')
     quotes = load_market_data_with_np('historical_data/10years/' + company + '.csv')
+
+    df = pd.read_csv('historical_data/10years/' + company + '.csv')
+    fig = go.Figure(data=[go.Candlestick(x=df['Date'],
+                                         open=df['Open'],
+                                         high=df['High'],
+                                         low=df['Low'],
+                                         close=df['Close'])])
+    fig.show()
+
     money = 50_000
     stocks = 0
     initial_money = round(money + stocks * quotes[200].open_price, 2)
