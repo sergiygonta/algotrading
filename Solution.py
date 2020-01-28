@@ -26,7 +26,7 @@ class Solution:
                 is_growth_tendency = True
             if second_local_min_index > 0:
                 if is_growth_tendency and current_day.close_price > resistance_level:
-                    return [middle_local_max_index,resistance_level]
+                    return [quotes[middle_local_max_index].date,resistance_level]
                 break
         return None
 
@@ -51,6 +51,6 @@ class Solution:
                 is_declining_tendency = True
             if second_local_max_index > 0:
                 if is_declining_tendency and current_day.close_price < support_level:
-                    return [middle_local_min_index,support_level]
+                    return [quotes[middle_local_min_index].date,support_level]
                 break
         return None
