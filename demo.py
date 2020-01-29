@@ -16,15 +16,14 @@ def main():
 def get_analytics_for_company(company):
     print('==========================')
     quotes = load_market_data_with_np('historical_data/10years/' + company + '.csv')
-
+    lines=[]
     df = pd.read_csv('historical_data/10years/' + company + '.csv')
     fig = go.Figure(data=[go.Candlestick(x=df['Date'],
                                          open=df['Open'],
                                          high=df['High'],
                                          low=df['Low'],
                                          close=df['Close'])])
-    fig.show()
-
+    
     money = 50_000
     stocks = 0
     initial_money = round(money + stocks * quotes[200].open_price, 2)
@@ -39,6 +38,7 @@ def get_analytics_for_company(company):
             alreadySold = False
             stocks = int(money / quotes[i].open_price)
             money -= stocks * quotes[i].open_price
+            lines.append([dict(x0=begin, x1=quotes[i].date, y0=resistance_level, y1=resistance_level, xref='x', yref='paper', line_width=1)])
         begin, support_level = Solution.should_sell(quotes[0:i - 1]) or (None, None)
         if not alreadySold and not (begin is None):
             # print(str(quotes[i].date) + " sell " + company)
@@ -46,8 +46,11 @@ def get_analytics_for_company(company):
             alreadyBought = False
             money += stocks * quotes[i].close_price
             stocks = 0
+            lines.append([dict(x0=begin, x1=quotes[i].date, y0=support_level, y1=support_level, xref='x', yref='paper', line_width=1)])
     final_money = round(money + stocks * quotes[len(quotes) - 1].close_price, 2)
     print(company + ' finally:   date ' + str(quotes[len(quotes) - 1].date) + ', money ' + str(final_money) + '$')
+    fig.update_layout(shapes = tuple(lines))
+    fig.show()
 
 
 if __name__ == "__main__":
