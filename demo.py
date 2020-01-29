@@ -30,6 +30,7 @@ def get_analytics_for_company(company):
         title=company,
         yaxis_title=company+' Stock'
     )
+    lines=[]
 
     money = 50_000
     stocks = 0
@@ -45,8 +46,7 @@ def get_analytics_for_company(company):
             alreadySold = False
             stocks = int(money / quotes[i].open_price)
             money -= stocks * quotes[i].open_price
-            fig.update_layout(
-                shapes=[dict(
+            lines.append([dict(
                     x0=begin, x1=quotes[i].date, y0=resistance_level, y1=resistance_level,
                     line_width=1, name='Resistance line')]
             )
@@ -57,13 +57,13 @@ def get_analytics_for_company(company):
             alreadyBought = False
             money += stocks * quotes[i].close_price
             stocks = 0
-            fig.update_layout(
-                shapes=[dict(
+            lines.append([dict(
                     x0=begin, x1=quotes[i].date, y0=support_level, y1=support_level,
                     line_width=1, name='Support line')]
             )
     final_money = round(money + stocks * quotes[len(quotes) - 1].close_price, 2)
     print(company + ' finally:   date ' + str(quotes[len(quotes) - 1].date) + ', money ' + str(final_money) + '$')
+    fig.update_layout(shapes=tuple(lines))
     fig.show()
 
 
