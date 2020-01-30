@@ -8,21 +8,25 @@ import pandas as pd
 
 
 def main():
-    companies = ['FB', 'AAPL', 'AMZN', 'NFLX', 'GOOG', 'MSFT']
+    companies = ['FB'
+        # , 'AAPL', 'AMZN', 'NFLX', 'GOOG', 'MSFT'
+        ]
     for company in companies:
         get_analytics_for_company(company)
 
 
 def get_analytics_for_company(company):
     print('==========================')
-    quotes = load_market_data_with_np('historical_data/10years/' + company + '.csv')
-    lines=[]
-    df = pd.read_csv('historical_data/10years/' + company + '.csv')
+    quotes = load_market_data_with_np('historical_data/2years/' + company + '.csv')
+    df = pd.read_csv('historical_data/2years/' + company + '.csv')
     fig = go.Figure(data=[go.Candlestick(x=df['Date'],
                                          open=df['Open'],
                                          high=df['High'],
                                          low=df['Low'],
                                          close=df['Close'])])
+    fig.update_layout(
+        title=company,
+        yaxis_title=company+' stocks price')
     
     money = 50_000
     stocks = 0
@@ -33,23 +37,48 @@ def get_analytics_for_company(company):
     for i in range(200, len(quotes) - 1, 1):
         begin, resistance_level = Solution.should_buy(quotes[0:i - 1]) or (None, None)
         if not alreadyBought and not(begin is None):
-            # print(str(quotes[i].date) + " buy  " + company)
+            print(str(quotes[i].date) + " buy  " + company)
             alreadyBought = True
             alreadySold = False
             stocks = int(money / quotes[i].open_price)
             money -= stocks * quotes[i].open_price
-            lines.append([dict(x0=begin, x1=quotes[i].date, y0=resistance_level, y1=resistance_level, xref='x', yref='paper', line_width=1)])
+            if resistance_level is not None:
+                fig.add_shape(
+                    # Line Diagonal
+                    go.layout.Shape(
+                        type="line",
+                        x0=begin,
+                        y0=resistance_level,
+                        x1=quotes[i].date,
+                        y1=resistance_level,
+                        line=dict(
+                            color="Blue",
+                            width=1,
+                        )
+                    ))
         begin, support_level = Solution.should_sell(quotes[0:i - 1]) or (None, None)
         if not alreadySold and not (begin is None):
-            # print(str(quotes[i].date) + " sell " + company)
+            print(str(quotes[i].date) + " sell " + company)
             alreadySold = True
             alreadyBought = False
             money += stocks * quotes[i].close_price
             stocks = 0
-            lines.append([dict(x0=begin, x1=quotes[i].date, y0=support_level, y1=support_level, xref='x', yref='paper', line_width=1)])
+            if support_level is not None:
+                fig.add_shape(
+                    # Line Diagonal
+                    go.layout.Shape(
+                        type="line",
+                        x0=begin,
+                        y0=support_level,
+                        x1=quotes[i].date,
+                        y1=support_level,
+                        line=dict(
+                            color="Black",
+                            width=1,
+                        )
+                    ))
     final_money = round(money + stocks * quotes[len(quotes) - 1].close_price, 2)
     print(company + ' finally:   date ' + str(quotes[len(quotes) - 1].date) + ', money ' + str(final_money) + '$')
-    fig.update_layout(shapes = tuple(lines))
     fig.show()
 
 
