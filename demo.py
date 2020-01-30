@@ -28,7 +28,8 @@ def get_analytics_for_company(company):
                                          decreasing_line_color= 'black')])
     fig.update_layout(
         title=company,
-        yaxis_title=company+' stocks price')
+        yaxis_title=company+' stocks price',
+        xaxis_title="End of green line - buy date. End of red line - sell date.",)
     
     money = 50_000
     stocks = 0
