@@ -23,7 +23,9 @@ def get_analytics_for_company(company):
                                          open=df['Open'],
                                          high=df['High'],
                                          low=df['Low'],
-                                         close=df['Close'])])
+                                         close=df['Close'],
+                                         increasing_line_color= 'white',
+                                         decreasing_line_color= 'black')])
     fig.update_layout(
         title=company,
         yaxis_title=company+' stocks price')
@@ -52,7 +54,7 @@ def get_analytics_for_company(company):
                         x1=quotes[i].date,
                         y1=resistance_level,
                         line=dict(
-                            color="Blue",
+                            color="green",
                             width=1,
                         )
                     ))
@@ -73,7 +75,7 @@ def get_analytics_for_company(company):
                         x1=quotes[i].date,
                         y1=support_level,
                         line=dict(
-                            color="Black",
+                            color="red",
                             width=1,
                         )
                     ))
