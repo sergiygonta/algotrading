@@ -38,7 +38,7 @@ def get_analytics_for_company(company):
     alreadyBought = False
     alreadySold = True
     for i in range(200, len(quotes) - 1, 1):
-        begin, resistance_level = Solution.should_buy(quotes[0:i - 1]) or (None, None)
+        begin, resistance_level = Solution.should_buy(quotes[0:i]) or (None, None)
         if not alreadyBought and not(begin is None):
             print(str(quotes[i].date) + " buy  " + company)
             alreadyBought = True
@@ -59,7 +59,7 @@ def get_analytics_for_company(company):
                             width=1,
                         )
                     ))
-        begin, support_level = Solution.should_sell(quotes[0:i - 1]) or (None, None)
+        begin, support_level = Solution.should_sell(quotes[0:i]) or (None, None)
         if not alreadySold and not (begin is None):
             print(str(quotes[i].date) + " sell " + company)
             alreadySold = True
