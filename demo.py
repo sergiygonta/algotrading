@@ -8,8 +8,8 @@ import pandas as pd
 
 
 def main():
-    companies = ['FB'
-        # , 'AAPL', 'AMZN', 'NFLX', 'GOOG', 'MSFT'
+    companies = ['KO'
+        # , 'FB', 'AAPL', 'AMZN', 'NFLX', 'GOOG', 'MSFT'
         ]
     for company in companies:
         get_analytics_for_company(company)
