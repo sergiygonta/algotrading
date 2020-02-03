@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, date
 
 from Quote import load_market_data_with_np
 from Solution import Solution
@@ -6,13 +6,19 @@ from Solution import Solution
 # import plotly.graph_objects as go
 # import pandas as pd
 import os
+from dateutil.relativedelta import relativedelta
+
+initial_money = 50_000
 
 
 def main():
     companies = os.listdir("historical_data/SP")
     companies.sort()
+    total_earnings = 0
     for company in companies:
-        get_analytics_for_company(company)
+        total_earnings += get_analytics_for_company(company)
+    print('From 2009-04-07 to 2020-01-31 from ' + str(initial_money) + '$ earning ' + str(
+        round(total_earnings / len(companies), 2)) + '$')
 
 
 def get_analytics_for_company(company):
@@ -30,7 +36,7 @@ def get_analytics_for_company(company):
     #     yaxis_title=company + ' stocks price',
     #     xaxis_title="End of green line - buy date. End of red line - sell date.", )
 
-    money = 50_000
+    money = initial_money
     stocks = 0
     alreadyBought = False
     alreadySold = True
@@ -84,6 +90,7 @@ def get_analytics_for_company(company):
     print('{0:<9} from '.format(company) + str(quotes[100].date) + ' and 50000$ to ' +
           str(quotes[len(quotes) - 1].date) + ' and ' + str(final_money) + '$')
     # fig.show()
+    return final_money - initial_money
 
 
 if __name__ == "__main__":
