@@ -1,0 +1,1799 @@
+<tr>
+<td>January 28, 2020</td>
+<td>PAYC</td>
+<td><a href="/wiki/Paycom" title="Paycom">Paycom</a></td>
+<td>WCG</td>
+<td><a href="/wiki/WellCare" title="WellCare">WellCare</a></td>
+<td>S&amp;P 500 constituent Centene Corp. (NYSE: CNC) acquired Wellcare Health Plans.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup>
+</td></tr>
+<tr>
+<td>December 23, 2019</td>
+<td>LYV</td>
+<td><a href="/wiki/Live_Nation_Entertainment" title="Live Nation Entertainment">Live Nation Entertainment</a></td>
+<td>AMG</td>
+<td><a href="/wiki/Affiliated_Managers_Group" title="Affiliated Managers Group">Affiliated Managers Group</a></td>
+<td>Market capitalization change.<sup id="cite_ref-sp20191213_8-0" class="reference"><a href="#cite_note-sp20191213-8">[8]</a></sup>
+</td></tr>
+<tr>
+<td>December 23, 2019</td>
+<td>ZBRA</td>
+<td><a href="/wiki/Zebra_Technologies" title="Zebra Technologies">Zebra Technologies</a></td>
+<td>TRIP</td>
+<td><a href="/wiki/TripAdvisor" title="TripAdvisor">TripAdvisor</a></td>
+<td>Market capitalization change.<sup id="cite_ref-sp20191213_8-1" class="reference"><a href="#cite_note-sp20191213-8">[8]</a></sup>
+</td></tr>
+<tr>
+<td>December 23, 2019</td>
+<td>STE</td>
+<td><a href="/wiki/STERIS_plc" class="mw-redirect" title="STERIS plc">STERIS plc</a></td>
+<td>MAC</td>
+<td><a href="/wiki/Macerich" title="Macerich">Macerich</a></td>
+<td>Market capitalization change.<sup id="cite_ref-sp20191213_8-2" class="reference"><a href="#cite_note-sp20191213-8">[8]</a></sup>
+</td></tr>
+<tr>
+<td>December 9, 2019</td>
+<td>ODFL</td>
+<td><a href="/wiki/Old_Dominion_Freight_Line" title="Old Dominion Freight Line">Old Dominion Freight Line</a></td>
+<td>STI</td>
+<td><a href="/wiki/SunTrust_Banks" title="SunTrust Banks">SunTrust Banks</a></td>
+<td>BB&amp;T acquired SunTrust to form <a href="/wiki/Truist_Financial" title="Truist Financial">Truist Financial</a>.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">[9]</a></sup>
+</td></tr>
+<tr>
+<td>December 5, 2019</td>
+<td>WRB</td>
+<td><a href="/wiki/W._R._Berkley_Corporation" title="W. R. Berkley Corporation">W. R. Berkley Corporation</a></td>
+<td>VIAB</td>
+<td><a href="/wiki/Viacom_(2005-2019)" class="mw-redirect" title="Viacom (2005-2019)">Viacom</a></td>
+<td>CBS acquired Viacom to form <a href="/wiki/ViacomCBS" title="ViacomCBS">ViacomCBS</a>.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10">[10]</a></sup>
+</td></tr>
+<tr>
+<td>November 21, 2019</td>
+<td>NOW</td>
+<td><a href="/wiki/ServiceNow" title="ServiceNow">ServiceNow</a></td>
+<td>CELG</td>
+<td><a href="/wiki/Celgene" title="Celgene">Celgene</a></td>
+<td><a href="/wiki/Bristol-Myers_Squibb" title="Bristol-Myers Squibb">Bristol-Myers Squibb</a> Co. (NYSE:BMY) acquired Celgene.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">[11]</a></sup>
+</td></tr>
+<tr>
+<td>October 3, 2019</td>
+<td>LVS</td>
+<td><a href="/wiki/Las_Vegas_Sands" title="Las Vegas Sands">Las Vegas Sands</a></td>
+<td>NKTR</td>
+<td><a href="/wiki/Nektar_Therapeutics" title="Nektar Therapeutics">Nektar Therapeutics</a></td>
+<td>Market Cap changes<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">[12]</a></sup>
+</td></tr>
+<tr>
+<td>September 26, 2019</td>
+<td>NVR</td>
+<td><a href="/wiki/NVR_Inc" class="mw-redirect" title="NVR Inc">NVR Inc</a></td>
+<td>JEF</td>
+<td><a href="/wiki/Jefferies_Financial_Group_Inc" class="mw-redirect" title="Jefferies Financial Group Inc">Jefferies Financial Group Inc</a></td>
+<td>JEF spun off SPB.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">[13]</a></sup>
+</td></tr>
+<tr>
+<td>September 23, 2019</td>
+<td>CDW</td>
+<td><a href="/wiki/CDW" title="CDW">CDW</a></td>
+<td>TSS</td>
+<td><a href="/wiki/TSYS" title="TSYS">TSYS</a></td>
+<td>S&amp;P 500 constituent Global Payments Inc. (NYSE: GPN) acquired TSS.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">[14]</a></sup>
+</td></tr>
+<tr>
+<td>August 9, 2019</td>
+<td>LDOS</td>
+<td><a href="/wiki/Leidos_Holdings" class="mw-redirect" title="Leidos Holdings">Leidos Holdings</a></td>
+<td>APC</td>
+<td><a href="/wiki/Anadarko_Petroleum" title="Anadarko Petroleum">Anadarko Petroleum</a></td>
+<td>S&amp;P 500 &amp; 100 constituent Occidental Petroleum Corp. (NYSE:OXY) acquired Anadarko Petroleum.<sup id="cite_ref-sp20190801_15-0" class="reference"><a href="#cite_note-sp20190801-15">[15]</a></sup>
+</td></tr>
+<tr>
+<td>August 9, 2019</td>
+<td>IEX</td>
+<td><a href="/wiki/IDEX_Corporation" title="IDEX Corporation">IDEX Corporation</a></td>
+<td>FL</td>
+<td><a href="/wiki/Foot_Locker" title="Foot Locker">Foot Locker</a></td>
+<td>Foot Locker moved to the S&amp;P MidCap 400.<sup id="cite_ref-sp20190801_15-1" class="reference"><a href="#cite_note-sp20190801-15">[15]</a></sup>
+</td></tr>
+<tr>
+<td>July 15, 2019</td>
+<td>TMUS</td>
+<td><a href="/wiki/T-Mobile_US" title="T-Mobile US">T-Mobile US</a></td>
+<td>RHT</td>
+<td><a href="/wiki/Red_Hat" title="Red Hat">Red Hat</a></td>
+<td>S&amp;P 500 &amp; 100 constituent <a href="/wiki/IBM" title="IBM">IBM</a> acquired Red Hat.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">[16]</a></sup>
+</td></tr>
+<tr>
+<td>July 1, 2019</td>
+<td>MKTX</td>
+<td><a href="/wiki/MarketAxess" title="MarketAxess">MarketAxess</a></td>
+<td>LLL</td>
+<td><a href="/wiki/L3_Technologies" title="L3 Technologies">L3 Technologies</a></td>
+<td>L3 purchased by Harris Corporation<sup id="cite_ref-17" class="reference"><a href="#cite_note-17">[17]</a></sup>
+</td></tr>
+<tr>
+<td>June 7, 2019</td>
+<td>BMS</td>
+<td><a href="/wiki/Bemis_Company" title="Bemis Company">Bemis Co Inc</a></td>
+<td>MAT</td>
+<td><a href="/wiki/Mattel_Inc" class="mw-redirect" title="Mattel Inc">Mattel Inc</a></td>
+<td>Bemis merged with Amcor; subsequently renamed to <a href="/wiki/Amcor_plc" class="mw-redirect" title="Amcor plc">Amcor plc</a><sup id="cite_ref-18" class="reference"><a href="#cite_note-18">[18]</a></sup>
+</td></tr>
+<tr>
+<td>June 3, 2019</td>
+<td>CTVA</td>
+<td><a href="/wiki/Corteva" title="Corteva">Corteva</a></td>
+<td>FLR</td>
+<td><a href="/wiki/Fluor_Corporation" title="Fluor Corporation">Fluor Corporation</a></td>
+<td>CTVA spun off from DWDP (which then changed symbol to DD)<sup id="cite_ref-19" class="reference"><a href="#cite_note-19">[19]</a></sup>
+</td></tr>
+<tr>
+<td>April 2, 2019</td>
+<td>DOW</td>
+<td><a href="/wiki/Dow_Inc." title="Dow Inc.">Dow Inc.</a></td>
+<td>BHF</td>
+<td><a href="/wiki/Brighthouse_Financial" title="Brighthouse Financial">Brighthouse Financial</a></td>
+<td>DOW spun off from DWDP<sup id="cite_ref-20" class="reference"><a href="#cite_note-20">[20]</a></sup>
+</td></tr>
+<tr>
+<td>February 27, 2019</td>
+<td>WAB</td>
+<td><a href="/wiki/Wabtec_Corporation" title="Wabtec Corporation">Wabtec Corporation</a></td>
+<td>GT</td>
+<td><a href="/wiki/The_Goodyear_Tire_%26_Rubber_Company" class="mw-redirect" title="The Goodyear Tire &amp; Rubber Company">The Goodyear Tire &amp; Rubber Company</a></td>
+<td>WAB acquired GE transportation business<sup id="cite_ref-21" class="reference"><a href="#cite_note-21">[21]</a></sup>
+</td></tr>
+<tr>
+<td>February 15, 2019</td>
+<td>ATO</td>
+<td><a href="/wiki/Atmos_Energy_Corp" class="mw-redirect" title="Atmos Energy Corp">Atmos Energy Corp</a></td>
+<td>NFX</td>
+<td><a href="/wiki/Newfield_Exploration" title="Newfield Exploration">Newfield Exploration</a></td>
+<td>ECA acquired NFX<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">[22]</a></sup>
+</td></tr>
+<tr>
+<td>January 18, 2019</td>
+<td>TFX</td>
+<td><a href="/wiki/Teleflex" title="Teleflex">Teleflex</a></td>
+<td>PCG</td>
+<td><a href="/wiki/PG%26E" class="mw-redirect" title="PG&amp;E">PG&amp;E Corp</a></td>
+<td>PCG filed for bankruptcy<sup id="cite_ref-23" class="reference"><a href="#cite_note-23">[23]</a></sup>
+</td></tr>
+<tr>
+<td>January 2, 2019</td>
+<td>FRC</td>
+<td><a href="/wiki/First_Republic_Bank" title="First Republic Bank">First Republic Bank</a></td>
+<td>SCG</td>
+<td><a href="/wiki/SCANA" title="SCANA">SCANA</a></td>
+<td>Dominion Energy acquired SCANA Corporation<sup id="cite_ref-24" class="reference"><a href="#cite_note-24">[24]</a></sup>
+</td></tr>
+<tr>
+<td>December 24, 2018</td>
+<td>CE</td>
+<td><a href="/wiki/Celanese" title="Celanese">Celanese</a></td>
+<td>ESRX</td>
+<td><a href="/wiki/Express_Scripts" title="Express Scripts">Express Scripts</a></td>
+<td>S&amp;P 500 constituent Cigna (NYSE: CI) acquired ESRX<sup id="cite_ref-25" class="reference"><a href="#cite_note-25">[25]</a></sup>
+</td></tr>
+<tr>
+<td>December 3, 2018</td>
+<td>LW</td>
+<td><a href="/wiki/Lamb_Weston_Holdings_Inc" class="mw-redirect" title="Lamb Weston Holdings Inc">Lamb Weston Holdings Inc</a></td>
+<td>COL</td>
+<td><a href="/wiki/Rockwell_Collins" title="Rockwell Collins">Rockwell Collins</a></td>
+<td>UTX acquired COL<sup id="cite_ref-sp20181126_26-0" class="reference"><a href="#cite_note-sp20181126-26">[26]</a></sup>
+</td></tr>
+<tr>
+<td>December 3, 2018</td>
+<td>MXIM</td>
+<td><a href="/wiki/Maxim_Integrated" title="Maxim Integrated">Maxim Integrated Products Inc</a></td>
+<td>AET</td>
+<td><a href="/wiki/Aetna_Inc" class="mw-redirect" title="Aetna Inc">Aetna Inc</a></td>
+<td>CVS acquired Aetna<sup id="cite_ref-sp20181126_26-1" class="reference"><a href="#cite_note-sp20181126-26">[26]</a></sup>
+</td></tr>
+<tr>
+<td>December 3, 2018</td>
+<td>FANG</td>
+<td><a href="/wiki/Diamondback_Energy" title="Diamondback Energy">Diamondback Energy</a></td>
+<td>SRCL</td>
+<td><a href="/wiki/Stericycle" title="Stericycle">Stericycle</a></td>
+<td>Market Capitalization change<sup id="cite_ref-sp20181126_26-2" class="reference"><a href="#cite_note-sp20181126-26">[26]</a></sup>
+</td></tr>
+<tr>
+<td>November 13, 2018</td>
+<td>JKHY</td>
+<td><a href="/wiki/Jack_Henry_%26_Associates" title="Jack Henry &amp; Associates">Jack Henry &amp; Associates</a></td>
+<td>EQT</td>
+<td><a href="/wiki/EQT" title="EQT">EQT Corp</a></td>
+<td>EQT spun off ETRN<sup id="cite_ref-27" class="reference"><a href="#cite_note-27">[27]</a></sup>
+</td></tr>
+<tr>
+<td>November 6, 2018</td>
+<td>KEYS</td>
+<td><a href="/wiki/Keysight_Technologies" class="mw-redirect" title="Keysight Technologies">Keysight Technologies</a></td>
+<td>CA</td>
+<td><a href="/wiki/CA_Inc." class="mw-redirect" title="CA Inc.">CA Inc.</a></td>
+<td>CA acquired by <a href="/wiki/Broadcom_Inc." title="Broadcom Inc.">Broadcom Inc.</a>.<sup id="cite_ref-28" class="reference"><a href="#cite_note-28">[28]</a></sup>
+</td></tr>
+<tr>
+<td>October 11, 2018</td>
+<td>FTNT</td>
+<td><a href="/wiki/Fortinet" title="Fortinet">Fortinet</a></td>
+<td>EVHC</td>
+<td><a href="/wiki/Envision_Healthcare" title="Envision Healthcare">Envision Healthcare</a></td>
+<td>EVHC acquired by <a href="/wiki/Kohlberg_Kravis_Roberts" title="Kohlberg Kravis Roberts">Kohlberg Kravis Roberts</a>.<sup id="cite_ref-29" class="reference"><a href="#cite_note-29">[29]</a></sup>
+</td></tr>
+<tr>
+<td>October 1, 2018</td>
+<td>ROL</td>
+<td><a href="/wiki/Rollins_Inc." class="mw-redirect" title="Rollins Inc.">Rollins Inc.</a></td>
+<td>ANDV</td>
+<td><a href="/wiki/Andeavor" title="Andeavor">Andeavor</a></td>
+<td>ANDV acquired by <a href="/wiki/Marathon_Petroleum" title="Marathon Petroleum">Marathon Petroleum</a>.<sup id="cite_ref-30" class="reference"><a href="#cite_note-30">[30]</a></sup>
+</td></tr>
+<tr>
+<td>September 14, 2018</td>
+<td>WCG</td>
+<td><a href="/wiki/WellCare" title="WellCare">WellCare</a></td>
+<td>XL</td>
+<td><a href="/wiki/XL_Group" class="mw-redirect" title="XL Group">XL Group</a></td>
+<td>XL acquired by <a href="/wiki/AXA" class="mw-redirect" title="AXA">AXA</a>.<sup id="cite_ref-31" class="reference"><a href="#cite_note-31">[31]</a></sup>
+</td></tr>
+<tr>
+<td>August 28, 2018</td>
+<td>ANET</td>
+<td><a href="/wiki/Arista_Networks" title="Arista Networks">Arista Networks</a></td>
+<td>GGP</td>
+<td><a href="/wiki/GGP_Inc." title="GGP Inc.">GGP Inc.</a></td>
+<td>GGP acquired by <a href="/wiki/Brookfield_Property_Partners" title="Brookfield Property Partners">Brookfield Property Partners</a>.<sup id="cite_ref-32" class="reference"><a href="#cite_note-32">[32]</a></sup>
+</td></tr>
+<tr>
+<td>July 2, 2018</td>
+<td>CPRT</td>
+<td><a href="/wiki/Copart" title="Copart">Copart</a></td>
+<td>DPS</td>
+<td><a href="/wiki/Dr_Pepper_Snapple_Group" title="Dr Pepper Snapple Group">Dr Pepper Snapple Group</a></td>
+<td>DPS acquired by <a href="/wiki/Keurig_Green_Mountain" class="mw-redirect" title="Keurig Green Mountain">Keurig Green Mountain</a>.<sup id="cite_ref-33" class="reference"><a href="#cite_note-33">[33]</a></sup>
+</td></tr>
+<tr>
+<td>June 20, 2018</td>
+<td>FLT</td>
+<td><a href="/wiki/FleetCor_Technologies" class="mw-redirect" title="FleetCor Technologies">FleetCor Technologies</a></td>
+<td>TWX</td>
+<td><a href="/wiki/Time_Warner" class="mw-redirect" title="Time Warner">Time Warner</a></td>
+<td>AT&amp;T acquired Time Warner.<sup id="cite_ref-34" class="reference"><a href="#cite_note-34">[34]</a></sup>
+</td></tr>
+<tr>
+<td>June 18, 2018</td>
+<td>BR</td>
+<td><a href="/wiki/Broadridge_Financial_Solutions" title="Broadridge Financial Solutions">Broadridge Financial Solutions</a></td>
+<td>RRC</td>
+<td><a href="/wiki/Range_Resources" title="Range Resources">Range Resources</a></td>
+<td>Capitalization rebalance.<sup id="cite_ref-35" class="reference"><a href="#cite_note-35">[35]</a></sup>
+</td></tr>
+<tr>
+<td>June 18, 2018</td>
+<td>HFC</td>
+<td><a href="/wiki/HollyFrontier" title="HollyFrontier">HollyFrontier</a></td>
+<td>AYI</td>
+<td><a href="/wiki/Acuity_Brands" title="Acuity Brands">Acuity Brands</a></td>
+<td>Capitalization rebalance.
+</td></tr>
+<tr>
+<td>June 7, 2018</td>
+<td>TWTR</td>
+<td><a href="/wiki/Twitter" title="Twitter">Twitter</a></td>
+<td>MON</td>
+<td><a href="/wiki/Monsanto" title="Monsanto">Monsanto</a></td>
+<td><a href="/wiki/Bayer" title="Bayer">Bayer</a> acquired Monsanto.<sup id="cite_ref-36" class="reference"><a href="#cite_note-36">[36]</a></sup>
+</td></tr>
+<tr>
+<td>June 5, 2018</td>
+<td>EVRG</td>
+<td><a href="/wiki/Evergy" title="Evergy">Evergy</a></td>
+<td>NAVI</td>
+<td><a href="/wiki/Navient_Corp" class="mw-redirect" title="Navient Corp">Navient Corp</a></td>
+<td>Westar Energy (NYSE: WR) acquired Great Plains Energy (NYSE: GXP) and changed name to Evergy.<sup id="cite_ref-37" class="reference"><a href="#cite_note-37">[37]</a></sup>
+</td></tr>
+<tr>
+<td>May 31, 2018</td>
+<td>ABMD</td>
+<td><a href="/wiki/Abiomed" title="Abiomed">Abiomed</a></td>
+<td>WYN</td>
+<td><a href="/wiki/Wyndham_Worldwide" class="mw-redirect" title="Wyndham Worldwide">Wyndham Worldwide</a></td>
+<td>Wyndham Worldwide spun off Wyndham Hotels &amp; Resorts Inc. (NYSE:WH).<sup id="cite_ref-38" class="reference"><a href="#cite_note-38">[38]</a></sup>
+</td></tr>
+<tr>
+<td>April 4, 2018</td>
+<td>MSCI</td>
+<td><a href="/wiki/MSCI" title="MSCI">MSCI</a></td>
+<td>CSRA</td>
+<td><a href="/wiki/CSRA_Inc." title="CSRA Inc.">CSRA Inc.</a></td>
+<td>S&amp;P 500 constituent <a href="/wiki/General_Dynamics" title="General Dynamics">General Dynamics</a> Corp. (NYSE: GD) acquired CSRA.<sup id="cite_ref-39" class="reference"><a href="#cite_note-39">[39]</a></sup>
+</td></tr>
+<tr>
+<td>March 19, 2018</td>
+<td>TTWO</td>
+<td><a href="/wiki/Take-Two_Interactive" title="Take-Two Interactive">Take-Two Interactive</a></td>
+<td>SIG</td>
+<td><a href="/wiki/Signet_Jewelers" title="Signet Jewelers">Signet Jewelers</a></td>
+<td>Market capitalization changes.<sup id="cite_ref-40" class="reference"><a href="#cite_note-40">[40]</a></sup>
+</td></tr>
+<tr>
+<td>March 19, 2018</td>
+<td>SIVB</td>
+<td><a href="/wiki/SVB_Financial" class="mw-redirect" title="SVB Financial">SVB Financial</a></td>
+<td>PDCO</td>
+<td><a href="/wiki/Patterson_Companies" title="Patterson Companies">Patterson Companies</a></td>
+<td>Market capitalization changes.
+</td></tr>
+<tr>
+<td>March 19, 2018</td>
+<td>NKTR</td>
+<td><a href="/wiki/Nektar_Therapeutics" title="Nektar Therapeutics">Nektar Therapeutics</a></td>
+<td>CHK</td>
+<td><a href="/wiki/Chesapeake_Energy" title="Chesapeake Energy">Chesapeake Energy</a></td>
+<td>Market capitalization changes.
+</td></tr>
+<tr>
+<td>March 7, 2018</td>
+<td>IPGP</td>
+<td><a href="/wiki/IPG_Photonics" title="IPG Photonics">IPG Photonics</a></td>
+<td>SNI</td>
+<td><a href="/wiki/Scripps_Networks_Interactive" title="Scripps Networks Interactive">Scripps Networks Interactive</a></td>
+<td><a href="/wiki/Discovery_Communications" class="mw-redirect" title="Discovery Communications">Discovery Communications</a> acquired SNI.<sup id="cite_ref-41" class="reference"><a href="#cite_note-41">[41]</a></sup>
+</td></tr>
+<tr>
+<td>January 3, 2018</td>
+<td>HII</td>
+<td><a href="/wiki/Huntington_Ingalls_Industries" title="Huntington Ingalls Industries">Huntington Ingalls Industries</a></td>
+<td>BCR</td>
+<td><a href="/wiki/CR_Bard" class="mw-redirect" title="CR Bard">CR Bard</a></td>
+<td><a href="/wiki/Becton_Dickinson" title="Becton Dickinson">Becton Dickinson</a> acquired BCR.<sup id="cite_ref-42" class="reference"><a href="#cite_note-42">[42]</a></sup>
+</td></tr>
+<tr>
+<td>October 13, 2017</td>
+<td>NCLH</td>
+<td><a href="/wiki/Norwegian_Cruise_Line_Holdings" title="Norwegian Cruise Line Holdings">Norwegian Cruise Line Holdings</a></td>
+<td>LVLT</td>
+<td><a href="/wiki/Level_3_Communications" title="Level 3 Communications">Level 3 Communications</a></td>
+<td><a href="/wiki/CenturyLink_Inc" class="mw-redirect" title="CenturyLink Inc">CenturyLink Inc</a> acquired LVLT.<sup id="cite_ref-43" class="reference"><a href="#cite_note-43">[43]</a></sup>
+</td></tr>
+<tr>
+<td>September 18, 2017</td>
+<td>CDNS</td>
+<td><a href="/wiki/Cadence_Design_Systems" title="Cadence Design Systems">Cadence Design Systems</a></td>
+<td>SPLS</td>
+<td><a href="/wiki/Staples_Inc." title="Staples Inc.">Staples Inc.</a></td>
+<td><a href="/wiki/Sycamore_Partners" title="Sycamore Partners">Sycamore Partners</a> acquired Staples.<sup id="cite_ref-44" class="reference"><a href="#cite_note-44">[44]</a></sup>
+</td></tr>
+<tr>
+<td>September 1, 2017</td>
+<td>SBAC</td>
+<td><a href="/wiki/SBA_Communications" title="SBA Communications">SBA Communications</a></td>
+<td>DD</td>
+<td><a href="/wiki/DuPont" title="DuPont">DuPont</a></td>
+<td>The Dow Chemical Company acquired DuPont.<sup id="cite_ref-sp170824_45-0" class="reference"><a href="#cite_note-sp170824-45">[45]</a></sup>
+</td></tr>
+<tr>
+<td>August 29, 2017</td>
+<td>Q</td>
+<td><a href="/wiki/QuintilesIMS" class="mw-redirect" title="QuintilesIMS">QuintilesIMS</a></td>
+<td>WFM</td>
+<td><a href="/wiki/Whole_Foods_Market" title="Whole Foods Market">Whole Foods Market</a></td>
+<td>Amazon.com Inc. acquired Whole Foods Market.<sup id="cite_ref-sp170824_45-1" class="reference"><a href="#cite_note-sp170824-45">[45]</a></sup>
+</td></tr>
+<tr>
+<td>August 8, 2017</td>
+<td>BHF</td>
+<td><a href="/wiki/Brighthouse_Financial_Inc" class="mw-redirect" title="Brighthouse Financial Inc">Brighthouse Financial Inc</a></td>
+<td>AN</td>
+<td><a href="/wiki/AutoNation_Inc" class="mw-redirect" title="AutoNation Inc">AutoNation Inc</a></td>
+<td>BHF replaced AN,<sup id="cite_ref-sp170731_46-0" class="reference"><a href="#cite_note-sp170731-46">[46]</a></sup> MET spun off BHF<sup id="cite_ref-sp170731_46-1" class="reference"><a href="#cite_note-sp170731-46">[46]</a></sup>
+</td></tr>
+<tr>
+<td>July 26, 2017</td>
+<td>DRE</td>
+<td><a href="/wiki/Duke_Realty" title="Duke Realty">Duke Realty</a> Corp</td>
+<td>RIG</td>
+<td><a href="/wiki/Transocean" title="Transocean">Transocean</a></td>
+<td>Market capitalization changes.<sup id="cite_ref-sp170719_47-0" class="reference"><a href="#cite_note-sp170719-47">[47]</a></sup>
+</td></tr>
+<tr>
+<td>July 26, 2017</td>
+<td>AOS</td>
+<td><a href="/wiki/A.O._Smith" class="mw-redirect" title="A.O. Smith">A.O. Smith</a></td>
+<td>BBBY</td>
+<td><a href="/wiki/Bed_Bath_%26_Beyond" title="Bed Bath &amp; Beyond">Bed Bath &amp; Beyond</a></td>
+<td>Market capitalization changes.
+</td></tr>
+<tr>
+<td>July 26, 2017</td>
+<td>PKG</td>
+<td><a href="/wiki/Packaging_Corporation_of_America" title="Packaging Corporation of America">Packaging Corporation of America</a></td>
+<td>MUR</td>
+<td><a href="/wiki/Murphy_Oil" title="Murphy Oil">Murphy Oil</a></td>
+<td>Market capitalization changes.
+</td></tr>
+<tr>
+<td>July 26, 2017</td>
+<td>RMD</td>
+<td><a href="/wiki/ResMed" title="ResMed">ResMed</a></td>
+<td>MNK</td>
+<td><a href="/wiki/Mallinckrodt" title="Mallinckrodt">Mallinckrodt</a></td>
+<td>Market capitalization changes.
+</td></tr>
+<tr>
+<td>July 26, 2017</td>
+<td>MGM</td>
+<td><a href="/wiki/MGM_Resorts_International" title="MGM Resorts International">MGM Resorts International</a></td>
+<td>RAI</td>
+<td><a href="/wiki/Reynolds_American" title="Reynolds American">Reynolds American</a></td>
+<td><a href="/wiki/British_American_Tobacco" title="British American Tobacco">British American Tobacco</a> plc (NYSE MKT:BTI) acquired Reynolds American.<sup id="cite_ref-sp170719_47-1" class="reference"><a href="#cite_note-sp170719-47">[47]</a></sup>
+</td></tr>
+<tr>
+<td>June 19, 2017</td>
+<td>HLT</td>
+<td><a href="/wiki/Hilton_Worldwide" title="Hilton Worldwide">Hilton Worldwide Holdings Inc.</a></td>
+<td>YHOO</td>
+<td><a href="/wiki/Yahoo!" title="Yahoo!">Yahoo! Inc.</a></td>
+<td>VZ acquired YHOO operations; remainder of YHOO converted to closed-end company known as <a href="/wiki/Altaba" title="Altaba">Altaba</a>.<sup id="cite_ref-sp170609_48-0" class="reference"><a href="#cite_note-sp170609-48">[48]</a></sup>
+</td></tr>
+<tr>
+<td>June 19, 2017</td>
+<td>ALGN</td>
+<td><a href="/wiki/Align_Technology" title="Align Technology">Align Technology Inc.</a></td>
+<td>TDC</td>
+<td><a href="/wiki/Teradata_Corp." class="mw-redirect" title="Teradata Corp.">Teradata Corp.</a></td>
+<td>Market capitalization changes.<sup id="cite_ref-sp170609_48-1" class="reference"><a href="#cite_note-sp170609-48">[48]</a></sup>
+</td></tr>
+<tr>
+<td>June 19, 2017</td>
+<td>ANSS</td>
+<td><a href="/wiki/Ansys" title="Ansys">ANSYS Inc.</a></td>
+<td>R</td>
+<td><a href="/wiki/Ryder_System" class="mw-redirect" title="Ryder System">Ryder Systems Inc.</a>
+</td></tr>
+<tr>
+<td>June 19, 2017</td>
+<td>RE</td>
+<td><a href="/wiki/Everest_Re" title="Everest Re">Everest Re</a> Group</td>
+<td>MJN</td>
+<td><a href="/wiki/Mead_Johnson" title="Mead Johnson">Mead Johnson</a></td>
+<td><a href="/wiki/Reckitt_Benckiser" title="Reckitt Benckiser">Reckitt Benckiser</a> Group plc acquired Mead Johnson Nutrition.<sup id="cite_ref-49" class="reference"><a href="#cite_note-49">[49]</a></sup>
+</td></tr>
+<tr>
+<td>June 2, 2017</td>
+<td>INFO</td>
+<td><a href="/wiki/IHS_Markit" title="IHS Markit">IHS Markit Ltd.</a></td>
+<td>TGNA</td>
+<td><a href="/wiki/Tegna,_Inc." class="mw-redirect" title="Tegna, Inc.">Tegna, Inc.</a></td>
+<td>TGNA spins off <a href="/wiki/Cars.com" title="Cars.com">Cars.com</a><sup id="cite_ref-50" class="reference"><a href="#cite_note-50">[50]</a></sup>
+</td></tr>
+<tr>
+<td>April 5, 2017</td>
+<td>IT</td>
+<td><a href="/wiki/Gartner" title="Gartner">Gartner Inc</a></td>
+<td>DNB</td>
+<td><a href="/wiki/Dun_%26_Bradstreet" title="Dun &amp; Bradstreet">Dun &amp; Bradstreet</a></td>
+<td>IT acquiring CEB<sup id="cite_ref-51" class="reference"><a href="#cite_note-51">[51]</a></sup>
+</td></tr>
+<tr>
+<td>April 4, 2017</td>
+<td>DXC</td>
+<td><a href="/wiki/DXC_Technology" title="DXC Technology">DXC Technology</a></td>
+<td>SWN</td>
+<td><a href="/wiki/Southwestern_Energy" title="Southwestern Energy">Southwestern Energy</a></td>
+<td>HPE spins off Everett Inc., merged with CSC to form DXC<sup id="cite_ref-52" class="reference"><a href="#cite_note-52">[52]</a></sup><sup id="cite_ref-53" class="reference"><a href="#cite_note-53">[53]</a></sup>
+</td></tr>
+<tr>
+<td>March 20, 2017</td>
+<td>AMD</td>
+<td><a href="/wiki/Advanced_Micro_Devices" title="Advanced Micro Devices">Advanced Micro Devices</a></td>
+<td>URBN</td>
+<td><a href="/wiki/Urban_Outfitters" title="Urban Outfitters">Urban Outfitters</a></td>
+<td>Market capitalization changes.<sup id="cite_ref-54" class="reference"><a href="#cite_note-54">[54]</a></sup>
+</td></tr>
+<tr>
+<td>March 20, 2017</td>
+<td>RJF</td>
+<td><a href="/wiki/Raymond_James_Financial" title="Raymond James Financial">Raymond James Financial</a></td>
+<td>FTR</td>
+<td><a href="/wiki/Frontier_Communications" title="Frontier Communications">Frontier Communications</a></td>
+<td>Market capitalization changes.
+</td></tr>
+<tr>
+<td>March 20, 2017</td>
+<td>ARE</td>
+<td><a href="/wiki/Alexandria_Real_Estate_Equities" title="Alexandria Real Estate Equities">Alexandria Real Estate Equities</a></td>
+<td>FSLR</td>
+<td><a href="/wiki/First_Solar" title="First Solar">First Solar</a></td>
+<td>Market capitalization changes.
+</td></tr>
+<tr>
+<td>March 16, 2017</td>
+<td>SNPS</td>
+<td><a href="/wiki/Synopsys" title="Synopsys">Synopsys</a></td>
+<td>HAR</td>
+<td><a href="/wiki/Harman_Int%27l_Industries" class="mw-redirect" title="Harman Int'l Industries">Harman Int'l Industries</a></td>
+<td><a href="/wiki/Samsung_Electronics" title="Samsung Electronics">Samsung Electronics</a> Co. Ltd. acquired Harman International Industries.<sup id="cite_ref-55" class="reference"><a href="#cite_note-55">[55]</a></sup>
+</td></tr>
+<tr>
+<td>March 13, 2017</td>
+<td>DISH</td>
+<td><a href="/wiki/Dish_Network" title="Dish Network">Dish Network</a></td>
+<td>LLTC</td>
+<td><a href="/wiki/Linear_Technology" title="Linear Technology">Linear Technology</a></td>
+<td>S&amp;P 500 constituent Analog Devices Inc. (NASD:ADI) acquired Linear Technology.<sup id="cite_ref-56" class="reference"><a href="#cite_note-56">[56]</a></sup>
+</td></tr>
+<tr>
+<td>March 2, 2017</td>
+<td>REG</td>
+<td><a href="/wiki/Regency_Centers_Corporation" class="mw-redirect" title="Regency Centers Corporation">Regency Centers Corporation</a></td>
+<td>ENDP</td>
+<td><a href="/wiki/Endo_International" title="Endo International">Endo International</a></td>
+<td>REG acquires EQY<sup id="cite_ref-sp170223_57-0" class="reference"><a href="#cite_note-sp170223-57">[57]</a></sup>
+</td></tr>
+<tr>
+<td>March 1, 2017</td>
+<td>CBOE</td>
+<td><a href="/wiki/Cboe_Holdings" class="mw-redirect" title="Cboe Holdings">CBOE Holdings</a></td>
+<td>PBI</td>
+<td><a href="/wiki/Pitney_Bowes_Inc" class="mw-redirect" title="Pitney Bowes Inc">Pitney Bowes Inc</a></td>
+<td>CBOE acquires BATS<sup id="cite_ref-sp170223_57-1" class="reference"><a href="#cite_note-sp170223-57">[57]</a></sup>
+</td></tr>
+<tr>
+<td>February 28, 2017</td>
+<td>INCY</td>
+<td><a href="/wiki/Incyte" title="Incyte">Incyte</a></td>
+<td>SE</td>
+<td><a href="/wiki/Spectra_Energy_Corp" class="mw-redirect" title="Spectra Energy Corp">Spectra Energy Corp</a></td>
+<td>SE acquired by ENB<sup id="cite_ref-sp170223_57-2" class="reference"><a href="#cite_note-sp170223-57">[57]</a></sup>
+</td></tr>
+<tr>
+<td>January 5, 2017</td>
+<td>IDXX</td>
+<td><a href="/wiki/Idexx_Laboratories" title="Idexx Laboratories">IDEXX Laboratories</a></td>
+<td>STJ</td>
+<td><a href="/wiki/St._Jude_Medical" title="St. Jude Medical">St. Jude Medical</a></td>
+<td>S&amp;P 100 &amp; 500 constituent Abbott Laboratories (NYSE:ABT) acquired St. Jude Medical.<sup id="cite_ref-58" class="reference"><a href="#cite_note-58">[58]</a></sup>
+</td></tr>
+<tr>
+<td>December 2, 2016</td>
+<td>MAA</td>
+<td><a href="/wiki/Mid-America_Apartments" class="mw-redirect" title="Mid-America Apartments">Mid-America Apartments</a></td>
+<td>OI</td>
+<td><a href="/wiki/Owens-Illinois" class="mw-redirect" title="Owens-Illinois">Owens-Illinois</a></td>
+<td>Market capitalization changes<sup id="cite_ref-sp161201_59-0" class="reference"><a href="#cite_note-sp161201-59">[59]</a></sup>
+</td></tr>
+<tr>
+<td>December 2, 2016</td>
+<td>EVHC</td>
+<td><a href="/wiki/Envision_Healthcare" title="Envision Healthcare">Envision Healthcare</a></td>
+<td>LM</td>
+<td><a href="/wiki/Legg_Mason" title="Legg Mason">Legg Mason</a></td>
+<td>Market capitalization changes
+</td></tr>
+<tr>
+<td>September 30, 2016</td>
+<td>COTY</td>
+<td><a href="/wiki/Coty,_Inc." title="Coty, Inc.">Coty, Inc.</a></td>
+<td>DO</td>
+<td><a href="/wiki/Diamond_Offshore_Drilling" title="Diamond Offshore Drilling">Diamond Offshore Drilling</a></td>
+<td>COTY replaces DO<sup id="cite_ref-60" class="reference"><a href="#cite_note-60">[60]</a></sup>
+</td></tr>
+<tr>
+<td>September 22, 2016</td>
+<td>COO</td>
+<td><a href="/wiki/The_Cooper_Companies" title="The Cooper Companies">The Cooper Companies</a></td>
+<td>HOT</td>
+<td><a href="/wiki/Starwood" title="Starwood">Starwood Hotels &amp; Resorts Worldwide Inc</a></td>
+<td>MAR acquires HOT<sup id="cite_ref-61" class="reference"><a href="#cite_note-61">[61]</a></sup>
+</td></tr>
+<tr>
+<td>September 8, 2016</td>
+<td>CHTR</td>
+<td><a href="/wiki/Charter_Communications" title="Charter Communications">Charter Communications</a></td>
+<td>EMC</td>
+<td><a href="/wiki/EMC_Corporation" class="mw-redirect" title="EMC Corporation">EMC Corporation</a></td>
+<td>Dell acquires EMC<sup id="cite_ref-62" class="reference"><a href="#cite_note-62">[62]</a></sup>
+</td></tr>
+<tr>
+<td>September 6, 2016</td>
+<td>MTD</td>
+<td><a href="/wiki/Mettler_Toledo" title="Mettler Toledo">Mettler Toledo</a></td>
+<td>JCI</td>
+<td><a href="/wiki/Johnson_Controls_Inc" class="mw-redirect" title="Johnson Controls Inc">Johnson Controls Inc</a></td>
+<td>TYC acquires JCI (and becomes new JCI).<sup id="cite_ref-sp160825_63-0" class="reference"><a href="#cite_note-sp160825-63">[63]</a></sup>
+</td></tr>
+<tr>
+<td>July 5, 2016</td>
+<td>FTV</td>
+<td><a href="/wiki/Fortive_Corp" class="mw-redirect" title="Fortive Corp">Fortive Corp</a></td>
+<td>CPGX</td>
+<td><a href="/wiki/Columbia_Pipeline_Group" class="mw-redirect" title="Columbia Pipeline Group">Columbia Pipeline Group</a></td>
+<td>CPGX acquired by TRP<sup id="cite_ref-https_64-0" class="reference"><a href="#cite_note-https-64">[64]</a></sup>
+</td></tr>
+<tr>
+<td>July 1, 2016</td>
+<td>LNT</td>
+<td><a href="/wiki/Alliant_Energy_Corp" class="mw-redirect" title="Alliant Energy Corp">Alliant Energy Corp</a></td>
+<td>GAS</td>
+<td><a href="/wiki/AGL_Resources" class="mw-redirect" title="AGL Resources">AGL Resources</a></td>
+<td>GAS acquired by SO<sup id="cite_ref-65" class="reference"><a href="#cite_note-65">[65]</a></sup>
+</td></tr>
+<tr>
+<td>July 1, 2016</td>
+<td>ALB</td>
+<td><a href="/wiki/Albemarle_Corp" class="mw-redirect" title="Albemarle Corp">Albemarle Corp</a></td>
+<td>TE</td>
+<td><a href="/wiki/TECO_Energy" title="TECO Energy">TECO Energy</a></td>
+<td>TE acquired by EMA<sup id="cite_ref-https_64-1" class="reference"><a href="#cite_note-https-64">[64]</a></sup>
+</td></tr>
+<tr>
+<td>June 22, 2016</td>
+<td>FBHS</td>
+<td><a href="/wiki/Fortune_Brands_Home_%26_Security" title="Fortune Brands Home &amp; Security">Fortune Brands Home &amp; Security</a></td>
+<td>CVC</td>
+<td><a href="/wiki/Cablevision_Systems" class="mw-redirect" title="Cablevision Systems">Cablevision Systems</a></td>
+<td>CVC acquired by Altice NV<sup id="cite_ref-66" class="reference"><a href="#cite_note-66">[66]</a></sup>
+</td></tr>
+<tr>
+<td>June 20, 2016</td>
+<td>UA-C</td>
+<td><a href="/wiki/Under_Armour" title="Under Armour">Under Armour</a> Class C</td>
+<td></td>
+<td></td>
+<td>Under Armour distribution of second class of stock
+</td></tr>
+<tr>
+<td>June 3, 2016</td>
+<td>TDG</td>
+<td><a href="/wiki/TransDigm_Group" title="TransDigm Group">TransDigm Group</a></td>
+<td>BXLT</td>
+<td><a href="/wiki/Baxalta_Inc" class="mw-redirect" title="Baxalta Inc">Baxalta Inc</a></td>
+<td>SHPG acquiring BXLT<sup id="cite_ref-67" class="reference"><a href="#cite_note-67">[67]</a></sup>
+</td></tr>
+<tr>
+<td>May 31, 2016</td>
+<td>AJG</td>
+<td><a href="/wiki/Arthur_J._Gallagher_%26_Co." title="Arthur J. Gallagher &amp; Co.">Arthur J. Gallagher &amp; Co.</a></td>
+<td>CCE</td>
+<td><a href="/wiki/Coca-Cola_Enterprises" title="Coca-Cola Enterprises">Coca-Cola Enterprises</a></td>
+<td>CCE merging with European bottlers<sup id="cite_ref-68" class="reference"><a href="#cite_note-68">[68]</a></sup>
+</td></tr>
+<tr>
+<td>May 23, 2016</td>
+<td>LKQ</td>
+<td><a href="/wiki/LKQ_Corporation" title="LKQ Corporation">LKQ Corporation</a></td>
+<td>ARG</td>
+<td><a href="/wiki/Airgas_Inc" class="mw-redirect" title="Airgas Inc">Airgas Inc</a></td>
+<td>ARG acquired by Air Liquide<sup id="cite_ref-69" class="reference"><a href="#cite_note-69">[69]</a></sup>
+</td></tr>
+<tr>
+<td>May 18, 2016</td>
+<td>DLR</td>
+<td><a href="/wiki/Digital_Realty_Trust" class="mw-redirect" title="Digital Realty Trust">Digital Realty Trust Inc</a></td>
+<td>TWC</td>
+<td><a href="/wiki/Time_Warner_Cable" title="Time Warner Cable">Time Warner Cable</a></td>
+<td>TWC acquired by CHTR<sup id="cite_ref-70" class="reference"><a href="#cite_note-70">[70]</a></sup>
+</td></tr>
+<tr>
+<td>May 13, 2016</td>
+<td>ALK</td>
+<td><a href="/wiki/Alaska_Air_Group_Inc" class="mw-redirect" title="Alaska Air Group Inc">Alaska Air Group Inc</a></td>
+<td>SNDK</td>
+<td><a href="/wiki/SanDisk_Corporation" class="mw-redirect" title="SanDisk Corporation">SanDisk Corporation</a></td>
+<td>SNDK acquired by WDC<sup id="cite_ref-71" class="reference"><a href="#cite_note-71">[71]</a></sup>
+</td></tr>
+<tr>
+<td>May 3, 2016</td>
+<td>AYI</td>
+<td><a href="/wiki/Acuity_Brands_Inc" class="mw-redirect" title="Acuity Brands Inc">Acuity Brands Inc</a></td>
+<td>ADT</td>
+<td><a href="/wiki/ADT_Corp" class="mw-redirect" title="ADT Corp">ADT Corp</a></td>
+<td>ADT acquired by APO<sup id="cite_ref-72" class="reference"><a href="#cite_note-72">[72]</a></sup>
+</td></tr>
+<tr>
+<td>April 25, 2016</td>
+<td>GPN</td>
+<td><a href="/wiki/Global_Payments_Inc." class="mw-redirect" title="Global Payments Inc.">Global Payments Inc.</a></td>
+<td>GME</td>
+<td><a href="/wiki/GameStop" title="GameStop">GameStop</a></td>
+<td>Global Payments is acquiring Heartland Payment Systems<sup id="cite_ref-73" class="reference"><a href="#cite_note-73">[73]</a></sup>
+</td></tr>
+<tr>
+<td>April 18, 2016</td>
+<td>ULTA</td>
+<td><a href="/wiki/Ulta_Beauty" title="Ulta Beauty">Ulta Salon, Cosmetics &amp; Fragrance Inc</a></td>
+<td>THC</td>
+<td><a href="/wiki/Tenet_Healthcare" title="Tenet Healthcare">Tenet Healthcare</a></td>
+<td>Ulta replaces Tenet<sup id="cite_ref-74" class="reference"><a href="#cite_note-74">[74]</a></sup>
+</td></tr>
+<tr>
+<td>April 4, 2016</td>
+<td>FL</td>
+<td><a href="/wiki/Foot_Locker_Inc" class="mw-redirect" title="Foot Locker Inc">Foot Locker Inc</a></td>
+<td>CAM</td>
+<td><a href="/wiki/Cameron_International" title="Cameron International">Cameron International</a></td>
+<td>Schlumberger acquired Cameron<sup id="cite_ref-75" class="reference"><a href="#cite_note-75">[75]</a></sup>
+</td></tr>
+<tr>
+<td>March 30, 2016</td>
+<td>HOLX</td>
+<td><a href="/wiki/Hologic" title="Hologic">Hologic Inc</a></td>
+<td>POM</td>
+<td><a href="/wiki/Pepco_Holdings_Inc" class="mw-redirect" title="Pepco Holdings Inc">Pepco Holdings Inc</a></td>
+<td>Exelon Corp acquired Pepco<sup id="cite_ref-spice-indices.com_76-0" class="reference"><a href="#cite_note-spice-indices.com-76">[76]</a></sup>
+</td></tr>
+<tr>
+<td>March 30, 2016</td>
+<td>CNC</td>
+<td><a href="/wiki/Centene_Corporation" title="Centene Corporation">Centene Corporation</a></td>
+<td>ESV</td>
+<td>Ensco plc (now <a href="/wiki/Valaris_plc" title="Valaris plc">Valaris plc</a></td>
+<td>Centene acquired Health Net<sup id="cite_ref-spice-indices.com_76-1" class="reference"><a href="#cite_note-spice-indices.com-76">[76]</a></sup>
+</td></tr>
+<tr>
+<td>March 7, 2016</td>
+<td>UDR</td>
+<td><a href="/wiki/UDR,_Inc." title="UDR, Inc.">UDR, Inc.</a></td>
+<td>GMCR</td>
+<td><a href="/wiki/Keurig_Green_Mountain" class="mw-redirect" title="Keurig Green Mountain">Keurig Green Mountain</a></td>
+<td>JAB Holding Company acquired Keurig Green Mountain<sup id="cite_ref-77" class="reference"><a href="#cite_note-77">[77]</a></sup>
+</td></tr>
+<tr>
+<td>March 4, 2016</td>
+<td>AWK</td>
+<td><a href="/wiki/American_Water_(company)" class="mw-redirect" title="American Water (company)">American Water Works Company Inc</a></td>
+<td>CNX</td>
+<td><a href="/wiki/Consol_Energy" title="Consol Energy">Consol Energy</a></td>
+<td>AWK replaces CNX<sup id="cite_ref-78" class="reference"><a href="#cite_note-78">[78]</a></sup>
+</td></tr>
+<tr>
+<td>February 22, 2016</td>
+<td>CXO</td>
+<td><a href="/wiki/Concho_Resources" title="Concho Resources">Concho Resources</a></td>
+<td>PCL</td>
+<td><a href="/wiki/Plum_Creek_Timber" title="Plum Creek Timber">Plum Creek Timber</a></td>
+<td>PCL taken over by WY<sup id="cite_ref-79" class="reference"><a href="#cite_note-79">[79]</a></sup>
+</td></tr>
+<tr>
+<td>February 1, 2016</td>
+<td>CFG</td>
+<td><a href="/wiki/Citizens_Financial_Group" title="Citizens Financial Group">Citizens Financial Group</a></td>
+<td>PCP</td>
+<td><a href="/wiki/Precision_Castparts_Corp." title="Precision Castparts Corp.">Precision Castparts Corp.</a></td>
+<td>CFG replaces PCP<sup id="cite_ref-80" class="reference"><a href="#cite_note-80">[80]</a></sup>
+</td></tr>
+<tr>
+<td>February 1, 2016</td>
+<td>FRT</td>
+<td><a href="/wiki/Federal_Realty_Investment_Trust" title="Federal Realty Investment Trust">Federal Realty Investment Trust</a></td>
+<td>BRCM</td>
+<td><a href="/wiki/Broadcom_Corporation" title="Broadcom Corporation">Broadcom Corporation</a></td>
+<td>FRT replaces BRCM<sup id="cite_ref-81" class="reference"><a href="#cite_note-81">[81]</a></sup>
+</td></tr>
+<tr>
+<td>January 19, 2016</td>
+<td>EXR</td>
+<td><a href="/wiki/Extra_Space_Storage" title="Extra Space Storage">Extra Space Storage</a></td>
+<td>CB</td>
+<td><a href="/wiki/Chubb_Corp" class="mw-redirect" title="Chubb Corp">Chubb Corp</a></td>
+<td>EXR replaces CB<sup id="cite_ref-82" class="reference"><a href="#cite_note-82">[82]</a></sup>
+</td></tr>
+<tr>
+<td>January 5, 2016</td>
+<td>WLTW</td>
+<td><a href="/wiki/Willis_Towers_Watson" title="Willis Towers Watson">Willis Towers Watson</a></td>
+<td>FOSL</td>
+<td><a href="/wiki/Fossil_Group" title="Fossil Group">Fossil Group</a></td>
+<td>WSH merges with TW (and renames to WLTW)<sup id="cite_ref-83" class="reference"><a href="#cite_note-83">[83]</a></sup>
+</td></tr>
+<tr>
+<td>December 29, 2015</td>
+<td>CHD</td>
+<td><a href="/wiki/Church_%26_Dwight" title="Church &amp; Dwight">Church &amp; Dwight</a></td>
+<td>ALTR</td>
+<td><a href="/wiki/Altera_Corp" class="mw-redirect" title="Altera Corp">Altera Corp</a></td>
+<td>ALTR taken over by INTC<sup id="cite_ref-84" class="reference"><a href="#cite_note-84">[84]</a></sup>
+</td></tr>
+<tr>
+<td>December 15, 2015</td>
+<td></td>
+<td></td>
+<td>CMCSK</td>
+<td><a href="/wiki/Comcast_A_Corp" class="mw-redirect" title="Comcast A Corp">Comcast K Corp</a></td>
+<td>CMCSK shares no longer listed<sup id="cite_ref-85" class="reference"><a href="#cite_note-85">[85]</a></sup>
+</td></tr>
+<tr>
+<td>December 1, 2015</td>
+<td>CSRA</td>
+<td><a href="/wiki/CSRA_(IT_services_company)" class="mw-redirect" title="CSRA (IT services company)">CSRA Inc</a></td>
+<td>CSC</td>
+<td><a href="/wiki/Computer_Sciences_Corp" class="mw-redirect" title="Computer Sciences Corp">Computer Sciences Corp</a></td>
+<td>CSC spins off CSRA<sup id="cite_ref-86" class="reference"><a href="#cite_note-86">[86]</a></sup>
+</td></tr>
+<tr>
+<td>November 19, 2015</td>
+<td>ILMN</td>
+<td><a href="/wiki/Illumina_(company)" class="mw-redirect" title="Illumina (company)">Illumina Inc</a></td>
+<td>SIAL</td>
+<td><a href="/wiki/Sigma-Aldrich" title="Sigma-Aldrich">Sigma-Aldrich Corp</a></td>
+<td>Sigma-Aldrich acquired by Merck KGaA (MKGAY)<sup id="cite_ref-87" class="reference"><a href="#cite_note-87">[87]</a></sup>
+</td></tr>
+<tr>
+<td>November 18, 2015</td>
+<td>SYF</td>
+<td><a href="/wiki/Synchrony_Financial" title="Synchrony Financial">Synchrony Financial</a></td>
+<td>GNW</td>
+<td><a href="/wiki/Genworth_Financial" title="Genworth Financial">Genworth Financial</a></td>
+<td>GE spinning off Synchrony Financial<sup id="cite_ref-88" class="reference"><a href="#cite_note-88">[88]</a></sup>
+</td></tr>
+<tr>
+<td>November 2, 2015</td>
+<td>HPE</td>
+<td><a href="/wiki/Hewlett_Packard_Enterprise" title="Hewlett Packard Enterprise">Hewlett Packard Enterprise</a></td>
+<td>HCBK</td>
+<td><a href="/wiki/Hudson_City_Bancorp_Inc" class="mw-redirect" title="Hudson City Bancorp Inc">Hudson City Bancorp Inc</a></td>
+<td>HPQ spins off HPE<sup id="cite_ref-89" class="reference"><a href="#cite_note-89">[89]</a></sup>
+</td></tr>
+<tr>
+<td>October 7, 2015</td>
+<td>VRSK</td>
+<td><a href="/wiki/Verisk_Analytics" title="Verisk Analytics">Verisk Analytics</a></td>
+<td>JOY</td>
+<td><a href="/wiki/Joy_Global" title="Joy Global">Joy Global</a></td>
+<td>Market capitalization change.<sup id="cite_ref-90" class="reference"><a href="#cite_note-90">[90]</a></sup>
+</td></tr>
+<tr>
+<td>September 18, 2015</td>
+<td>CMCSK</td>
+<td><a href="/wiki/Comcast" title="Comcast">Comcast</a> Class K Special</td>
+<td></td>
+<td></td>
+<td>Share class methodology change<sup id="cite_ref-91" class="reference"><a href="#cite_note-91">[91]</a></sup>
+</td></tr>
+<tr>
+<td>September 18, 2015</td>
+<td>FOX</td>
+<td><a href="/wiki/Twenty-First_Century_Fox" class="mw-redirect" title="Twenty-First Century Fox">Twenty-First Century Fox</a> Class B</td>
+<td></td>
+<td></td>
+<td>Share class methodology change
+</td></tr>
+<tr>
+<td>September 18, 2015</td>
+<td>NWS</td>
+<td><a href="/wiki/News_Corporation_(1980%E2%80%932013)" title="News Corporation (1980–2013)">News Corporation</a> Class B</td>
+<td></td>
+<td></td>
+<td>Share class methodology change
+</td></tr>
+<tr>
+<td>September 2, 2015</td>
+<td>UAL</td>
+<td><a href="/wiki/United_Continental_Holdings" class="mw-redirect" title="United Continental Holdings">United Continental Holdings</a></td>
+<td>HSP</td>
+<td><a href="/wiki/Hospira_Inc" class="mw-redirect" title="Hospira Inc">Hospira Inc</a></td>
+<td>Hospira taken over<sup id="cite_ref-auto_92-0" class="reference"><a href="#cite_note-auto-92">[92]</a></sup>
+</td></tr>
+<tr>
+<td>August 28, 2015</td>
+<td>ATVI</td>
+<td><a href="/wiki/Activision_Blizzard" title="Activision Blizzard">Activision Blizzard</a></td>
+<td>PLL</td>
+<td><a href="/wiki/Pall_Corp" class="mw-redirect" title="Pall Corp">Pall Corp</a></td>
+<td>Pall taken over<sup id="cite_ref-auto_92-1" class="reference"><a href="#cite_note-auto-92">[92]</a></sup>
+</td></tr>
+<tr>
+<td>July 29, 2015</td>
+<td>SIG</td>
+<td><a href="/wiki/Signet_Jewelers" title="Signet Jewelers">Signet Jewelers</a></td>
+<td>DTV</td>
+<td><a href="/wiki/DirecTV" title="DirecTV">DirecTV</a></td>
+<td>DirectTV acquired by AT&amp;T<sup id="cite_ref-93" class="reference"><a href="#cite_note-93">[93]</a></sup>
+</td></tr>
+<tr>
+<td>July 20, 2015</td>
+<td>PYPL</td>
+<td><a href="/wiki/PayPal" title="PayPal">PayPal</a></td>
+<td>NE</td>
+<td><a href="/wiki/Noble_Corp" class="mw-redirect" title="Noble Corp">Noble Corp</a></td>
+<td>PayPal Spun off by eBay<sup id="cite_ref-94" class="reference"><a href="#cite_note-94">[94]</a></sup>
+</td></tr>
+<tr>
+<td>July 8, 2015</td>
+<td>AAP</td>
+<td><a href="/wiki/Advance_Auto_Parts" title="Advance Auto Parts">Advance Auto Parts</a></td>
+<td>FDO</td>
+<td><a href="/wiki/Family_Dollar_Stores_Inc." class="mw-redirect" title="Family Dollar Stores Inc.">Family Dollar Stores Inc.</a></td>
+<td>Family Dollar Acquired.<sup id="cite_ref-95" class="reference"><a href="#cite_note-95">[95]</a></sup>
+</td></tr>
+<tr>
+<td>July 6, 2015</td>
+<td>KHC</td>
+<td><a href="/wiki/Kraft_Heinz" title="Kraft Heinz">Kraft Heinz</a></td>
+<td>KRFT</td>
+<td><a href="/wiki/Kraft_Foods_Group" class="mw-redirect" title="Kraft Foods Group">Kraft Foods Group</a></td>
+<td>Kraft merger with Heinz.<sup id="cite_ref-96" class="reference"><a href="#cite_note-96">[96]</a></sup>
+</td></tr>
+<tr>
+<td>July 2, 2015</td>
+<td>CPGX</td>
+<td><a href="/wiki/Columbia_Pipeline_Group" class="mw-redirect" title="Columbia Pipeline Group">Columbia Pipeline Group</a></td>
+<td>ATI</td>
+<td><a href="/wiki/Allegheny_Technologies" title="Allegheny Technologies">Allegheny Technologies</a></td>
+<td>Spin off of Columbia Pipeline.<sup id="cite_ref-97" class="reference"><a href="#cite_note-97">[97]</a></sup>
+</td></tr>
+<tr>
+<td>July 1, 2015</td>
+<td>JBHT</td>
+<td><a href="/wiki/J._B._Hunt" title="J. B. Hunt">J. B. Hunt</a></td>
+<td>TEG</td>
+<td><a href="/wiki/Integrys_Energy_Group_Inc." class="mw-redirect" title="Integrys Energy Group Inc.">Integrys Energy Group Inc.</a></td>
+<td>Integris taken over.<sup id="cite_ref-98" class="reference"><a href="#cite_note-98">[98]</a></sup>
+</td></tr>
+<tr>
+<td>July 1, 2015</td>
+<td>BXLT</td>
+<td><a href="/wiki/Baxalta" title="Baxalta">Baxalta</a></td>
+<td>QEP</td>
+<td><a href="/wiki/QEP_Resources" class="mw-redirect" title="QEP Resources">QEP Resources</a></td>
+<td>Baxalta spun off by Baxter.<sup id="cite_ref-99" class="reference"><a href="#cite_note-99">[99]</a></sup>
+</td></tr>
+<tr>
+<td>June 11, 2015</td>
+<td>QRVO</td>
+<td><a href="/wiki/Qorvo" title="Qorvo">Qorvo</a></td>
+<td>LO</td>
+<td><a href="/wiki/Lorillard_Inc." class="mw-redirect" title="Lorillard Inc.">Lorillard Inc.</a></td>
+<td>Lorillard Inc. gets acquired.<sup id="cite_ref-100" class="reference"><a href="#cite_note-100">[100]</a></sup>
+</td></tr>
+<tr>
+<td>April 7, 2015</td>
+<td>O</td>
+<td><a href="/wiki/Realty_Income_Corporation" title="Realty Income Corporation">Realty Income Corporation</a></td>
+<td>WIN</td>
+<td><a href="/wiki/Windstream_Communications" class="mw-redirect" title="Windstream Communications">Windstream Holdings Inc</a></td>
+<td>Market capitalization change.<sup id="cite_ref-101" class="reference"><a href="#cite_note-101">[101]</a></sup>
+</td></tr>
+<tr>
+<td>March 23, 2015</td>
+<td>AAL</td>
+<td><a href="/wiki/American_Airlines_Group" title="American Airlines Group">American Airlines Group</a></td>
+<td>AGN</td>
+<td><a href="/wiki/Allergan,_Inc" class="mw-redirect" title="Allergan, Inc">Allergan, Inc</a></td>
+<td>Allergan acquired by Actavis plc (and changed name to Allergan, pl.<sup id="cite_ref-102" class="reference"><a href="#cite_note-102">[102]</a></sup>
+</td></tr>
+<tr>
+<td>March 23, 2015</td>
+<td>EQIX</td>
+<td><a href="/wiki/Equinix" title="Equinix">Equinix</a></td>
+<td>DNR</td>
+<td><a href="/wiki/Denbury_Resources" title="Denbury Resources">Denbury Resources</a></td>
+<td>Market Capitalization Changes.<sup id="cite_ref-103" class="reference"><a href="#cite_note-103">[103]</a></sup>
+</td></tr>
+<tr>
+<td>March 23, 2015</td>
+<td>SLG</td>
+<td><a href="/wiki/SL_Green_Realty" title="SL Green Realty">SL Green Realty</a></td>
+<td>NBR</td>
+<td><a href="/wiki/Nabors_Industries" title="Nabors Industries">Nabors Industries</a></td>
+<td>Market Capitalization Changes.
+</td></tr>
+<tr>
+<td>March 23, 2015</td>
+<td>HBI</td>
+<td><a href="/wiki/Hanesbrands" title="Hanesbrands">Hanesbrands</a></td>
+<td>AVP</td>
+<td><a href="/wiki/Avon_Products" title="Avon Products">Avon Products</a></td>
+<td>Market Capitalization Changes.
+</td></tr>
+<tr>
+<td>March 18, 2015</td>
+<td>HSIC</td>
+<td><a href="/wiki/Henry_Schein" title="Henry Schein">Henry Schein</a></td>
+<td>CFN</td>
+<td><a href="/wiki/Carefusion" class="mw-redirect" title="Carefusion">Carefusion</a></td>
+<td>Carefusion acquired by Becton Dickinson<sup id="cite_ref-104" class="reference"><a href="#cite_note-104">[104]</a></sup>
+</td></tr>
+<tr>
+<td>March 12, 2015</td>
+<td>SWKS</td>
+<td><a href="/wiki/Skyworks_Solutions_Inc." class="mw-redirect" title="Skyworks Solutions Inc.">Skyworks Solutions Inc.</a></td>
+<td>PETM</td>
+<td><a href="/wiki/PetSmart_Inc." class="mw-redirect" title="PetSmart Inc.">PetSmart Inc.</a></td>
+<td>PetSmart acquired by private equity consortium<sup id="cite_ref-105" class="reference"><a href="#cite_note-105">[105]</a></sup>
+</td></tr>
+<tr>
+<td>January 27, 2015</td>
+<td>HCA</td>
+<td><a href="/wiki/HCA_Holdings" class="mw-redirect" title="HCA Holdings">HCA Holdings</a></td>
+<td>SWY</td>
+<td><a href="/wiki/Safeway_Inc" class="mw-redirect" title="Safeway Inc">Safeway Inc</a></td>
+<td>Safeway acquired by private equity consortium<sup id="cite_ref-106" class="reference"><a href="#cite_note-106">[106]</a></sup>
+</td></tr>
+<tr>
+<td>January 27, 2015</td>
+<td>ENDP</td>
+<td><a href="/wiki/Endo_International" title="Endo International">Endo International</a></td>
+<td>COV</td>
+<td><a href="/wiki/Covidien" title="Covidien">Covidien</a></td>
+<td>Covidien acquired by Medtronic<sup id="cite_ref-107" class="reference"><a href="#cite_note-107">[107]</a></sup>
+</td></tr>
+<tr>
+<td>December 5, 2014</td>
+<td>RCL</td>
+<td><a href="/wiki/Royal_Caribbean_Cruises" title="Royal Caribbean Cruises">Royal Caribbean Cruises</a></td>
+<td>BMS</td>
+<td><a href="/wiki/Bemis_Company" title="Bemis Company">Bemis Company</a></td>
+<td>Market cap changes<sup id="cite_ref-108" class="reference"><a href="#cite_note-108">[108]</a></sup>
+</td></tr>
+<tr>
+<td>November 5, 2014</td>
+<td>LVLT</td>
+<td><a href="/wiki/Level_3_Communications" title="Level 3 Communications">Level 3 Communications</a></td>
+<td>JBL</td>
+<td><a href="/wiki/Jabil_Circuit" class="mw-redirect" title="Jabil Circuit">Jabil Circuit</a></td>
+<td>Market cap changes<sup id="cite_ref-109" class="reference"><a href="#cite_note-109">[109]</a></sup>
+</td></tr>
+<tr>
+<td>September 20, 2014</td>
+<td>URI</td>
+<td><a href="/wiki/United_Rentals" title="United Rentals">United Rentals</a></td>
+<td>BTU</td>
+<td><a href="/wiki/Peabody_Energy" title="Peabody Energy">Peabody Energy</a></td>
+<td>Market cap changes<sup id="cite_ref-110" class="reference"><a href="#cite_note-110">[110]</a></sup>
+</td></tr>
+<tr>
+<td>September 20, 2014</td>
+<td>UHS</td>
+<td><a href="/wiki/Universal_Health_Services" title="Universal Health Services">Universal Health Services</a></td>
+<td>GHC</td>
+<td><a href="/wiki/Graham_Holdings" title="Graham Holdings">Graham Holdings</a></td>
+<td>Market cap changes
+</td></tr>
+<tr>
+<td>August 18, 2014</td>
+<td>MNK</td>
+<td><a href="/wiki/Mallinckrodt_plc" class="mw-redirect" title="Mallinckrodt plc">Mallinckrodt plc</a></td>
+<td>RDC</td>
+<td><a href="/wiki/Rowan_Companies" class="mw-redirect" title="Rowan Companies">Rowan Companies</a> plc</td>
+<td>Market cap changes<sup id="cite_ref-111" class="reference"><a href="#cite_note-111">[111]</a></sup>
+</td></tr>
+<tr>
+<td>August 6, 2014</td>
+<td>DISCK</td>
+<td><a href="/wiki/Discovery_Communications" class="mw-redirect" title="Discovery Communications">Discovery Communications</a></td>
+<td></td>
+<td></td>
+<td>Class C share distribution<sup id="cite_ref-112" class="reference"><a href="#cite_note-112">[112]</a></sup>
+</td></tr>
+<tr>
+<td>July 2, 2014</td>
+<td>MLM</td>
+<td><a href="/wiki/Martin_Marietta_Materials" class="mw-redirect" title="Martin Marietta Materials">Martin Marietta Materials</a></td>
+<td>X</td>
+<td><a href="/wiki/United_States_Steel_Corporation" class="mw-redirect" title="United States Steel Corporation">United States Steel Corporation</a></td>
+<td>Market capitalization changes<sup id="cite_ref-113" class="reference"><a href="#cite_note-113">[113]</a></sup>
+</td></tr>
+<tr>
+<td>July 1, 2014</td>
+<td>AMG</td>
+<td><a href="/wiki/Affiliated_Managers_Group" title="Affiliated Managers Group">Affiliated Managers Group</a></td>
+<td>FRX</td>
+<td><a href="/wiki/Forest_Laboratories" title="Forest Laboratories">Forest Laboratories</a></td>
+<td>Actavis acquires Forest Laboratories<sup id="cite_ref-114" class="reference"><a href="#cite_note-114">[114]</a></sup>
+</td></tr>
+<tr>
+<td>June 20, 2014</td>
+<td>XEC</td>
+<td><a href="/wiki/Cimarex_Energy" title="Cimarex Energy">Cimarex Energy</a></td>
+<td>IGT</td>
+<td><a href="/wiki/International_Game_Technology_(1975)" class="mw-redirect" title="International Game Technology (1975)">International Game Technology</a></td>
+<td>Market capitalization changes<sup id="cite_ref-115" class="reference"><a href="#cite_note-115">[115]</a></sup>
+</td></tr>
+<tr>
+<td>May 8, 2014</td>
+<td>AVGO</td>
+<td><a href="/wiki/Avago_Technologies" class="mw-redirect" title="Avago Technologies">Avago Technologies</a></td>
+<td>LSI</td>
+<td><a href="/wiki/LSI_Corporation" title="LSI Corporation">LSI Corporation</a></td>
+<td>Avago acquires LSI<sup id="cite_ref-116" class="reference"><a href="#cite_note-116">[116]</a></sup>
+</td></tr>
+<tr>
+<td>May 1, 2014</td>
+<td>UA</td>
+<td><a href="/wiki/Under_Armour" title="Under Armour">Under Armour</a></td>
+<td>BEAM</td>
+<td><a href="/wiki/Beam_Inc." class="mw-redirect" title="Beam Inc.">Beam Inc.</a></td>
+<td>Beam acquired by Suntory<sup id="cite_ref-www.spice-indices.com_117-0" class="reference"><a href="#cite_note-www.spice-indices.com-117">[117]</a></sup>
+</td></tr>
+<tr>
+<td>May 1, 2014</td>
+<td>NAVI</td>
+<td><a href="/wiki/Navient" class="mw-redirect" title="Navient">Navient</a></td>
+<td>SLM</td>
+<td><a href="/wiki/SLM_Corporation" class="mw-redirect" title="SLM Corporation">SLM Corporation</a></td>
+<td>Navient Spun off from SLM<sup id="cite_ref-www.spice-indices.com_117-1" class="reference"><a href="#cite_note-www.spice-indices.com-117">[117]</a></sup>
+</td></tr>
+<tr>
+<td>April 3, 2014</td>
+<td>GOOGL</td>
+<td><a href="/wiki/Google_Inc." class="mw-redirect" title="Google Inc.">Google Inc.</a></td>
+<td></td>
+<td></td>
+<td>Google Class C share distribution<sup id="cite_ref-118" class="reference"><a href="#cite_note-118">[118]</a></sup>
+</td></tr>
+<tr>
+<td>April 2, 2014</td>
+<td>ESS</td>
+<td><a href="/wiki/Essex_Property_Trust_Inc" class="mw-redirect" title="Essex Property Trust Inc">Essex Property Trust Inc</a></td>
+<td>CLF</td>
+<td><a href="/wiki/Cliffs_Natural_Resources" class="mw-redirect" title="Cliffs Natural Resources">Cliffs Natural Resources</a></td>
+<td>Market capitalization changes<sup id="cite_ref-119" class="reference"><a href="#cite_note-119">[119]</a></sup>
+</td></tr>
+<tr>
+<td>March 21, 2014</td>
+<td>GMCR</td>
+<td><a href="/wiki/Keurig_Green_Mountain" class="mw-redirect" title="Keurig Green Mountain">Keurig Green Mountain</a></td>
+<td>WPX</td>
+<td><a href="/wiki/WPX_Energy" title="WPX Energy">WPX Energy, Inc.</a></td>
+<td>Market capitalization changes<sup id="cite_ref-120" class="reference"><a href="#cite_note-120">[120]</a></sup>
+</td></tr>
+<tr>
+<td>January 24, 2014</td>
+<td>TSCO</td>
+<td><a href="/wiki/Tractor_Supply_Company" title="Tractor Supply Company">Tractor Supply Company</a></td>
+<td>LIFE</td>
+<td><a href="/wiki/Life_Technologies_(Thermo_Fisher_Scientific)" title="Life Technologies (Thermo Fisher Scientific)">Life Technologies</a></td>
+<td>Life Technologies acquired by Thermo Fisher Scientific Inc<sup id="cite_ref-121" class="reference"><a href="#cite_note-121">[121]</a></sup>
+</td></tr>
+<tr>
+<td>December 23, 2013</td>
+<td>ADS</td>
+<td><a href="/wiki/Alliance_Data_Systems" class="mw-redirect" title="Alliance Data Systems">Alliance Data Systems</a></td>
+<td>ANF</td>
+<td><a href="/wiki/Abercrombie_%26_Fitch" title="Abercrombie &amp; Fitch">Abercrombie &amp; Fitch</a></td>
+<td>Market capitalization changes<sup id="cite_ref-us.spindices.com_122-0" class="reference"><a href="#cite_note-us.spindices.com-122">[122]</a></sup>
+</td></tr>
+<tr>
+<td>December 23, 2013</td>
+<td>MHK</td>
+<td><a href="/wiki/Mohawk_Industries" title="Mohawk Industries">Mohawk Industries</a></td>
+<td>JDSU</td>
+<td><a href="/wiki/JDS_Uniphase" class="mw-redirect" title="JDS Uniphase">JDS Uniphase</a></td>
+<td>Market capitalization changes
+</td></tr>
+<tr>
+<td>December 23, 2013</td>
+<td>FB</td>
+<td><a href="/wiki/Facebook" title="Facebook">Facebook</a></td>
+<td>TER</td>
+<td><a href="/wiki/Teradyne" title="Teradyne">Teradyne</a></td>
+<td>Market capitalization changes
+</td></tr>
+<tr>
+<td>December 10, 2013</td>
+<td>GGP</td>
+<td>General Growth Properties</td>
+<td>MOLX</td>
+<td><a href="/wiki/Molex_Inc." class="mw-redirect" title="Molex Inc.">Molex Inc.</a></td>
+<td>MOLX acquired by <a href="/wiki/Koch_Industries" title="Koch Industries">Koch Industries</a>.<sup id="cite_ref-123" class="reference"><a href="#cite_note-123">[123]</a></sup>
+</td></tr>
+<tr>
+<td>December 2, 2013</td>
+<td>ALLE</td>
+<td><a href="/wiki/Allegion" title="Allegion">Allegion</a></td>
+<td>JCP</td>
+<td><a href="/wiki/J.C._Penney" class="mw-redirect" title="J.C. Penney">J.C. Penney</a></td>
+<td>Allegion spun off by Ingersoll Rand<sup id="cite_ref-124" class="reference"><a href="#cite_note-124">[124]</a></sup>
+</td></tr>
+<tr>
+<td>November 13, 2013</td>
+<td>KORS</td>
+<td><a href="/wiki/Michael_Kors_(brand)" class="mw-redirect" title="Michael Kors (brand)">Michael Kors</a></td>
+<td>NYX</td>
+<td><a href="/wiki/NYSE_Euronext" title="NYSE Euronext">NYSE Euronext</a></td>
+<td>ICE Exchange acquired NYSE Euronext<sup id="cite_ref-125" class="reference"><a href="#cite_note-125">[125]</a></sup>
+</td></tr>
+<tr>
+<td>October 29, 2013</td>
+<td>RIG</td>
+<td><a href="/wiki/Transocean" title="Transocean">Transocean</a></td>
+<td>DELL</td>
+<td><a href="/wiki/Dell,_Inc." class="mw-redirect" title="Dell, Inc.">Dell, Inc.</a></td>
+<td>Founder Michael Dell and Silver Lake Partners acquired Dell.<sup id="cite_ref-126" class="reference"><a href="#cite_note-126">[126]</a></sup>
+</td></tr>
+<tr>
+<td>September 20, 2013</td>
+<td>VRTX</td>
+<td><a href="/wiki/Vertex_Pharmaceuticals" title="Vertex Pharmaceuticals">Vertex Pharmaceuticals</a></td>
+<td>AMD</td>
+<td><a href="/wiki/Advanced_Micro_Devices" title="Advanced Micro Devices">Advanced Micro Devices</a></td>
+<td>Market capitalization changes<sup id="cite_ref-127" class="reference"><a href="#cite_note-127">[127]</a></sup>
+</td></tr>
+<tr>
+<td>September 20, 2013</td>
+<td>AME</td>
+<td><a href="/wiki/Ametek" title="Ametek">Ametek</a></td>
+<td>SAI</td>
+<td><a href="/wiki/Science_Applications_International_Corporation" title="Science Applications International Corporation">SAIC</a></td>
+<td>Market capitalization changes
+</td></tr>
+<tr>
+<td>September 10, 2013</td>
+<td>DAL</td>
+<td><a href="/wiki/Delta_Air_Lines" title="Delta Air Lines">Delta Air Lines</a></td>
+<td>BMC</td>
+<td><a href="/wiki/BMC_Software" title="BMC Software">BMC Software</a></td>
+<td>BMC taken private by consortium<sup id="cite_ref-128" class="reference"><a href="#cite_note-128">[128]</a></sup>
+</td></tr>
+<tr>
+<td>July 8, 2013</td>
+<td>NLSN</td>
+<td><a href="/wiki/Nielsen_Holdings" title="Nielsen Holdings">Nielsen Holdings</a></td>
+<td>S</td>
+<td><a href="/wiki/Sprint_Nextel_Corp." class="mw-redirect" title="Sprint Nextel Corp.">Sprint Nextel Corp.</a></td>
+<td>Softbank consortium purchase results in public float below 50%<sup id="cite_ref-129" class="reference"><a href="#cite_note-129">[129]</a></sup>
+</td></tr>
+<tr>
+<td>June 28, 2013</td>
+<td>FOXA</td>
+<td><a href="/wiki/21st_Century_Fox" title="21st Century Fox">21st Century Fox</a></td>
+<td>APOL</td>
+<td><a href="/wiki/Apollo_Group_Inc." class="mw-redirect" title="Apollo Group Inc.">Apollo Group Inc.</a></td>
+<td>Apollo Group's market cap more representative of a mid-cap<sup id="cite_ref-130" class="reference"><a href="#cite_note-130">[130]</a></sup>
+</td></tr>
+<tr>
+<td>June 21, 2013</td>
+<td>ZTS</td>
+<td><a href="/wiki/Zoetis" title="Zoetis">Zoetis</a></td>
+<td>FHN</td>
+<td><a href="/wiki/First_Horizon" class="mw-redirect" title="First Horizon">First Horizon</a></td>
+<td>Zoetis spun off by Pfizer<sup id="cite_ref-131" class="reference"><a href="#cite_note-131">[131]</a></sup>
+</td></tr>
+<tr>
+<td>June 6, 2013</td>
+<td>GM</td>
+<td><a href="/wiki/General_Motors" title="General Motors">General Motors</a></td>
+<td>HNZ</td>
+<td><a href="/wiki/H._J._Heinz_Company" class="mw-redirect" title="H. J. Heinz Company">H. J. Heinz Company</a></td>
+<td>HNZ acquired by consortium<sup id="cite_ref-132" class="reference"><a href="#cite_note-132">[132]</a></sup>
+</td></tr>
+<tr>
+<td>May 23, 2013</td>
+<td>KSU</td>
+<td><a href="/wiki/Kansas_City_Southern_(company)" title="Kansas City Southern (company)">Kansas City Southern</a></td>
+<td>DF</td>
+<td><a href="/wiki/Dean_Foods" title="Dean Foods">Dean Foods</a></td>
+<td>DF too small after spinoff of White Wave Foods<sup id="cite_ref-133" class="reference"><a href="#cite_note-133">[133]</a></sup>
+</td></tr>
+<tr>
+<td>May 8, 2013</td>
+<td>MAC</td>
+<td><a href="/wiki/Macerich" title="Macerich">Macerich</a></td>
+<td>CVH</td>
+<td><a href="/wiki/Coventry_Health_Care" title="Coventry Health Care">Coventry Health Care</a></td>
+<td>Acquired by Aetna (AET)<sup id="cite_ref-134" class="reference"><a href="#cite_note-134">[134]</a></sup>
+</td></tr>
+<tr>
+<td>April 30, 2013</td>
+<td>REGN</td>
+<td><a href="/wiki/Regeneron_Pharmaceuticals" title="Regeneron Pharmaceuticals">Regeneron Pharmaceuticals</a></td>
+<td>PCS</td>
+<td><a href="/wiki/MetroPCS" class="mw-redirect" title="MetroPCS">MetroPCS</a></td>
+<td>A majority of MetroPCS was acquired by T-Mobile<sup id="cite_ref-135" class="reference"><a href="#cite_note-135">[135]</a></sup>
+</td></tr>
+<tr>
+<td>February 15, 2013</td>
+<td>PVH</td>
+<td><a href="/wiki/PVH_Corp." class="mw-redirect" title="PVH Corp.">PVH Corp.</a></td>
+<td>BIG</td>
+<td><a href="/wiki/Big_Lots_Inc." class="mw-redirect" title="Big Lots Inc.">Big Lots Inc.</a></td>
+<td>Market capitalization changes<sup id="cite_ref-136" class="reference"><a href="#cite_note-136">[136]</a></sup>
+</td></tr>
+<tr>
+<td>December 31, 2012</td>
+<td>ABBV</td>
+<td><a href="/wiki/AbbVie" class="mw-redirect" title="AbbVie">AbbVie</a></td>
+<td>FII</td>
+<td><a href="/wiki/Federated_Investors" title="Federated Investors">Federated Investors</a></td>
+<td>ABBV spun off from Abbott Labs (ABT)<sup id="cite_ref-137" class="reference"><a href="#cite_note-137">[137]</a></sup>
+</td></tr>
+<tr>
+<td>December 21, 2012</td>
+<td>DLPH</td>
+<td><a href="/wiki/Delphi_Automotive" class="mw-redirect" title="Delphi Automotive">Delphi Automotive</a></td>
+<td>TIE</td>
+<td><a href="/wiki/Titanium_Metals" class="mw-redirect" title="Titanium Metals">Titanium Metals</a></td>
+<td>TIE acquired by Precision Cast Parts (PCP)<sup id="cite_ref-138" class="reference"><a href="#cite_note-138">[138]</a></sup>
+</td></tr>
+<tr>
+<td>December 11, 2012</td>
+<td>GRMN</td>
+<td><a href="/wiki/Garmin_Ltd." class="mw-redirect" title="Garmin Ltd.">Garmin Ltd.</a></td>
+<td>RRD</td>
+<td><a href="/wiki/R.R._Donnelley" class="mw-redirect" title="R.R. Donnelley">R.R. Donnelley</a></td>
+<td>Market capitalization changes<sup id="cite_ref-139" class="reference"><a href="#cite_note-139">[139]</a></sup>
+</td></tr>
+<tr>
+<td>December 3, 2012</td>
+<td>DG</td>
+<td><a href="/wiki/Dollar_General" title="Dollar General">Dollar General</a></td>
+<td>CBE</td>
+<td><a href="/wiki/Cooper_Industries" title="Cooper Industries">Cooper Industries</a></td>
+<td>Acquired by Eaton Corp. (ETN)<sup id="cite_ref-140" class="reference"><a href="#cite_note-140">[140]</a></sup>
+</td></tr>
+<tr>
+<td>October 10, 2012</td>
+<td>PETM</td>
+<td><a href="/wiki/PetSmart" title="PetSmart">PetSmart, Inc.</a></td>
+<td>SUN</td>
+<td><a href="/wiki/Sunoco_Inc." class="mw-redirect" title="Sunoco Inc.">Sunoco Inc.</a></td>
+<td>Acquired by Energy Transfer Partners (ETP)<sup id="cite_ref-141" class="reference"><a href="#cite_note-141">[141]</a></sup>
+</td></tr>
+<tr>
+<td>October 2, 2012</td>
+<td>KRFT</td>
+<td><a href="/wiki/Kraft_Foods" title="Kraft Foods">Kraft Foods Group</a></td>
+<td>ANR</td>
+<td><a href="/wiki/Alpha_Natural_Resources" title="Alpha Natural Resources">Alpha Natural Resources</a></td>
+<td>Kraft split into two companies<sup id="cite_ref-krft_mdlz_142-0" class="reference"><a href="#cite_note-krft_mdlz-142">[142]</a></sup>
+</td></tr>
+<tr>
+<td>October 1, 2012</td>
+<td>ADT</td>
+<td><a href="/wiki/ADT_Security_Services" class="mw-redirect" title="ADT Security Services">ADT Corp</a></td>
+<td>LXK</td>
+<td><a href="/wiki/Lexmark_Int%27l_Inc" class="mw-redirect" title="Lexmark Int'l Inc">Lexmark Int'l Inc</a></td>
+<td>Tyco spun off ADT<sup id="cite_ref-adt_pnr_143-0" class="reference"><a href="#cite_note-adt_pnr-143">[143]</a></sup>
+</td></tr>
+<tr>
+<td>October 1, 2012</td>
+<td>PNR</td>
+<td><a href="/wiki/Pentair" title="Pentair">Pentair Ltd.</a></td>
+<td>DV</td>
+<td><a href="/wiki/DeVry,_Inc." class="mw-redirect" title="DeVry, Inc.">DeVry, Inc.</a></td>
+<td>Tyco spin-off merged w/Pentair<sup id="cite_ref-adt_pnr_143-1" class="reference"><a href="#cite_note-adt_pnr-143">[143]</a></sup>
+</td></tr>
+<tr>
+<td>September 5, 2012</td>
+<td>LYB</td>
+<td><a href="/wiki/LyondellBasell" title="LyondellBasell">LyondellBasell</a></td>
+<td>SHLD</td>
+<td><a href="/wiki/Sears_Holding_Corporation" class="mw-redirect" title="Sears Holding Corporation">Sears Holding Corporation</a></td>
+<td>SHLD below public float threshold<sup id="cite_ref-144" class="reference"><a href="#cite_note-144">[144]</a></sup>
+</td></tr>
+<tr>
+<td>July 31, 2012</td>
+<td>ESV</td>
+<td>Ensco plc (now <a href="/wiki/Valaris_plc" title="Valaris plc">Valaris plc</a></td>
+<td>GR</td>
+<td><a href="/wiki/Goodrich_Corporation" title="Goodrich Corporation">Goodrich Corporation</a></td>
+<td>Acquired by United Technologies (UTX)<sup id="cite_ref-145" class="reference"><a href="#cite_note-145">[145]</a></sup>
+</td></tr>
+<tr>
+<td>July 2, 2012</td>
+<td>STX</td>
+<td><a href="/wiki/Seagate_Technology" title="Seagate Technology">Seagate Technology</a></td>
+<td>PGN</td>
+<td><a href="/wiki/Progress_Energy_Inc" title="Progress Energy Inc">Progress Energy Inc</a></td>
+<td>Acquired by Duke Energy (DUK)<sup id="cite_ref-146" class="reference"><a href="#cite_note-146">[146]</a></sup>
+</td></tr>
+<tr>
+<td>June 29, 2012</td>
+<td>MNST</td>
+<td><a href="/wiki/Monster_Beverage" title="Monster Beverage">Monster Beverage</a></td>
+<td>SLE</td>
+<td><a href="/wiki/Sara_Lee_Corp." class="mw-redirect" title="Sara Lee Corp.">Sara Lee Corp.</a></td>
+<td>Split up of Sara Lee<sup id="cite_ref-147" class="reference"><a href="#cite_note-147">[147]</a></sup>
+</td></tr>
+<tr>
+<td>June 5, 2012</td>
+<td>LRCX</td>
+<td><a href="/wiki/Lam_Research" title="Lam Research">Lam Research</a></td>
+<td>NVLS</td>
+<td><a href="/wiki/Novellus_Systems" title="Novellus Systems">Novellus Systems</a></td>
+<td>Acquired by Lam Research (LRCX)<sup id="cite_ref-148" class="reference"><a href="#cite_note-148">[148]</a></sup>
+</td></tr>
+<tr>
+<td>May 21, 2012</td>
+<td>ALXN</td>
+<td><a href="/wiki/Alexion_Pharmaceuticals" title="Alexion Pharmaceuticals">Alexion Pharmaceuticals</a></td>
+<td>MMI</td>
+<td><a href="/wiki/Motorola_Mobility" title="Motorola Mobility">Motorola Mobility</a></td>
+<td>Acquired by Google (GOOG)<sup id="cite_ref-149" class="reference"><a href="#cite_note-149">[149]</a></sup>
+</td></tr>
+<tr>
+<td>May 17, 2012</td>
+<td>KMI</td>
+<td><a href="/wiki/Kinder_Morgan" title="Kinder Morgan">Kinder Morgan</a></td>
+<td>EP</td>
+<td><a href="/wiki/El_Paso_Corp." title="El Paso Corp.">El Paso Corp.</a></td>
+<td>Acquired by Kinder Morgan (KMI)<sup id="cite_ref-150" class="reference"><a href="#cite_note-150">[150]</a></sup>
+</td></tr>
+<tr>
+<td>April 23, 2012</td>
+<td>PSX</td>
+<td><a href="/wiki/Phillips_66" title="Phillips 66">Phillips 66</a></td>
+<td>SVU</td>
+<td><a href="/wiki/Supervalu_Inc." class="mw-redirect" title="Supervalu Inc.">Supervalu Inc.</a></td>
+<td>ConocoPhillips spun off Phillips 66<sup id="cite_ref-151" class="reference"><a href="#cite_note-151">[151]</a></sup>
+</td></tr>
+<tr>
+<td>April 3, 2012</td>
+<td>FOSL</td>
+<td><a href="/wiki/Fossil,_Inc." class="mw-redirect" title="Fossil, Inc.">Fossil, Inc.</a></td>
+<td>MHS</td>
+<td><a href="/wiki/Medco_Health_Solutions_Inc." class="mw-redirect" title="Medco Health Solutions Inc.">Medco Health Solutions Inc.</a></td>
+<td>Acquired by Express Scripts (ESRX)<sup id="cite_ref-152" class="reference"><a href="#cite_note-152">[152]</a></sup>
+</td></tr>
+<tr>
+<td>March 13, 2012</td>
+<td>CCI</td>
+<td><a href="/wiki/Crown_Castle_International_Corp." class="mw-redirect" title="Crown Castle International Corp.">Crown Castle International Corp.</a></td>
+<td>CEG</td>
+<td><a href="/wiki/Constellation_Energy_Group" class="mw-redirect" title="Constellation Energy Group">Constellation Energy Group</a></td>
+<td>Acquired by Exelon Corp. (EXC)<sup id="cite_ref-153" class="reference"><a href="#cite_note-153">[153]</a></sup>
+</td></tr>
+<tr>
+<td>December 31, 2011</td>
+<td>WPX</td>
+<td><a href="/wiki/WPX_Energy" title="WPX Energy">WPX Energy, Inc.</a></td>
+<td>CPWR</td>
+<td><a href="/wiki/Compuware" title="Compuware">Compuware</a></td>
+<td>Market capitalization changes<sup id="cite_ref-154" class="reference"><a href="#cite_note-154">[154]</a></sup>
+</td></tr>
+<tr>
+<td>December 20, 2011</td>
+<td>TRIP</td>
+<td><a href="/wiki/TripAdvisor" title="TripAdvisor">TripAdvisor Inc.</a></td>
+<td>TLAB</td>
+<td><a href="/wiki/Tellabs_Inc." class="mw-redirect" title="Tellabs Inc.">Tellabs Inc.</a></td>
+<td>Expedia Inc. spun off TripAdvisor Inc.<sup id="cite_ref-155" class="reference"><a href="#cite_note-155">[155]</a></sup>
+</td></tr>
+<tr>
+<td>December 16, 2011</td>
+<td>BWA</td>
+<td><a href="/wiki/BorgWarner_Inc." class="mw-redirect" title="BorgWarner Inc.">BorgWarner Inc.</a></td>
+<td>AKS</td>
+<td><a href="/wiki/AK_Steel_Holding_Corp." class="mw-redirect" title="AK Steel Holding Corp.">AK Steel Holding Corp.</a></td>
+<td>Market capitalization changes<sup id="cite_ref-156" class="reference"><a href="#cite_note-156">[156]</a></sup>
+</td></tr>
+<tr>
+<td>December 16, 2011</td>
+<td>PRGO</td>
+<td><a href="/wiki/Perrigo_Co." class="mw-redirect" title="Perrigo Co.">Perrigo Co.</a></td>
+<td>MWW</td>
+<td><a href="/wiki/Monster_Worldwide" title="Monster Worldwide">Monster Worldwide Inc.</a></td>
+<td>Market capitalization changes
+</td></tr>
+<tr>
+<td>December 16, 2011</td>
+<td>DLTR</td>
+<td><a href="/wiki/Dollar_Tree_Inc." class="mw-redirect" title="Dollar Tree Inc.">Dollar Tree Inc.</a></td>
+<td>WFR</td>
+<td><a href="/wiki/MEMC_Electronic_Materials" class="mw-redirect" title="MEMC Electronic Materials">MEMC Electronic Materials Inc.</a></td>
+<td>Market capitalization changes
+</td></tr>
+<tr>
+<td>December 12, 2011</td>
+<td>GAS</td>
+<td><a href="/wiki/AGL_Resources_Inc." class="mw-redirect" title="AGL Resources Inc.">AGL Resources Inc.</a></td>
+<td>GAS</td>
+<td><a href="/wiki/Nicor_Inc." class="mw-redirect" title="Nicor Inc.">Nicor Inc.</a></td>
+<td>Nicor acquired by AGL, which retained the GAS ticker.<sup id="cite_ref-157" class="reference"><a href="#cite_note-157">[157]</a></sup>
+</td></tr>
+<tr>
+<td>November 18, 2011</td>
+<td>CBE</td>
+<td><a href="/wiki/Cooper_Industries" title="Cooper Industries">Cooper Industries</a></td>
+<td>JNS</td>
+<td><a href="/wiki/Janus_Capital_Group" title="Janus Capital Group">Janus Capital Group</a></td>
+<td>Janus Capital Group's market capitalization is less than $1.2 billion<br> and is no longer representative of the large cap market space.<sup id="cite_ref-158" class="reference"><a href="#cite_note-158">[158]</a></sup>
+</td></tr>
+<tr>
+<td>October 31, 2011</td>
+<td>XYL</td>
+<td><a href="/wiki/Xylem_Inc." title="Xylem Inc.">Xylem Inc.</a></td>
+<td>ITT</td>
+<td><a href="/wiki/ITT_Corp." class="mw-redirect" title="ITT Corp.">ITT Corp.</a></td>
+<td>Spun off from ITT Corp.<sup id="cite_ref-159" class="reference"><a href="#cite_note-159">[159]</a></sup>
+</td></tr>
+<tr>
+<td>October 14, 2011</td>
+<td>TEL</td>
+<td><a href="/wiki/TE_Connectivity" title="TE Connectivity">TE Connectivity Ltd.</a></td>
+<td>CEPH</td>
+<td><a href="/wiki/Cephalon_Inc." class="mw-redirect" title="Cephalon Inc.">Cephalon Inc.</a></td>
+<td>Acquired by <a href="/wiki/Teva_Pharmaceutical_Industries" title="Teva Pharmaceutical Industries">Teva Pharmaceutical Industries</a> (TEVA).<sup id="cite_ref-160" class="reference"><a href="#cite_note-160">[160]</a></sup>
+</td></tr>
+<tr>
+<td>September 23, 2011</td>
+<td>MOS</td>
+<td><a href="/wiki/The_Mosaic_Company" title="The Mosaic Company">The Mosaic Company</a></td>
+<td>NSM</td>
+<td><a href="/wiki/National_Semiconductor" title="National Semiconductor">National Semiconductor Corp.</a></td>
+<td>Acquired by <a href="/wiki/Texas_Instruments" title="Texas Instruments">Texas Instruments</a> (TXN).<sup id="cite_ref-161" class="reference"><a href="#cite_note-161">[161]</a></sup>
+</td></tr>
+<tr>
+<td>July 5, 2011</td>
+<td>ACN</td>
+<td><a href="/wiki/Accenture_plc" class="mw-redirect" title="Accenture plc">Accenture plc</a></td>
+<td>MI</td>
+<td><a href="/wiki/Marshall_%26_Ilsley" title="Marshall &amp; Ilsley">Marshall &amp; Iisley Corp.</a></td>
+<td>Marshall &amp; Iisley is being bought by Bank of Montreal<sup id="cite_ref-162" class="reference"><a href="#cite_note-162">[162]</a></sup>
+</td></tr>
+<tr>
+<td>June 30, 2011</td>
+<td>MPC</td>
+<td><a href="/wiki/Marathon_Oil" title="Marathon Oil">Marathon Petroleum Corp</a></td>
+<td>RSH</td>
+<td><a href="/wiki/RadioShack" title="RadioShack">RadioShack Corp.</a></td>
+<td>Market capitalization adjustments.<sup id="cite_ref-163" class="reference"><a href="#cite_note-163">[163]</a></sup>
+</td></tr>
+<tr>
+<td>June 1, 2011</td>
+<td>ANR</td>
+<td><a href="/wiki/Alpha_Natural_Resources,_Inc." class="mw-redirect" title="Alpha Natural Resources, Inc.">Alpha Natural Resources, Inc.</a></td>
+<td>MEE</td>
+<td><a href="/wiki/Massey_Energy_Company" class="mw-redirect" title="Massey Energy Company">Massey Energy Company</a></td>
+<td>Alpha Natural Resources is acquiring Massey Energy in a deal expected to be<br>completed on or about that date pending final approvals.<sup id="cite_ref-164" class="reference"><a href="#cite_note-164">[164]</a></sup>
+</td></tr>
+<tr>
+<td>April 27, 2011</td>
+<td>CMG</td>
+<td><a href="/wiki/Chipotle_Mexican_Grill" title="Chipotle Mexican Grill">Chipotle Mexican Grill</a></td>
+<td>NOVL</td>
+<td><a href="/wiki/Novell,_Inc." class="mw-redirect" title="Novell, Inc.">Novell, Inc.</a></td>
+<td>Acquired by private equity firms.<sup id="cite_ref-165" class="reference"><a href="#cite_note-165">[165]</a></sup>
+</td></tr>
+<tr>
+<td>April 1, 2011</td>
+<td>BLK</td>
+<td><a href="/wiki/BlackRock" title="BlackRock">BlackRock</a></td>
+<td>GENZ</td>
+<td><a href="/wiki/Genzyme_Corp." class="mw-redirect" title="Genzyme Corp.">Genzyme Corp.</a></td>
+<td>Acquired by Sanofi-aventis (SNY)<sup id="cite_ref-166" class="reference"><a href="#cite_note-166">[166]</a></sup>
+</td></tr>
+<tr>
+<td>March 31, 2011</td>
+<td>EW</td>
+<td><a href="/wiki/Edwards_Lifesciences" title="Edwards Lifesciences">Edwards Lifesciences</a></td>
+<td>Q</td>
+<td><a href="/wiki/Qwest_Communications" class="mw-redirect" title="Qwest Communications">Qwest Communications</a></td>
+<td>Acquired by CenturyLink<sup id="cite_ref-167" class="reference"><a href="#cite_note-167">[167]</a></sup>
+</td></tr>
+<tr>
+<td>February 28, 2011</td>
+<td>COV</td>
+<td><a href="/wiki/Covidien" title="Covidien">Covidien plc</a></td>
+<td>MFE</td>
+<td><a href="/wiki/McAfee_Inc." class="mw-redirect" title="McAfee Inc.">McAfee Inc.</a></td>
+<td>Acquired by Intel Corp. (INTC)<sup id="cite_ref-168" class="reference"><a href="#cite_note-168">[168]</a></sup>
+</td></tr>
+<tr>
+<td>February 25, 2011</td>
+<td>JOY</td>
+<td><a href="/wiki/Joy_Global_Inc." class="mw-redirect" title="Joy Global Inc.">Joy Global Inc.</a></td>
+<td>AYE</td>
+<td><a href="/wiki/Allegheny_Energy" title="Allegheny Energy">Allegheny Energy Inc.</a></td>
+<td>Acquired by First Energy (FE).<sup id="cite_ref-169" class="reference"><a href="#cite_note-169">[169]</a></sup>
+</td></tr>
+<tr>
+<td>December 17, 2010</td>
+<td>CVC</td>
+<td><a href="/wiki/Cablevision" title="Cablevision">Cablevision Systems Corp.</a></td>
+<td>KG</td>
+<td><a href="/wiki/King_Pharmaceuticals_Inc." class="mw-redirect" title="King Pharmaceuticals Inc.">King Pharmaceuticals Inc.</a></td>
+<td>Acquired by Pfizer Inc. (PFE).<sup id="cite_ref-pr101209_170-0" class="reference"><a href="#cite_note-pr101209-170">[170]</a></sup>
+</td></tr>
+<tr>
+<td>December 17, 2010</td>
+<td>FFIV</td>
+<td><a href="/wiki/F5_Networks" title="F5 Networks">F5 Networks Inc.</a></td>
+<td>EK</td>
+<td><a href="/wiki/Eastman_Kodak_Co." class="mw-redirect" title="Eastman Kodak Co.">Eastman Kodak Co.</a></td>
+<td>Market Cap changes.<sup id="cite_ref-pr101209_170-1" class="reference"><a href="#cite_note-pr101209-170">[170]</a></sup>
+</td></tr>
+<tr>
+<td>December 17, 2010</td>
+<td>NFLX</td>
+<td><a href="/wiki/Netflix_Inc." class="mw-redirect" title="Netflix Inc.">Netflix Inc.</a></td>
+<td>ODP</td>
+<td><a href="/wiki/Office_Depot_Inc." class="mw-redirect" title="Office Depot Inc.">Office Depot Inc.</a></td>
+<td>Market Cap changes.
+</td></tr>
+<tr>
+<td>December 17, 2010</td>
+<td>NFX</td>
+<td><a href="/wiki/Newfield_Exploration" title="Newfield Exploration">Newfield Exploration</a></td>
+<td>NYT</td>
+<td><a href="/wiki/The_New_York_Times_Co." class="mw-redirect" title="The New York Times Co.">The New York Times Co.</a></td>
+<td>Market Cap changes.
+</td></tr>
+<tr>
+<td>August 26, 2010</td>
+<td>TYC</td>
+<td><a href="/wiki/Tyco_International_Ltd." class="mw-redirect" title="Tyco International Ltd.">Tyco International Ltd.</a></td>
+<td>SII</td>
+<td><a href="/wiki/Smith_International" title="Smith International">Smith International Inc.</a></td>
+<td>Acquired by Schlumberger Ltd. (SLB)<sup id="cite_ref-171" class="reference"><a href="#cite_note-171">[171]</a></sup>
+</td></tr>
+<tr>
+<td>July 14, 2010</td>
+<td>CB</td>
+<td><a href="/wiki/Chubb_Limited" title="Chubb Limited">Chubb Limited</a></td>
+<td>MIL</td>
+<td><a href="/wiki/Millipore_Corporation" class="mw-redirect" title="Millipore Corporation">Millipore Inc.</a></td>
+<td>Acquired by Merck KGaA (MKGAY)<sup id="cite_ref-172" class="reference"><a href="#cite_note-172">[172]</a></sup>
+</td></tr>
+<tr>
+<td>June 30, 2010</td>
+<td>QEP</td>
+<td><a href="/wiki/QEP_Resources" class="mw-redirect" title="QEP Resources">QEP Resources</a></td>
+<td>STR</td>
+<td><a href="/wiki/Questar_Corp." class="mw-redirect" title="Questar Corp.">Questar Corp.</a></td>
+<td>Company split. QEP retained, but ticker changed.<sup id="cite_ref-173" class="reference"><a href="#cite_note-173">[173]</a></sup>
+</td></tr>
+<tr>
+<td>June 28, 2010</td>
+<td>KMX</td>
+<td><a href="/wiki/CarMax" title="CarMax">CarMax, Inc.</a></td>
+<td>XTO</td>
+<td><a href="/wiki/XTO_Energy_Inc." class="mw-redirect" title="XTO Energy Inc.">XTO Energy Inc.</a></td>
+<td>Acquired by ExxonMobil Inc. (XOM)<sup id="cite_ref-174" class="reference"><a href="#cite_note-174">[174]</a></sup>
+</td></tr>
+<tr>
+<td>April 29, 2010</td>
+<td>CERN</td>
+<td><a href="/wiki/Cerner" title="Cerner">Cerner Corp.</a></td>
+<td>BJS</td>
+<td><a href="/wiki/BJ_Services_Company" class="mw-redirect" title="BJ Services Company">BJ Services Company</a></td>
+<td>Acquired by Baker Hughes Inc. (BHI)<sup id="cite_ref-175" class="reference"><a href="#cite_note-175">[175]</a></sup>
+</td></tr>
+<tr>
+<td>February 26, 2010</td>
+<td>HP</td>
+<td><a href="/wiki/Helmerich_%26_Payne" title="Helmerich &amp; Payne">Helmerich &amp; Payne</a></td>
+<td>RX</td>
+<td><a href="/wiki/IMS_Health" title="IMS Health">IMS Health</a></td>
+<td>Taken private<sup id="cite_ref-176" class="reference"><a href="#cite_note-176">[176]</a></sup>
+</td></tr>
+<tr>
+<td>November 3, 2009</td>
+<td>PCLN</td>
+<td><a href="/wiki/Priceline.com" title="Priceline.com">Priceline.com</a></td>
+<td>SGP</td>
+<td><a href="/wiki/Schering-Plough" title="Schering-Plough">Schering-Plough Corp.</a></td>
+<td>Acquired by Merck &amp; Co. (MRK)<sup id="cite_ref-177" class="reference"><a href="#cite_note-177">[177]</a></sup>
+</td></tr>
+<tr>
+<td>September 28, 2009</td>
+<td>ARG</td>
+<td><a href="/wiki/Airgas_Inc" class="mw-redirect" title="Airgas Inc">Airgas Inc</a></td>
+<td>CBE</td>
+<td><a href="/wiki/Cooper_Industries_Ltd." class="mw-redirect" title="Cooper Industries Ltd.">Cooper Industries Ltd.</a></td>
+<td>Redomesticated to Ireland<sup id="cite_ref-178" class="reference"><a href="#cite_note-178">[178]</a></sup>
+</td></tr>
+<tr>
+<td>March 3, 2009</td>
+<td>HRL</td>
+<td><a href="/wiki/Hormel_Foods" class="mw-redirect" title="Hormel Foods">Hormel Foods</a></td>
+<td>ACAS</td>
+<td><a href="/w/index.php?title=American_Capital&amp;action=edit&amp;redlink=1" class="new" title="American Capital (page does not exist)">American Capital</a></td>
+<td>Capitalization rebalance.<sup id="cite_ref-179" class="reference"><a href="#cite_note-179">[179]</a></sup>
+</td></tr>
+<tr>
+<td>March 3, 2009</td>
+<td>VTR</td>
+<td><a href="/wiki/Ventas_Inc." class="mw-redirect" title="Ventas Inc.">Ventas Inc.</a></td>
+<td>JNY</td>
+<td><a href="/wiki/Jones_Apparel_Group" class="mw-redirect" title="Jones Apparel Group">Jones Apparel Group</a></td>
+<td>Capitalization rebalance.
+</td></tr>
+<tr>
+<td>June 10, 2008</td>
+<td>LO</td>
+<td><a href="/wiki/Lorillard_Inc." class="mw-redirect" title="Lorillard Inc.">Lorillard Inc.</a></td>
+<td>ABK</td>
+<td><a href="/wiki/Ambac_Financial" class="mw-redirect" title="Ambac Financial">Ambac Financial</a></td>
+<td>Market Value Decline<sup id="cite_ref-180" class="reference"><a href="#cite_note-180">[180]</a></sup>
+</td></tr>
+<tr>
+<td>December 20, 2007</td>
+<td>RRC</td>
+<td><a href="/wiki/Range_Resources" title="Range Resources">Range Resources</a></td>
+<td>TRB</td>
+<td><a href="/wiki/Tribune_Co." class="mw-redirect" title="Tribune Co.">Tribune Co.</a></td>
+<td>Taken private<sup id="cite_ref-181" class="reference"><a href="#cite_note-181">[181]</a></sup>
+</td></tr>
+<tr>
+<td>December 13, 2007</td>
+<td>GME</td>
+<td><a href="/wiki/GameStop" title="GameStop">GameStop</a></td>
+<td>DJ</td>
+<td><a href="/wiki/Dow_Jones_%26_Company" title="Dow Jones &amp; Company">Dow Jones</a></td>
+<td>Acquired by <a href="/wiki/News_Corporation_(1980%E2%80%932013)" title="News Corporation (1980–2013)">News Corp.</a><sup id="cite_ref-182" class="reference"><a href="#cite_note-182">[182]</a></sup>
+</td></tr>
+<tr>
+<td>October 25, 2007</td>
+<td>JEC</td>
+<td><a href="/wiki/Jacobs_Engineering_Group" title="Jacobs Engineering Group">Jacobs Engineering Group</a></td>
+<td>AV</td>
+<td><a href="/wiki/Avaya_Inc." class="mw-redirect" title="Avaya Inc.">Avaya Inc.</a></td>
+<td>Taken private<sup id="cite_ref-183" class="reference"><a href="#cite_note-183">[183]</a></sup>
+</td></tr>
+<tr>
+<td>August 24, 2007</td>
+<td>LUK</td>
+<td><a href="/wiki/Leucadia_National" class="mw-redirect" title="Leucadia National">Leucadia National</a></td>
+<td>KSE</td>
+<td><a href="/wiki/KeySpan" title="KeySpan">KeySpan</a></td>
+<td>Acquired by <a href="/wiki/National_Grid_plc" title="National Grid plc">National Grid plc</a><sup id="cite_ref-184" class="reference"><a href="#cite_note-184">[184]</a></sup>
+</td></tr>
+<tr>
+<td>March 30, 2007</td>
+<td>KFT</td>
+<td><a href="/wiki/Kraft_Foods" title="Kraft Foods">Kraft Foods</a></td>
+<td>TSG</td>
+<td><a href="/wiki/Sabre_Holdings" class="mw-redirect" title="Sabre Holdings">Sabre Holdings</a></td>
+<td>Taken Private<sup id="cite_ref-185" class="reference"><a href="#cite_note-185">[185]</a></sup>
+</td></tr>
+<tr>
+<td>January 10, 2007</td>
+<td>AVB</td>
+<td><a href="/wiki/AvalonBay_Communities,_Inc." class="mw-redirect" title="AvalonBay Communities, Inc.">AvalonBay Communities, Inc.</a></td>
+<td>SBL</td>
+<td><a href="/wiki/Symbol_Technologies" title="Symbol Technologies">Symbol Technologies</a></td>
+<td>Acquired by Motorola<sup id="cite_ref-186" class="reference"><a href="#cite_note-186">[186]</a></sup>
+</td></tr>
+<tr>
+<td>July 1, 2005</td>
+<td>STZ</td>
+<td><a href="/wiki/Constellation_Brands" title="Constellation Brands">Constellation Brands</a></td>
+<td>GLK</td>
+<td><a href="/wiki/Great_Lakes_Chemical" class="mw-redirect" title="Great Lakes Chemical">Great Lakes Chemical</a></td>
+<td>Acquired by <a href="/wiki/Crompton_Corp." class="mw-redirect" title="Crompton Corp.">Crompton Corp.</a><sup id="cite_ref-187" class="reference"><a href="#cite_note-187">[187]</a></sup>
+</td></tr>
+<tr>
+<td>September 25, 2003</td>
+<td>ESRX</td>
+<td><a href="/wiki/Express_Scripts" title="Express Scripts">Express Scripts</a></td>
+<td>QTRN</td>
+<td><a href="/wiki/Quintiles_Transnational" class="mw-redirect" title="Quintiles Transnational">Quintiles Transnational</a></td>
+<td>Taken private<sup id="cite_ref-188" class="reference"><a href="#cite_note-188">[188]</a></sup>
+</td></tr>
+<tr>
+<td>December 5, 2000</td>
+<td>INTU</td>
+<td><a href="/wiki/Intuit" title="Intuit">Intuit</a></td>
+<td>BS</td>
+<td><a href="/wiki/Bethlehem_Steel" title="Bethlehem Steel">Bethlehem Steel</a></td>
+<td>Market Cap changes.<sup id="cite_ref-189" class="reference"><a href="#cite_note-189">[189]</a></sup>
+</td></tr>
+<tr>
+<td>December 5, 2000</td>
+<td>SBL</td>
+<td><a href="/wiki/Symbol_Technologies" title="Symbol Technologies">Symbol Technologies</a></td>
+<td>OI</td>
+<td><a href="/wiki/Owens-Illinois" class="mw-redirect" title="Owens-Illinois">Owens-Illinois</a></td>
+<td>Market Cap changes.
+</td></tr>
+<tr>
+<td>December 5, 2000</td>
+<td>AYE</td>
+<td><a href="/wiki/Allegheny_Energy" title="Allegheny Energy">Allegheny Energy</a></td>
+<td>GRA</td>
+<td><a href="/wiki/W.R._Grace_%26_Co." class="mw-redirect" title="W.R. Grace &amp; Co.">W.R. Grace</a></td>
+<td>Market Cap changes.
+</td></tr>
+<tr>
+<td>December 5, 2000</td>
+<td>ABK</td>
+<td><a href="/wiki/Ambac_Financial" class="mw-redirect" title="Ambac Financial">Ambac Financial</a></td>
+<td>CCK</td>
+<td><a href="/wiki/Crown_Holdings" title="Crown Holdings">Crown Holdings</a></td>
+<td>Market Cap changes.
+</td></tr>
