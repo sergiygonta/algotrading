@@ -41,51 +41,51 @@ def get_analytics_for_company(company):
     alreadyBought = False
     alreadySold = True
     price_for_buy = 0
-    for i in range(100, len(quotes) - 1, 1):
-        begin, resistance_level = Solution.should_buy(quotes[0:i]) or (None, None)
-        if not alreadyBought and not (begin is None):
-            # print(str(quotes[i].date) + " buy  " + company)
-            alreadyBought = True
-            alreadySold = False
-            stocks = int(money / quotes[i].open_price)
-            money -= stocks * quotes[i].open_price
-            price_for_buy = quotes[i].open_price
-            # if resistance_level is not None:
-            #     fig.add_shape(
-            #         # Line Diagonal
-            #         go.layout.Shape(
-            #             type="line",
-            #             x0=begin,
-            #             y0=resistance_level,
-            #             x1=quotes[i].date,
-            #             y1=resistance_level,
-            #             line=dict(
-            #                 color="green",
-            #                 width=1,
-            #             )
-            #         ))
-        begin, support_level = Solution.should_sell(quotes[0:i]) or (None, None)
-        if not alreadySold and not (begin is None) and (price_for_buy < quotes[i].close_price):
-            alreadySold = True
-            alreadyBought = False
-            money += stocks * quotes[i].close_price
-
-            # print(str(quotes[i].date) + " sell " + company + " .money=" + str(money))
-            stocks = 0
-            # if support_level is not None:
-            #     fig.add_shape(
-            #         # Line Diagonal
-            #         go.layout.Shape(
-            #             type="line",
-            #             x0=begin,
-            #             y0=support_level,
-            #             x1=quotes[i].date,
-            #             y1=support_level,
-            #             line=dict(
-            #                 color="red",
-            #                 width=1,
-            #             )
-            #         ))
+    # for i in range(100, len(quotes) - 1, 1):
+    #     begin, resistance_level = Solution.should_buy(quotes[0:i]) or (None, None)
+    #     if not alreadyBought and not (begin is None):
+    #         # print(str(quotes[i].date) + " buy  " + company)
+    #         alreadyBought = True
+    #         alreadySold = False
+    #         stocks = int(money / quotes[i].open_price)
+    #         money -= stocks * quotes[i].open_price
+    #         price_for_buy = quotes[i].open_price
+    #         # if resistance_level is not None:
+    #         #     fig.add_shape(
+    #         #         # Line Diagonal
+    #         #         go.layout.Shape(
+    #         #             type="line",
+    #         #             x0=begin,
+    #         #             y0=resistance_level,
+    #         #             x1=quotes[i].date,
+    #         #             y1=resistance_level,
+    #         #             line=dict(
+    #         #                 color="green",
+    #         #                 width=1,
+    #         #             )
+    #         #         ))
+    #     begin, support_level = Solution.should_sell(quotes[0:i]) or (None, None)
+    #     if not alreadySold and not (begin is None) and (price_for_buy < quotes[i].close_price):
+    #         alreadySold = True
+    #         alreadyBought = False
+    #         money += stocks * quotes[i].close_price
+    #
+    #         # print(str(quotes[i].date) + " sell " + company + " .money=" + str(money))
+    #         stocks = 0
+    #         # if support_level is not None:
+    #         #     fig.add_shape(
+    #         #         # Line Diagonal
+    #         #         go.layout.Shape(
+    #         #             type="line",
+    #         #             x0=begin,
+    #         #             y0=support_level,
+    #         #             x1=quotes[i].date,
+    #         #             y1=support_level,
+    #         #             line=dict(
+    #         #                 color="red",
+    #         #                 width=1,
+    #         #             )
+    #         #         ))
     final_money = round(money + stocks * quotes[len(quotes) - 1].close_price, 2)
     print('{0:<9} from '.format(company) + str(quotes[100].date) + ' and 50000$ to ' +
           str(quotes[len(quotes) - 1].date) + ' and ' + str(final_money) + '$')

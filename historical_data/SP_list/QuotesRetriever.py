@@ -1,6 +1,7 @@
 from typing import NamedTuple
 from datetime import date, datetime
 from alpha_vantage.timeseries import TimeSeries
+import pandas as pd
 
 
 class CompanyInterval(NamedTuple):
@@ -31,12 +32,17 @@ def simple_load_companies(file_name):
 
 
 def main():
-    companies_intervals = simple_load_companies("Members.csv")
-    print(companies_intervals)
     key = '4ANXB00UDM288O6G'
     ts = TimeSeries(key)
-    aapl, meta = ts.get_daily(symbol='AAPL')
-    print(aapl)
+    # [0:1] is just for test purpose, to do not fetch all the companies at once
+    companies_intervals = simple_load_companies("Members.csv")[0:1]
+    for company_interval in companies_intervals:
+        print('Date,Open,High,Low,Close,Volume')
+        quotes, meta = ts.get_daily(symbol=company_interval.company, outputsize='full')
+        for date in pd.date_range(company_interval.date_from, company_interval.date_to).strftime("%Y-%m-%d").tolist():
+            if date in quotes:
+                print(date +','+ str(quotes[date]['1. open'])+','+ str(quotes[date]['1. open'])+','+ str(quotes[date]['2. high'])+','
+                      + str(quotes[date]['3. low'])+','+ str(quotes[date]['4. close'])+','+ str(quotes[date]['5. volume']))
 
 
 if __name__ == "__main__":
