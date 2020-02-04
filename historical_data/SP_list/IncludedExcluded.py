@@ -29,16 +29,20 @@ def simple_load_companies(file_name):
                 line_count += 1
     return out
 
+
 def main():
     included_excluded_list = simple_load_companies("IncludedExcluded.csv")
     included_dict = {}
     for event in included_excluded_list:
-        included_dict[str(event.included_company)]=str(event.date)
+        if event.included_company is not None and event.included_company != '':
+            included_dict[event.included_company] = str(event.date)
     for event in included_excluded_list:
-        #company,date_from,date_to
-        print(event.excluded_company+','+
+        # company,date_from,date_to
+        if event.excluded_company is not None and event.excluded_company != '':
+            print(event.excluded_company + ',' +
               included_dict.get(event.excluded_company, '2000-01-01')
-              +','+str(event.date))
+              + ',' + str(event.date))
+
 
 if __name__ == "__main__":
     main()
