@@ -2,12 +2,28 @@ from typing import NamedTuple
 from datetime import date, datetime
 from alpha_vantage.timeseries import TimeSeries
 import pandas as pd
+import os, shutil
+import csv
+
+QUOTES_FOLDER_PATH = '../SP/'
 
 
 class CompanyInterval(NamedTuple):
-    company: str
+    name: str
     date_from: date
     date_to: date
+
+
+def clear_quotes_directory():
+    for filename in os.listdir(QUOTES_FOLDER_PATH):
+        file_path = os.path.join(QUOTES_FOLDER_PATH, filename)
+        try:
+            if os.path.isfile(file_path) or os.path.islink(file_path):
+                os.unlink(file_path)
+            elif os.path.isdir(file_path):
+                shutil.rmtree(file_path)
+        except Exception as e:
+            print('Failed to delete %s. Reason: %s' % (file_path, e))
 
 
 def simple_load_companies(file_name):
@@ -23,7 +39,7 @@ def simple_load_companies(file_name):
                 continue
             else:
                 out.append(CompanyInterval(
-                    company=str(row[0]),
+                    name=str(row[0]),
                     date_from=datetime.strptime(row[1], '%Y-%m-%d').date(),
                     date_to=datetime.strptime(row[2], '%Y-%m-%d').date())
                 )
@@ -32,17 +48,23 @@ def simple_load_companies(file_name):
 
 
 def main():
+    # clean if needed
+    clear_quotes_directory()
     key = '4ANXB00UDM288O6G'
     ts = TimeSeries(key)
-    # [0:1] is just for test purpose, to do not fetch all the companies at once
-    companies_intervals = simple_load_companies("Members.csv")[0:1]
-    for company_interval in companies_intervals:
-        print('Date,Open,High,Low,Close,Volume')
-        quotes, meta = ts.get_daily(symbol=company_interval.company, outputsize='full')
-        for date in pd.date_range(company_interval.date_from, company_interval.date_to).strftime("%Y-%m-%d").tolist():
-            if date in quotes:
-                print(date +','+ str(quotes[date]['1. open'])+','+ str(quotes[date]['1. open'])+','+ str(quotes[date]['2. high'])+','
-                      + str(quotes[date]['3. low'])+','+ str(quotes[date]['4. close'])+','+ str(quotes[date]['5. volume']))
+    # [0:5] is just for test purpose, to do not fetch all the companies at once
+    companies = simple_load_companies("Members.csv")[0:5]
+    for company in companies:
+        with open(QUOTES_FOLDER_PATH + company.name + '.csv', 'w', newline='') as csvfile:
+            csv_writer = csv.writer(csvfile, delimiter=',',
+                                    quotechar='|', quoting=csv.QUOTE_MINIMAL)
+            csv_writer.writerow(['Date', 'Open', 'High', 'Low', 'Close', 'Volume'])
+            quotes, meta = ts.get_daily(symbol=company.name, outputsize='full')
+            for date in pd.date_range(company.date_from, company.date_to).strftime("%Y-%m-%d").tolist():
+                if date in quotes:
+                    csv_writer.writerow(
+                        [date, str(quotes[date]['1. open']), str(quotes[date]['1. open']), str(quotes[date]['2. high']),
+                         str(quotes[date]['3. low']), str(quotes[date]['4. close']), str(quotes[date]['5. volume'])])
 
 
 if __name__ == "__main__":
