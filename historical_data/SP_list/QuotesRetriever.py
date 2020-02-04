@@ -4,6 +4,7 @@ from alpha_vantage.timeseries import TimeSeries
 import pandas as pd
 import os, shutil
 import csv
+import time
 
 QUOTES_FOLDER_PATH = '../SP/'
 
@@ -49,12 +50,14 @@ def simple_load_companies(file_name):
 
 def main():
     # clean if needed
-    clear_quotes_directory()
+    # clear_quotes_directory()
     key = '4ANXB00UDM288O6G'
     ts = TimeSeries(key)
-    # [0:5] is just for test purpose, to do not fetch all the companies at once
-    companies = simple_load_companies("Members.csv")[0:5]
+    # today 0 - 400, tomorrow from 400 to end
+    companies = simple_load_companies("Members.csv")[0:1]  # if not premium alphavantage - only 500 calls per day
+    counter = 0
     for company in companies:
+        counter += 1
         with open(QUOTES_FOLDER_PATH + company.name + '.csv', 'w', newline='') as csvfile:
             csv_writer = csv.writer(csvfile, delimiter=',',
                                     quotechar='|', quoting=csv.QUOTE_MINIMAL)
@@ -65,6 +68,8 @@ def main():
                     csv_writer.writerow(
                         [date, str(quotes[date]['1. open']), str(quotes[date]['1. open']), str(quotes[date]['2. high']),
                          str(quotes[date]['3. low']), str(quotes[date]['4. close']), str(quotes[date]['5. volume'])])
+        if counter % 5 == 0:
+            time.sleep(60)  # if not premium alphavantage - only 5 request per minute
 
 
 if __name__ == "__main__":
