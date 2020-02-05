@@ -2,8 +2,7 @@ from typing import NamedTuple
 from datetime import date, datetime
 
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from bs4 import BeautifulSoup
+
 
 from alpha_vantage.timeseries import TimeSeries
 import pandas as pd
@@ -83,14 +82,17 @@ def macro_trends_retriever():
             csv_writer = csv.writer(csvfile, delimiter=',',
                                     quotechar='|', quoting=csv.QUOTE_MINIMAL)
             csv_writer.writerow(['Date', 'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume'])
-            browser = webdriver.Safari(executable_path=r'/usr/bin/safaridriver')
-            # --| Parse or automation
-            browser.get('http://download.macrotrends.net/assets/php/stock_data_export.php?t='+company.name.lower())
-            time.sleep(3)
-            #soup = BeautifulSoup(browser.page_source, 'lxml')
-            #table = soup.select('#contentjqxgrid > div.jqx-grid-content.jqx-widget-content')
-            #quotes = soup.select('#row0jqxgrid > div:nth-child(3) > div')
-            #csv_writer.writerow(quotes)
+            url = 'http://download.macrotrends.net/assets/php/stock_data_export.php?t='+company.name.lower()
+            data = open(url, "r")
+            read = csv.DictReader(data)
+            counter = 0
+            for row in read:
+                counter += 1
+                if counter < 22:
+                    continue
+                else:
+                    csv_writer.writerow(row)
+
 
 if __name__ == "__main__":
     #alpha_vantage_retriever()
