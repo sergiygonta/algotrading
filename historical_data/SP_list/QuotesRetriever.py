@@ -1,5 +1,10 @@
 from typing import NamedTuple
 from datetime import date, datetime
+
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from bs4 import BeautifulSoup
+
 from alpha_vantage.timeseries import TimeSeries
 import pandas as pd
 import os, shutil
@@ -48,29 +53,46 @@ def simple_load_companies(file_name):
     return out
 
 
-def main():
+def alpha_vantage_retriever():
     # clean if needed
     # clear_quotes_directory()
     key = '4ANXB00UDM288O6G'
     ts = TimeSeries(key)
     # today 0 - 400, tomorrow from 400 to end
-    companies = simple_load_companies("Members.csv")[0:1]  # if not premium alphavantage - only 500 calls per day
+    companies = simple_load_companies("Members.csv")[506:725]  # if not premium alphavantage - only 500 calls per day
     counter = 0
     for company in companies:
         counter += 1
         with open(QUOTES_FOLDER_PATH + company.name + '.csv', 'w', newline='') as csvfile:
             csv_writer = csv.writer(csvfile, delimiter=',',
                                     quotechar='|', quoting=csv.QUOTE_MINIMAL)
-            csv_writer.writerow(['Date', 'Open', 'High', 'Low', 'Close', 'Volume'])
+            csv_writer.writerow(['Date', 'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume'])
             quotes, meta = ts.get_daily(symbol=company.name, outputsize='full')
             for date in pd.date_range(company.date_from, company.date_to).strftime("%Y-%m-%d").tolist():
                 if date in quotes:
                     csv_writer.writerow(
                         [date, str(quotes[date]['1. open']), str(quotes[date]['1. open']), str(quotes[date]['2. high']),
-                         str(quotes[date]['3. low']), str(quotes[date]['4. close']), str(quotes[date]['5. volume'])])
+                         str(quotes[date]['3. low']), str(quotes[date]['4. close']),'0.0', str(quotes[date]['5. volume'])])
         if counter % 5 == 0:
             time.sleep(60)  # if not premium alphavantage - only 5 request per minute
 
+def macro_trends_retriever():
+    companies = simple_load_companies("Members.csv")[0:1]
+    for company in companies:
+        with open(QUOTES_FOLDER_PATH + company.name + '.csv', 'w', newline='') as csvfile:
+            csv_writer = csv.writer(csvfile, delimiter=',',
+                                    quotechar='|', quoting=csv.QUOTE_MINIMAL)
+            csv_writer.writerow(['Date', 'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume'])
+            browser = webdriver.Safari(executable_path=r'/usr/bin/safaridriver')
+            # --| Parse or automation
+            browser.get('http://download.macrotrends.net/assets/php/stock_data_export.php?t='+company.name.lower())
+            time.sleep(3)
+            #soup = BeautifulSoup(browser.page_source, 'lxml')
+            #table = soup.select('#contentjqxgrid > div.jqx-grid-content.jqx-widget-content')
+            #quotes = soup.select('#row0jqxgrid > div:nth-child(3) > div')
+            #csv_writer.writerow(quotes)
 
 if __name__ == "__main__":
-    main()
+    #alpha_vantage_retriever()
+    macro_trends_retriever()
+
