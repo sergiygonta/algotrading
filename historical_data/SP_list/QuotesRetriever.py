@@ -1,7 +1,7 @@
 from typing import NamedTuple
 from datetime import date, datetime
 
-from selenium import webdriver
+import urllib.request
 
 
 from alpha_vantage.timeseries import TimeSeries
@@ -64,7 +64,7 @@ def alpha_vantage_retriever():
         counter += 1
         with open(QUOTES_FOLDER_PATH + company.name + '.csv', 'w', newline='') as csvfile:
             csv_writer = csv.writer(csvfile, delimiter=',',
-                                    quotechar='|', quoting=csv.QUOTE_MINIMAL)
+                                    quotechar='|', quoting=csv.QUOTE_NONE)
             csv_writer.writerow(['Date', 'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume'])
             quotes, meta = ts.get_daily(symbol=company.name, outputsize='full')
             for date in pd.date_range(company.date_from, company.date_to).strftime("%Y-%m-%d").tolist():
@@ -78,20 +78,16 @@ def alpha_vantage_retriever():
 def macro_trends_retriever():
     companies = simple_load_companies("Members.csv")[0:1]
     for company in companies:
-        with open(QUOTES_FOLDER_PATH + company.name + '.csv', 'w', newline='') as csvfile:
-            csv_writer = csv.writer(csvfile, delimiter=',',
-                                    quotechar='|', quoting=csv.QUOTE_MINIMAL)
-            csv_writer.writerow(['Date', 'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume'])
-            url = 'http://download.macrotrends.net/assets/php/stock_data_export.php?t='+company.name.lower()
-            data = open(url, "r")
-            read = csv.DictReader(data)
+        with open(QUOTES_FOLDER_PATH + company.name + '.csv', 'w') as csvfile:
+            csvfile.write('Date,Open,High,Low,Close,Volume\n')
+            target_url = 'http://download.macrotrends.net/assets/php/stock_data_export.php?t='+company.name.lower()
             counter = 0
-            for row in read:
+            for line in urllib.request.urlopen(target_url):
                 counter += 1
-                if counter < 22:
+                if counter < 16:
                     continue
                 else:
-                    csv_writer.writerow(row)
+                    csvfile.write(line.decode('utf-8').rstrip()+'\n')
 
 
 if __name__ == "__main__":
