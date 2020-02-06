@@ -2,13 +2,7 @@ from typing import NamedTuple
 from datetime import date, datetime
 
 import urllib.request
-
-
-from alpha_vantage.timeseries import TimeSeries
-import pandas as pd
 import os, shutil
-import csv
-import time
 
 QUOTES_FOLDER_PATH = '../SP/'
 
@@ -37,7 +31,6 @@ def simple_load_companies(file_name):
     with open(file_name) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
         line_count = 0
-        out = []
         for row in csv_reader:
             if line_count == 0:
                 line_count = 1
@@ -51,32 +44,8 @@ def simple_load_companies(file_name):
                 line_count += 1
     return out
 
-
-def alpha_vantage_retriever():
-    # clean if needed
-    # clear_quotes_directory()
-    key = '4ANXB00UDM288O6G'
-    ts = TimeSeries(key)
-    # today 0 - 400, tomorrow from 400 to end
-    companies = simple_load_companies("Members.csv")[506:725]  # if not premium alphavantage - only 500 calls per day
-    counter = 0
-    for company in companies:
-        counter += 1
-        with open(QUOTES_FOLDER_PATH + company.name + '.csv', 'w', newline='') as csvfile:
-            csv_writer = csv.writer(csvfile, delimiter=',',
-                                    quotechar='|', quoting=csv.QUOTE_NONE)
-            csv_writer.writerow(['Date', 'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume'])
-            quotes, meta = ts.get_daily(symbol=company.name, outputsize='full')
-            for date in pd.date_range(company.date_from, company.date_to).strftime("%Y-%m-%d").tolist():
-                if date in quotes:
-                    csv_writer.writerow(
-                        [date, str(quotes[date]['1. open']), str(quotes[date]['1. open']), str(quotes[date]['2. high']),
-                         str(quotes[date]['3. low']), str(quotes[date]['4. close']),'0.0', str(quotes[date]['5. volume'])])
-        if counter % 5 == 0:
-            time.sleep(60)  # if not premium alphavantage - only 5 request per minute
-
 def macro_trends_retriever():
-    companies = simple_load_companies("Members.csv")[0:1]
+    companies = simple_load_companies("Members.csv")
     for company in companies:
         with open(QUOTES_FOLDER_PATH + company.name + '.csv', 'w') as csvfile:
             csvfile.write('Date,Open,High,Low,Close,Volume\n')
@@ -87,10 +56,11 @@ def macro_trends_retriever():
                 if counter < 16:
                     continue
                 else:
-                    csvfile.write(line.decode('utf-8').rstrip()+'\n')
+                    row = line.decode('utf-8').rstrip()
+                    if company.date_from <= datetime.strptime(row[0:10], '%Y-%m-%d').date() <= company.date_to:
+                        csvfile.write(line.decode('utf-8').rstrip()+'\n')
 
 
 if __name__ == "__main__":
-    #alpha_vantage_retriever()
     macro_trends_retriever()
 
