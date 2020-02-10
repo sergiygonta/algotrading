@@ -41,17 +41,16 @@ def load_market_data_with_np(file_name):
 
 def simple_load_market_data(file_name):
     import csv
-    out = []
     with open(file_name) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
         line_count = 0
         out = []
         for row in csv_reader:
             if line_count == 0:
-                print(f'Column names are {", ".join(row)}')
                 line_count += 1
             else:
-                print(f"reading line {line_count}")
+                if row[1] == 'null' or row[2] == 'null' or row[3] == 'null' or row[4] == 'null':
+                    continue
                 out.append(Quote(
                     date=datetime.strptime(row[0], '%Y-%m-%d').date(),
                     open_price=float(row[1]),

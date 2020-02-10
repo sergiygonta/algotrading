@@ -1,6 +1,6 @@
 from datetime import datetime, date
 
-from Quote import load_market_data_with_np
+from Quote import simple_load_market_data
 from Solution import Solution
 
 # import plotly.graph_objects as go
@@ -22,7 +22,9 @@ def main():
 
 
 def get_analytics_for_company(company):
-    quotes = load_market_data_with_np("historical_data/SP/" + company)
+    quotes = simple_load_market_data("historical_data/SP/" + company)
+    if len(quotes) < 101:
+        return initial_money
     # df = pd.read_csv(company)
     # fig = go.Figure(data=[go.Candlestick(x=df['Date'],
     #                                      open=df['Open'],
