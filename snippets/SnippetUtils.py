@@ -1,0 +1,59 @@
+import os
+from datetime import date, timedelta
+from typing import List
+
+from historical_data.Quote import Quote
+
+
+def less_that_three_month_interval(date_from: date, date_to: date):
+    return date_to - date_from < timedelta(days=90)
+
+
+def create_3month_snippet(quotes: List[Quote], right_border: int, snippet_type: str):
+    left_border = quotes[right_border].date
+    while less_that_three_month_interval(quotes[right_border].date, quotes[left_border].date):
+        left_border -= 1
+    write_snippet_to_csv_file(quotes[left_border:right_border + 1], snippet_type)
+
+
+def write_snippet_to_csv_file(quotes: List[Quote], snippet_type: str):
+    with open(get_next_file_path('../snippets/snippets_data/' + snippet_type) + '.csv', 'w') as csv_file:
+        csv_file.write('Date,Open,High,Low,Close,Adj Close,Volume\n')
+        for quote in quotes:
+            csv_file.write(str(quote.date) + ',' + str(quote.open_price) + ',' + str(quote.high_price) + ','
+                           + str(quote.low_price) + ',' + str(quote.close_price) + ','
+                           + str(quote.adj_close_price) + ',' + str(quote.volume) + '\n')
+
+
+def get_next_file_path(output_folder):
+    highest_num = 0
+    for f in os.listdir(output_folder):
+        if os.path.isfile(os.path.join(output_folder, f)):
+            file_name = os.path.splitext(f)[0]
+            try:
+                file_num = int(file_name)
+                if file_num > highest_num:
+                    highest_num = file_num
+            except ValueError:
+                'The file name "%s" is not an integer. Skipping' % file_name
+
+    return os.path.join(output_folder, str(highest_num + 1))
+
+
+def analyze_from(quotes: List[Quote]):
+    pointer = 0
+    while less_that_three_month_interval(quotes[pointer].date, quotes[0].date):
+        pointer += 1
+        if pointer == len(quotes):
+            return 999999999999
+    return pointer
+
+
+def analyze_to(quotes: List[Quote]):
+    last = len(quotes) - 1
+    pointer = last
+    while less_that_three_month_interval(quotes[last].date, quotes[pointer].date):
+        pointer -= 1
+        if pointer == len(quotes):
+            return 0
+    return pointer + 1
