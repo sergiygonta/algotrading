@@ -1,7 +1,7 @@
 from datetime import datetime, date
 
-from Quote import simple_load_market_data
-from Solution import Solution
+from historical_data.Quote import simple_load_market_data
+from algorightm.Solution import Solution
 
 # import plotly.graph_objects as go
 # import pandas as pd
@@ -12,7 +12,7 @@ initial_money = 50_000
 
 
 def main():
-    companies = os.listdir("historical_data/SP")
+    companies = os.listdir("../historical_data/SP")
     companies.sort()
     total_earnings = 0
     for company in companies:
@@ -22,7 +22,7 @@ def main():
 
 
 def get_analytics_for_company(company):
-    quotes = simple_load_market_data("historical_data/SP/" + company)
+    quotes = simple_load_market_data("../historical_data/SP/" + company)
     if len(quotes) < 101:
         return initial_money
     # df = pd.read_csv(company)

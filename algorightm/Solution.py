@@ -1,6 +1,6 @@
 from typing import List
 
-from Quote import Quote
+from historical_data.Quote import Quote
 
 
 class Solution:
