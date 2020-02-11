@@ -1,7 +1,7 @@
 from datetime import datetime, date
 
 from historical_data.Quote import simple_load_market_data
-from algorightm.DecisionMaker import Solution
+from algorightm.DecisionMaker import DecisionMaker
 
 # import plotly.graph_objects as go
 # import pandas as pd

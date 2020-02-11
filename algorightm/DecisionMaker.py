@@ -3,9 +3,9 @@ from typing import List
 from historical_data.Quote import Quote
 
 
-class Solution:
+class DecisionMaker:
 
-    def should_buy(quotes: List[Quote]):
+    def should_buy(quotes: List[Quote]) -> object:
         current_day = quotes[len(quotes) - 1]
         middle_local_max_index = -2
         first_local_min_index = -1
@@ -30,7 +30,7 @@ class Solution:
                 break
         return None
 
-    def should_sell(quotes: List[Quote]):
+    def should_sell(quotes: List[Quote]) -> object:
         current_day = quotes[len(quotes) - 1]
         middle_local_min_index = -2
         first_local_max_index = -1
