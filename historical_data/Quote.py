@@ -1,6 +1,9 @@
 from typing import NamedTuple
 from datetime import date, datetime
 
+PATH_TO_HISTORICAL_DATA = "../historical_data/SP/"
+CSV_HEADER_ROW = 'Date,Open,High,Low,Close,Adj Close,Volume\n'
+
 
 class Quote(NamedTuple):
     date: date

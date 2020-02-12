@@ -2,7 +2,7 @@ import os, shutil, enum
 from datetime import date, timedelta
 from typing import List
 
-from historical_data.Quote import Quote
+from historical_data.Quote import Quote, CSV_HEADER_ROW
 
 PATH_TO_SNIPPETS = '../snippets/snippets_data/'
 
@@ -23,11 +23,12 @@ def create_3month_snippet(quotes: List[Quote], right_border: int, snippet_type: 
     while less_that_three_month_interval(quotes[left_border].date, quotes[right_border].date):
         left_border -= 1
     write_snippet_to_csv_file(quotes[left_border:right_border + 1], snippet_type)
+    return [left_border,right_border, snippet_type]
 
 
 def write_snippet_to_csv_file(quotes: List[Quote], snippet_type: SnippetTypes):
     with open(get_next_file_path(PATH_TO_SNIPPETS + snippet_type.name) + '.csv', 'w') as csv_file:
-        csv_file.write('Date,Open,High,Low,Close,Adj Close,Volume\n')
+        csv_file.write(CSV_HEADER_ROW)
         for quote in quotes:
             csv_file.write(str(quote.date) + ',' + str(quote.open_price) + ',' + str(quote.high_price) + ','
                            + str(quote.low_price) + ',' + str(quote.close_price) + ','
