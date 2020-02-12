@@ -15,7 +15,7 @@ def main():
 
 def create_snippets_for_company(company):
     quotes = simple_load_market_data("../historical_data/SP/" + company)
-    if not quotes or less_that_three_month_interval(quotes[len(quotes) - 1].date, quotes[0].date):
+    if not quotes or less_that_three_month_interval(quotes[0].date, quotes[len(quotes) - 1].date):
         return
     for i in range(analyze_from(quotes), analyze_to(quotes), 1):
         SnippetDataAnalyzer.growing_snippet(quotes, i)

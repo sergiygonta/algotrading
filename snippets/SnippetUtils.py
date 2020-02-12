@@ -10,8 +10,8 @@ def less_that_three_month_interval(date_from: date, date_to: date):
 
 
 def create_3month_snippet(quotes: List[Quote], right_border: int, snippet_type: str):
-    left_border = quotes[right_border].date
-    while less_that_three_month_interval(quotes[right_border].date, quotes[left_border].date):
+    left_border = right_border
+    while less_that_three_month_interval(quotes[left_border].date, quotes[right_border].date):
         left_border -= 1
     write_snippet_to_csv_file(quotes[left_border:right_border + 1], snippet_type)
 
@@ -42,7 +42,7 @@ def get_next_file_path(output_folder):
 
 def analyze_from(quotes: List[Quote]):
     pointer = 0
-    while less_that_three_month_interval(quotes[pointer].date, quotes[0].date):
+    while less_that_three_month_interval(quotes[0].date, quotes[pointer].date):
         pointer += 1
         if pointer == len(quotes):
             return 999999999999
@@ -52,8 +52,8 @@ def analyze_from(quotes: List[Quote]):
 def analyze_to(quotes: List[Quote]):
     last = len(quotes) - 1
     pointer = last
-    while less_that_three_month_interval(quotes[last].date, quotes[pointer].date):
+    while less_that_three_month_interval(quotes[pointer].date, quotes[last].date):
         pointer -= 1
-        if pointer == len(quotes):
+        if pointer == -1:
             return 0
     return pointer + 1
