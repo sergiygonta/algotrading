@@ -1,7 +1,7 @@
 from datetime import timedelta
 
 from historical_data.Quote import simple_load_market_data
-from snippets.SnippetUtils import analyze_from, analyze_to, less_that_three_month_interval
+from snippets.SnippetUtils import analyze_from, analyze_to, less_that_three_month_interval, clear_snippets_directories
 from snippets.SnippetDataAnalyzer import SnippetDataAnalyzer
 
 
@@ -14,6 +14,7 @@ def main():
 
 
 def create_snippets_for_company(company):
+    clear_snippets_directories()
     quotes = simple_load_market_data("../historical_data/SP/" + company)
     if not quotes or less_that_three_month_interval(quotes[0].date, quotes[len(quotes) - 1].date):
         return
