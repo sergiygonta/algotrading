@@ -1,10 +1,9 @@
-from datetime import datetime, date
-
-from historical_data.Quote import simple_load_market_data, PATH_TO_HISTORICAL_DATA
+from historical_data.Quote import PATH_TO_HISTORICAL_DATA
 from algorightm.DecisionMaker import DecisionMaker
 
 import os
 
+from utils.FileUtils import simple_load_market_data
 from utils.GraphicUtils import Colors, draw_candlestick_chart, Line
 
 initial_money = 50_000
