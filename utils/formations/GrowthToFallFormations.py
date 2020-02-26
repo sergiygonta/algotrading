@@ -7,11 +7,13 @@ class GrowthToFallFormations:
 
     # повешенный
     def isHanged(quotes: List[Quote]):
-        if len(quotes) == 3 and \
-                quotes[1].open_price < quotes[1].close_price and \
-                quotes[1].high_price > max(quotes[0].high_price, quotes[2].high_price) and \
-                (quotes[1].open_price - quotes[1].low_price) / (quotes[1].close_price - quotes[1].open_price) > 2 and \
-                (quotes[1].open_price - quotes[1].low_price) / (quotes[1].high_price - quotes[1].close_price) > 3 and \
+        if len(quotes) < 3:
+            return False
+        body_top = max(quotes[1].open_price, quotes[1].close_price)
+        body_bottom = min(quotes[1].open_price, quotes[1].close_price)
+        if quotes[1].high_price > max(quotes[0].high_price, quotes[2].high_price) and \
+                (body_bottom - quotes[1].low_price) / abs(quotes[1].open_price - quotes[1].close_price) > 2 and \
+                (body_bottom - quotes[1].low_price) / (quotes[1].high_price - body_top) > 3 and \
                 (quotes[0].close_price > quotes[2].close_price):
             return True
         return False
