@@ -8,7 +8,7 @@ from utils.TrendUtils import confirm_trend_reversal
 class GrowthToFallFormations:
 
     # повешенный
-    def isHanged(quotes: List[Quote]) -> int:
+    def isHanged(quotes: List[Quote]) -> float:
         if len(quotes) < 3:
             return 0
         if is_green(quotes[0]) and is_red(quotes[2]) and body_length(quotes[1]) != 0 and \
@@ -20,7 +20,7 @@ class GrowthToFallFormations:
         return 0
 
     # медвежье поглощение
-    def isBearishTakeover(quotes: List[Quote]) -> int:
+    def isBearishTakeover(quotes: List[Quote]) -> float:
         if len(quotes) >= 2 and is_green(quotes[0]) and is_red(quotes[1]) and \
                 quotes[0].open_price < quotes[1].open_price and body_length(quotes[0]) != 0:
             ratio_between_candles = body_length(quotes[1]) / body_length(quotes[0])
