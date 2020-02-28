@@ -6,6 +6,7 @@ from snippets.SnippetDataAnalyzer import SnippetDataAnalyzer
 
 
 def main():
+    clear_snippets_directories()
     # companies = os.listdir("../historical_data/SP")
     companies = ['FB.csv']
     companies.sort()
@@ -14,7 +15,6 @@ def main():
 
 
 def create_snippets_for_company(company):
-    clear_snippets_directories()
     lines = []
     quotes = simple_load_market_data(PATH_TO_HISTORICAL_DATA + company)
     if not quotes or less_that_three_month_interval(quotes[0].date, quotes[len(quotes) - 1].date):
