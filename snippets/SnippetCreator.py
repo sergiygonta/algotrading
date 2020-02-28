@@ -7,6 +7,8 @@ from utils.GraphicUtils import draw_candlestick_chart, Colors, Line
 from utils.SnippetUtils import analyze_from, analyze_to, less_that_three_month_interval, clear_snippets_directories
 from snippets.SnippetDataAnalyzer import SnippetDataAnalyzer
 
+PERCENTAGE_OF_GROWTH_OR_FALL_AFTER_SNIPPET = 10
+
 
 def main():
     clear_snippets_directories()

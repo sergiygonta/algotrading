@@ -1,9 +1,10 @@
 from typing import List
 from algorightm.DecisionMaker import DecisionMaker
 from historical_data.Quote import Quote
+from snippets.SnippetCreator import PERCENTAGE_OF_GROWTH_OR_FALL_AFTER_SNIPPET
 from utils.SnippetUtils import create_3month_snippet, less_that_three_month_interval, SnippetTypes
 
-TEN_PERCENTS = 1.1
+AMPLITUDE_OF_CHANGE = 1 + PERCENTAGE_OF_GROWTH_OR_FALL_AFTER_SNIPPET / 100
 
 
 class SnippetDataAnalyzer:
@@ -13,7 +14,7 @@ class SnippetDataAnalyzer:
             return None
         pointer = split_point
         while less_that_three_month_interval(quotes[split_point].date, quotes[pointer].date):
-            if TEN_PERCENTS < quotes[pointer].close_price / quotes[split_point].close_price:
+            if AMPLITUDE_OF_CHANGE < quotes[pointer].close_price / quotes[split_point].close_price:
                 return create_3month_snippet(quotes, split_point, SnippetTypes.buy, gics)
             pointer += 1
         return create_3month_snippet(quotes, split_point, SnippetTypes.hold, gics)
@@ -23,7 +24,7 @@ class SnippetDataAnalyzer:
             return None
         pointer = split_point
         while less_that_three_month_interval(quotes[split_point].date, quotes[pointer].date):
-            if quotes[split_point].close_price / quotes[pointer].close_price > TEN_PERCENTS:
+            if quotes[split_point].close_price / quotes[pointer].close_price > AMPLITUDE_OF_CHANGE:
                 return create_3month_snippet(quotes, split_point, SnippetTypes.sell, gics)
             pointer += 1
         return create_3month_snippet(quotes, split_point, SnippetTypes.hold, gics)
