@@ -17,11 +17,11 @@ class Line(NamedTuple):
     y0: float
     x1: date
     y1: float
-    color: Colors
+    color: str
 
 
 def draw_candlestick_chart(path: str, company: str, lines: List[Line], x_title: str):
-    df = pd.read_csv(path + company)
+    df = pd.read_csv(path + company + '.csv')
     fig = go.Figure(data=[go.Candlestick(x=df['Date'],
                                          open=df['Open'],
                                          high=df['High'],

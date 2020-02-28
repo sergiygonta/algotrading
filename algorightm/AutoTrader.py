@@ -8,12 +8,13 @@ from utils.GraphicUtils import Colors, draw_candlestick_chart, Line
 
 initial_money = 50_000
 
+
 def main():
     companies = os.listdir(PATH_TO_HISTORICAL_DATA)
     companies.sort()
     total_earnings = 0
     for company in companies:
-        total_earnings += get_analytics_for_company(company)
+        total_earnings += get_analytics_for_company(company[0:len(company) - 4])
 
 
 def get_analytics_for_company(company):
@@ -36,21 +37,20 @@ def get_analytics_for_company(company):
             money -= stocks * quotes[i].open_price
             price_for_buy = quotes[i].open_price
             if resistance_level is not None:
-                lines.append(Line(begin,resistance_level,quotes[i].date,resistance_level,Colors.green.name))
+                lines.append(Line(begin, resistance_level, quotes[i].date, resistance_level, Colors.green.name))
         begin, support_level = DecisionMaker.should_sell(quotes[0:i]) or (None, None)
         if not alreadySold and not (begin is None) and (price_for_buy < quotes[i].close_price):
             alreadySold = True
             alreadyBought = False
             money += stocks * quotes[i].close_price
-
             # print(str(quotes[i].date) + " sell " + company + " .money=" + str(money))
             stocks = 0
             if support_level is not None:
                 lines.append(Line(begin, support_level, quotes[i].date, support_level, Colors.red.name))
     final_money = round(money + stocks * quotes[len(quotes) - 1].close_price, 2)
-    print('{0:<9} from '.format(company) + str(quotes[100].date) + ' and 50000$ to ' +
+    print('{0:<5} from '.format(company) + str(quotes[100].date) + ' and 50000$ to ' +
           str(quotes[len(quotes) - 1].date) + ' and ' + str(final_money) + '$')
-    #draw_candlestick_chart(PATH_TO_HISTORICAL_DATA, company, lines, "End of green line - buy date. End of red line - sell date.")
+    # draw_candlestick_chart(PATH_TO_HISTORICAL_DATA, company, lines, "End of green line - buy date. End of red line - sell date.")
     return final_money - initial_money
 
 

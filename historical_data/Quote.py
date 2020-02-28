@@ -3,6 +3,7 @@ from datetime import date, datetime
 
 PATH_TO_HISTORICAL_DATA = "../historical_data/SP/"
 CSV_HEADER_ROW = 'Date,Open,High,Low,Close,Adj Close,Volume\n'
+CSV_HEADER_ROW_WITH_GICS = 'Date,Open,High,Low,Close,Adj Close,Volume,Gics\n'
 
 
 class Quote(NamedTuple):

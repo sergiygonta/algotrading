@@ -5,7 +5,7 @@ from historical_data.Quote import Quote
 
 def simple_load_market_data(file_name):
     import csv
-    with open(file_name) as csv_file:
+    with open(file_name + '.csv') as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
         line_count = 0
         out = []

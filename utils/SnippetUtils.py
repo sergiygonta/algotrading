@@ -2,7 +2,7 @@ import os, shutil, enum
 from datetime import date, timedelta
 from typing import List
 
-from historical_data.Quote import Quote, CSV_HEADER_ROW
+from historical_data.Quote import Quote, CSV_HEADER_ROW_WITH_GICS
 
 PATH_TO_SNIPPETS = '../snippets/snippets_data/'
 
@@ -18,21 +18,21 @@ def less_that_three_month_interval(date_from: date, date_to: date) -> bool:
     return date_to - date_from < timedelta(days=90)
 
 
-def create_3month_snippet(quotes: List[Quote], right_border: int, snippet_type: SnippetTypes):
+def create_3month_snippet(quotes: List[Quote], right_border: int, snippet_type: SnippetTypes, gics: int):
     left_border = right_border
     while less_that_three_month_interval(quotes[left_border].date, quotes[right_border].date):
         left_border -= 1
-    write_snippet_to_csv_file(quotes[left_border:right_border + 1], snippet_type)
+    write_snippet_to_csv_file(quotes[left_border:right_border + 1], snippet_type, gics)
     return [left_border, right_border, snippet_type]
 
 
-def write_snippet_to_csv_file(quotes: List[Quote], snippet_type: SnippetTypes):
+def write_snippet_to_csv_file(quotes: List[Quote], snippet_type: SnippetTypes, gics: int):
     with open(get_next_file_path(PATH_TO_SNIPPETS + snippet_type.name) + '.csv', 'w') as csv_file:
-        csv_file.write(CSV_HEADER_ROW)
+        csv_file.write(str(CSV_HEADER_ROW_WITH_GICS))
         for quote in quotes:
             csv_file.write(str(quote.date) + ',' + str(quote.open_price) + ',' + str(quote.high_price) + ','
                            + str(quote.low_price) + ',' + str(quote.close_price) + ','
-                           + str(quote.adj_close_price) + ',' + str(quote.volume) + '\n')
+                           + str(quote.adj_close_price) + ',' + str(quote.volume) + ',' + str(gics) + '\n')
 
 
 def get_next_file_path(output_folder):
