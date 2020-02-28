@@ -20,7 +20,7 @@ class FallToGrowthFormations:
         return 0
 
     # бычье поглощение
-    def isBullTakeover(quotes: List[Quote]):
+    def isBullTakeover(quotes: List[Quote]) -> int:
         if len(quotes) >= 2 and is_red(quotes[0]) and is_green(quotes[1]) and \
                 quotes[0].open_price > quotes[1].open_price and body_length(quotes[0]) != 0:
             ratio_between_candles = body_length(quotes[1]) / body_length(quotes[0])
@@ -29,7 +29,7 @@ class FallToGrowthFormations:
         return 0
 
     # доджи стрекоза
-    def isDojiDragonfly(quotes: List[Quote]):
+    def isDojiDragonfly(quotes: List[Quote]) -> int:
         if len(quotes) < 3:
             return 0
         if quotes[1].high_price == body_top and is_red(quotes[0]) and is_green(quotes[2]) and \
@@ -39,14 +39,14 @@ class FallToGrowthFormations:
         return 0
 
     # бычья харами
-    def isBullHarami(quotes: List[Quote]):
+    def isBullHarami(quotes: List[Quote]) -> int:
         if len(quotes) >= 2 and \
                 quotes[0].close_price < quotes[1].open_price < quotes[1].close_price < quotes[0].open_price:
             return confirm_trend_reversal(quotes, 1)
         return 0
 
     # утренняя звезда дожи
-    def isDojiMorningStar(quotes: List[Quote]):
+    def isDojiMorningStar(quotes: List[Quote]) -> int:
         if len(quotes) < 3:
             return 0
         if is_red(quotes[0]) and is_green(quotes[2]) and \
@@ -57,7 +57,7 @@ class FallToGrowthFormations:
         return 0
 
     # брошенный младенец
-    def isAbandonedBaby(quotes: List[Quote]):
+    def isAbandonedBaby(quotes: List[Quote]) -> int:
         if len(quotes) < 3:
             return 0
         if is_red(quotes[0]) and is_green(quotes[2]) and \

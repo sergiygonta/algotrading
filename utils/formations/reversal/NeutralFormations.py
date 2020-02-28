@@ -5,7 +5,7 @@ from historical_data.Quote import Quote, upper_shadow, lower_shadow, body_bottom
 
 class NeutralFormations:
     # длинноногий доджи
-    def isLeggyDoji(quotes: List[Quote]):
+    def isLeggyDoji(quotes: List[Quote]) -> bool:
         if len(quotes) >= 1 and quotes[0].high_price > body_top(quotes[0]) and \
                 quotes[0].low_price < body_bottom(quotes[0]) and \
                 (body_length(quotes[0]) == 0 or
@@ -14,6 +14,6 @@ class NeutralFormations:
         return False
 
     # доджи 4 цен
-    def isDoji4prices(quotes: List[Quote]):
+    def isDoji4prices(quotes: List[Quote]) -> bool:
         return len(quotes) >= 1 and quotes[0].low_price == quotes[0].open_price == \
                quotes[0].close_price == quotes[0].high_price
