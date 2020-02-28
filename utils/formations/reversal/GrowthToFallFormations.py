@@ -29,7 +29,7 @@ class GrowthToFallFormations:
         return 0
 
     # доджи надгробие
-    def isDojiGravestone(quotes: List[Quote]) -> int:
+    def isDojiGravestone(quotes: List[Quote]) -> float:
         if len(quotes) < 3:
             return 0
         if quotes[1].low_price == body_bottom(quotes[1]) and is_green(quotes[0]) and is_red(quotes[2]) and \
@@ -46,7 +46,7 @@ class GrowthToFallFormations:
         return 0
 
     # вечерняя звезда дожи
-    def isDojiEveningStar(quotes: List[Quote]) -> int:
+    def isDojiEveningStar(quotes: List[Quote]) -> float:
         if len(quotes) < 3:
             return 0
         if is_green(quotes[0]) and is_red(quotes[2]) and \
@@ -57,7 +57,7 @@ class GrowthToFallFormations:
         return 0
 
     # брошенный младенец
-    def isAbandonedBaby(quotes: List[Quote]) -> int:
+    def isAbandonedBaby(quotes: List[Quote]) -> float:
         if len(quotes) < 3:
             return 0
         if is_green(quotes[0]) and is_red(quotes[2]) and \
