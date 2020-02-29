@@ -6,6 +6,7 @@ from historical_data.Quote import PATH_TO_HISTORICAL_DATA
 from historical_data.SP_list.GicsSectors import get_gics_code_by_company
 from snippets.SnippetConfiguration import NUMBER_OF_ROWS_IN_SNIPPET_FILE
 from snippets.SnippetDataAnalyzer import SnippetDataAnalyzer
+from snippets.SnippetHybridDataAnalyzer import SnippetHybridDataAnalyzer
 from utils.FileUtils import simple_load_market_data
 from utils.GraphicUtils import draw_candlestick_chart, Colors, Line
 from utils.SnippetUtils import clear_snippets_directory, less_than_interval, analyze_to, SNIPPET_X_AXIS_TEXT
