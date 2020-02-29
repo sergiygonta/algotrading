@@ -1,3 +1,7 @@
+import multiprocessing
+from multiprocessing.pool import ThreadPool
+import numpy as np
+
 from historical_data.Quote import PATH_TO_HISTORICAL_DATA
 from algorightm.DecisionMaker import DecisionMaker
 
@@ -12,9 +16,9 @@ initial_money = 50_000
 def main():
     companies = os.listdir(PATH_TO_HISTORICAL_DATA)
     companies.sort()
-    total_earnings = 0
-    for company in companies:
-        total_earnings += get_analytics_for_company(company)
+    pool = ThreadPool(multiprocessing.cpu_count())
+    average_profit_in_percents = np.mean(pool.map(get_analytics_for_company, companies)) / initial_money
+    print('Average profit is ' + str(round(average_profit_in_percents, 2)) + '%')
 
 
 def get_analytics_for_company(company):
