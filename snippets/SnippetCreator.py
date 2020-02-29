@@ -1,10 +1,10 @@
+import multiprocessing
 import os
 from multiprocessing.pool import ThreadPool
 
 from historical_data.Quote import PATH_TO_HISTORICAL_DATA
 from historical_data.SP_list.GicsSectors import get_gics_code_by_company
-from snippets.SnippetConfiguration import NUMBER_OF_ROWS_IN_SNIPPET_FILE, \
-    NUMBER_OF_THREADS_TO_PROCESS_SNIPPET_GENERATION
+from snippets.SnippetConfiguration import NUMBER_OF_ROWS_IN_SNIPPET_FILE
 from snippets.SnippetDataAnalyzer import SnippetDataAnalyzer
 from utils.FileUtils import simple_load_market_data
 from utils.GraphicUtils import draw_candlestick_chart, Colors, Line
@@ -17,7 +17,7 @@ def main():
     clear_snippets_directories()
     companies = os.listdir("../historical_data/SP")
     companies.sort()
-    pool = ThreadPool(NUMBER_OF_THREADS_TO_PROCESS_SNIPPET_GENERATION)
+    pool = ThreadPool(multiprocessing.cpu_count())
     pool.map(create_snippets_for_company, companies)
 
 
