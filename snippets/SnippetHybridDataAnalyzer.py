@@ -4,10 +4,10 @@ from historical_data.Quote import Quote
 from snippets.SnippetConfiguration import PERCENTAGE_OF_GROWTH_OR_FALL_AFTER_SNIPPET
 from utils.SnippetUtils import create_snippet, SnippetTypes, less_than_interval
 
-
 AMPLITUDE_OF_CHANGE = 1 + PERCENTAGE_OF_GROWTH_OR_FALL_AFTER_SNIPPET / 100
 
-class SnippetDataAnalyzer:
+
+class SnippetHybridDataAnalyzer:
 
     def growing_snippet(quotes: List[Quote], split_point: int, gics: int, company: str):
         if DecisionMaker.should_buy(quotes[0:split_point]) is None:
