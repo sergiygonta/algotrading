@@ -3,6 +3,7 @@ from datetime import date, timedelta
 from typing import List
 
 from historical_data.Quote import Quote, CSV_HEADER_ROW_WITH_GICS
+from snippets.SnippetConfiguration import PERIOD_OF_GROWTH_OR_FALL_AFTER_SNIPPET_IN_DAYS, NUMBER_OF_ROWS_IN_SNIPPET_FILE
 
 PATH_TO_SNIPPETS = '../snippets/snippets_data/'
 
@@ -14,15 +15,13 @@ class SnippetTypes(enum.Enum):
     hold = 3
 
 
-def less_that_three_month_interval(date_from: date, date_to: date) -> bool:
-    return date_to - date_from < timedelta(days=90)
+def less_than_interval(date_from: date, date_to: date) -> bool:
+    return date_to - date_from < timedelta(days=PERIOD_OF_GROWTH_OR_FALL_AFTER_SNIPPET_IN_DAYS)
 
 
-def create_3month_snippet(quotes: List[Quote], right_border: int, snippet_type: SnippetTypes, gics: int):
-    left_border = right_border
-    while less_that_three_month_interval(quotes[left_border].date, quotes[right_border].date):
-        left_border -= 1
-    write_snippet_to_csv_file(quotes[left_border:right_border + 1], snippet_type, gics)
+def create_snippet(quotes: List[Quote], right_border: int, snippet_type: SnippetTypes, gics: int):
+    left_border = right_border - NUMBER_OF_ROWS_IN_SNIPPET_FILE
+    write_snippet_to_csv_file(quotes[left_border:right_border], snippet_type, gics)
     return [left_border, right_border, snippet_type]
 
 
@@ -50,19 +49,10 @@ def get_next_file_path(output_folder):
     return os.path.join(output_folder, str(highest_num + 1))
 
 
-def analyze_from(quotes: List[Quote]) -> int:
-    pointer = 0
-    while less_that_three_month_interval(quotes[0].date, quotes[pointer].date):
-        pointer += 1
-        if pointer == len(quotes):
-            return 999999999999
-    return pointer
-
-
 def analyze_to(quotes: List[Quote]) -> int:
     last = len(quotes) - 1
     pointer = last
-    while less_that_three_month_interval(quotes[pointer].date, quotes[last].date):
+    while less_than_interval(quotes[pointer].date, quotes[last].date):
         pointer -= 1
         if pointer == -1:
             return 0
