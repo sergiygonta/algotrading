@@ -6,6 +6,7 @@ from historical_data.Quote import Quote, CSV_HEADER_ROW_WITH_GICS
 from snippets.SnippetConfiguration import PERIOD_OF_GROWTH_OR_FALL_AFTER_SNIPPET_IN_DAYS, NUMBER_OF_ROWS_IN_SNIPPET_FILE
 
 PATH_TO_SNIPPETS = '../snippets/snippets_data/'
+SNIPPET_X_AXIS_TEXT = "After green = buy, after red = sell, after blue = hold"
 
 
 # Using enum class create enumerations

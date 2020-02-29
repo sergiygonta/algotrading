@@ -5,6 +5,8 @@ from typing import NamedTuple, List
 import plotly.graph_objects as go
 import pandas as pd
 
+TRADER_X_AXIS_TEXT = "End of green line - buy date. End of red line - sell date."
+
 
 class Colors(enum.Enum):
     green = 1
@@ -21,7 +23,7 @@ class Line(NamedTuple):
 
 
 def draw_candlestick_chart(path: str, company: str, lines: List[Line], x_title: str):
-    df = pd.read_csv(path + company + '.csv')
+    df = pd.read_csv(path + company)
     fig = go.Figure(data=[go.Candlestick(x=df['Date'],
                                          open=df['Open'],
                                          high=df['High'],
@@ -30,8 +32,8 @@ def draw_candlestick_chart(path: str, company: str, lines: List[Line], x_title: 
                                          increasing_line_color='white',
                                          decreasing_line_color='black')])
     fig.update_layout(
-        title=company,
-        yaxis_title=company + ' stocks price',
+        title=company[0:len(company) - 4],
+        yaxis_title=company[0:len(company) - 4] + ' stocks price',
         xaxis_title=x_title)
 
     for line in lines:
