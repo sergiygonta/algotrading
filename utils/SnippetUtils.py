@@ -20,14 +20,14 @@ def less_than_interval(date_from: date, date_to: date) -> bool:
     return date_to - date_from < timedelta(days=PERIOD_OF_GROWTH_OR_FALL_AFTER_SNIPPET_IN_DAYS)
 
 
-def create_snippet(quotes: List[Quote], right_border: int, snippet_type: SnippetTypes, gics: int):
+def create_snippet(quotes: List[Quote], right_border: int, snippet_type: SnippetTypes, gics: int, company: str):
     left_border = right_border - NUMBER_OF_ROWS_IN_SNIPPET_FILE
-    write_snippet_to_csv_file(quotes[left_border:right_border], snippet_type, gics)
+    write_snippet_to_csv_file(quotes[left_border:right_border], snippet_type, gics, company)
     return [left_border, right_border, snippet_type]
 
 
-def write_snippet_to_csv_file(quotes: List[Quote], snippet_type: SnippetTypes, gics: int):
-    with open(get_next_file_path(PATH_TO_SNIPPETS + snippet_type.name) + '.csv', 'w') as csv_file:
+def write_snippet_to_csv_file(quotes: List[Quote], snippet_type: SnippetTypes, gics: int, company: str):
+    with open(get_next_file_path(PATH_TO_SNIPPETS + company + '/' + snippet_type.name) + '.csv', 'w') as csv_file:
         csv_file.write(str(CSV_HEADER_ROW_WITH_GICS))
         for quote in quotes:
             csv_file.write(str(quote.date) + ',' + str(quote.open_price) + ',' + str(quote.high_price) + ','
@@ -36,6 +36,8 @@ def write_snippet_to_csv_file(quotes: List[Quote], snippet_type: SnippetTypes, g
 
 
 def get_next_file_path(output_folder):
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
     highest_num = 0
     for f in os.listdir(output_folder):
         if os.path.isfile(os.path.join(output_folder, f)):
@@ -60,15 +62,14 @@ def analyze_to(quotes: List[Quote]) -> int:
     return pointer + 1
 
 
-def clear_snippets_directories():
-    for snippet_type in SnippetTypes:
-        full_path = PATH_TO_SNIPPETS + snippet_type.name
-        for filename in os.listdir(full_path):
-            file_path = os.path.join(full_path, filename)
-            try:
-                if os.path.isfile(file_path) or os.path.islink(file_path):
-                    os.unlink(file_path)
-                elif os.path.isdir(file_path):
-                    shutil.rmtree(file_path)
-            except Exception as e:
-                print('Failed to delete %s. Reason: %s' % (file_path, e))
+def clear_snippets_directory():
+    folder = PATH_TO_SNIPPETS
+    for filename in os.listdir(folder):
+        file_path = os.path.join(folder, filename)
+        try:
+            if os.path.isfile(file_path) or os.path.islink(file_path):
+                os.unlink(file_path)
+            elif os.path.isdir(file_path):
+                shutil.rmtree(file_path)
+        except Exception as e:
+            print('Failed to delete %s. Reason: %s' % (file_path, e))
