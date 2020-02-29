@@ -16,7 +16,8 @@ from utils.SnippetUtils import clear_snippets_directory, less_than_interval, ana
 
 def main():
     clear_snippets_directory()
-    companies = os.listdir("../historical_data/SP")
+    # companies = os.listdir("../historical_data/SP")
+    companies = ['FB.csv']
     companies.sort()
     pool = ThreadPool(multiprocessing.cpu_count())
     pool.map(create_snippets_for_company, companies)
@@ -30,13 +31,13 @@ def create_snippets_for_company(company: str):
     if not quotes or less_than_interval(quotes[0].date, quotes[len(quotes) - 1].date):
         return
     for i in range(NUMBER_OF_ROWS_IN_SNIPPET_FILE, analyze_to(quotes), 1):
-        left_border, right_border, snippet_type = SnippetDataAnalyzer.growing_snippet(quotes, i, gics, comp_name) or (
-            None, None, None)
+        left_border, right_border, snippet_type = SnippetHybridDataAnalyzer.growing_snippet(quotes, i, gics,
+            comp_name) or (None, None, None)
         if left_border is not None:
             lines.append(Line(quotes[left_border].date, quotes[left_border].close_price, quotes[right_border].date,
                               quotes[right_border].close_price, Colors(snippet_type.value).name))
-        left_border, right_border, snippet_type = SnippetDataAnalyzer.falling_snippet(quotes, i, gics, comp_name) or (
-            None, None, None)
+        left_border, right_border, snippet_type = SnippetHybridDataAnalyzer.falling_snippet(quotes, i, gics,
+             comp_name) or (None, None, None)
         if left_border is not None:
             lines.append(Line(quotes[left_border].date, quotes[left_border].close_price, quotes[right_border].date,
                               quotes[right_border].close_price, Colors(snippet_type.value).name))
