@@ -9,6 +9,8 @@ from utils.GraphicUtils import draw_candlestick_chart, Colors, Line
 from utils.SnippetUtils import clear_snippets_directories, less_than_interval, analyze_to
 
 
+# please note: configuration is in SnippetConfiguration.py
+
 def main():
     clear_snippets_directories()
     companies = os.listdir("../historical_data/SP")
@@ -25,12 +27,12 @@ def create_snippets_for_company(company):
         return
     for i in range(NUMBER_OF_ROWS_IN_SNIPPET_FILE, analyze_to(quotes), 1):
         left_border, right_border, snippet_type = SnippetDataAnalyzer.growing_snippet(quotes, i, gics) or (
-        None, None, None)
+            None, None, None)
         if left_border is not None:
             lines.append(Line(quotes[left_border].date, quotes[left_border].close_price, quotes[right_border].date,
                               quotes[right_border].close_price, Colors(snippet_type.value).name))
         left_border, right_border, snippet_type = SnippetDataAnalyzer.falling_snippet(quotes, i, gics) or (
-        None, None, None)
+            None, None, None)
         if left_border is not None:
             lines.append(Line(quotes[left_border].date, quotes[left_border].close_price, quotes[right_border].date,
                               quotes[right_border].close_price, Colors(snippet_type.value).name))
