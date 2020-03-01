@@ -11,7 +11,7 @@ class SnippetHybridDataAnalyzer:
         if DecisionMaker.should_buy(quotes[0:split_point]) is None:
             return None
         pointer = split_point
-        amplitude_of_growth = quotes[split_point].high_price * (1 + PERCENT_OF_GROWTH_OR_FALL_AFTER_SNIPPET / 100)
+        amplitude_of_growth = quotes[split_point].close_price * (1 + PERCENT_OF_GROWTH_OR_FALL_AFTER_SNIPPET / 100)
         amplitude_of_rollback = quotes[split_point].low_price * (1 - PERCENT_OF_MAXIMUM_ALLOWED_ROLLBACK / 100)
         while less_than_interval(quotes[split_point].date, quotes[pointer].date):
             # if graphic goes in the direction where we don't want
@@ -26,7 +26,7 @@ class SnippetHybridDataAnalyzer:
         if DecisionMaker.should_sell(quotes[0:split_point]) is None:
             return None
         pointer = split_point
-        amplitude_of_fall = quotes[split_point].low_price * (1 - PERCENT_OF_GROWTH_OR_FALL_AFTER_SNIPPET / 100)
+        amplitude_of_fall = quotes[split_point].close_price * (1 - PERCENT_OF_GROWTH_OR_FALL_AFTER_SNIPPET / 100)
         amplitude_of_rollback = quotes[split_point].high_price * (1 + PERCENT_OF_MAXIMUM_ALLOWED_ROLLBACK / 100)
         while less_than_interval(quotes[split_point].date, quotes[pointer].date):
             # if graphic goes in the direction where we don't want
