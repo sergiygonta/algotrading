@@ -12,8 +12,6 @@ from utils.SnippetUtils import clear_snippets_directory, SNIPPET_X_AXIS_TEXT, GI
     COMPANY, SNIPPET_TYPE
 
 
-# please note: configuration is in SnippetConfiguration.py
-
 def main():
     clear_snippets_directory()
     # companies = os.listdir("../historical_data/SP")
