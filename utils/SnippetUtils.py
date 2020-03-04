@@ -27,7 +27,7 @@ class SnippetTypes(enum.Enum):
 def create_snippet(parameters: Dict):
     left_border = parameters[SPLIT_POINT] - NUMBER_OF_ROWS_IN_SNIPPET_FILE
     if CUSTOM_FILE_NAME in parameters.keys():
-        file_name = get_directory_path(parameters[COMPANY]) + parameters[CUSTOM_FILE_NAME]
+        file_name = get_directory_path(parameters[COMPANY]) + parameters[CUSTOM_FILE_NAME]+'.csv'
     else:
         file_name = get_next_file_path(
             get_directory_path(parameters[COMPANY]) + parameters[SNIPPET_TYPE].name) + '.csv'
