@@ -4,12 +4,12 @@ from multiprocessing.pool import ThreadPool
 
 from historical_data.Quote import PATH_TO_HISTORICAL_DATA
 from historical_data.SP_list.GicsSectors import get_gics_code_by_company
-from snippets.SnippetConfiguration import NUMBER_OF_ROWS_IN_SNIPPET_FILE
-from snippets.SnippetDataAnalyzer import SnippetDataAnalyzer
-from snippets.SnippetHybridDataAnalyzer import SnippetHybridDataAnalyzer
+from snippets import SnippetHybridDataAnalyzer, SnippetDataAnalyzer, SnippetAnalyzerForSpecificDay
+from snippets.SnippetConfiguration import NUMBER_OF_ROWS_IN_SNIPPET_FILE, PREDICTION_SIZE_IN_BUSINESS_DAYS
 from utils.FileUtils import simple_load_market_data
 from utils.GraphicUtils import draw_candlestick_chart, Colors, Line
-from utils.SnippetUtils import clear_snippets_directory, less_than_interval, analyze_to, SNIPPET_X_AXIS_TEXT
+from utils.SnippetUtils import clear_snippets_directory, SNIPPET_X_AXIS_TEXT, GICS, SPLIT_POINT, QUOTES, \
+    COMPANY, SNIPPET_TYPE
 
 
 # please note: configuration is in SnippetConfiguration.py
@@ -27,21 +27,16 @@ def create_snippets_for_company(company: str):
     lines = []
     quotes = simple_load_market_data(PATH_TO_HISTORICAL_DATA + company)
     comp_name = company[0:len(company) - 4]
-    gics = get_gics_code_by_company(comp_name)
-    if not quotes or less_than_interval(quotes[0].date, quotes[len(quotes) - 1].date):
-        return
-    for i in range(NUMBER_OF_ROWS_IN_SNIPPET_FILE, analyze_to(quotes), 1):
-        left_border, right_border, snippet_type = SnippetHybridDataAnalyzer.growing_snippet(quotes, i, gics,
-            comp_name) or (None, None, None)
-        if left_border is not None:
-            lines.append(Line(quotes[left_border].date, quotes[left_border].close_price, quotes[right_border].date,
-                              quotes[right_border].close_price, Colors(snippet_type.value).name))
-        left_border, right_border, snippet_type = SnippetHybridDataAnalyzer.falling_snippet(quotes, i, gics,
-             comp_name) or (None, None, None)
-        if left_border is not None:
-            lines.append(Line(quotes[left_border].date, quotes[left_border].close_price, quotes[right_border].date,
-                              quotes[right_border].close_price, Colors(snippet_type.value).name))
-    # draw_candlestick_chart(PATH_TO_HISTORICAL_DATA, company, lines, SNIPPET_X_AXIS_TEXT)
+    parameters = {QUOTES: quotes, GICS: get_gics_code_by_company(comp_name), COMPANY: comp_name}
+    for i in range(NUMBER_OF_ROWS_IN_SNIPPET_FILE, len(quotes) - PREDICTION_SIZE_IN_BUSINESS_DAYS):
+        parameters[SPLIT_POINT] = i
+        return_parameters = SnippetAnalyzerForSpecificDay.check_snippet(parameters)
+    #     if return_parameters is not None and SNIPPET_TYPE in return_parameters.keys():
+    #         left_border_of_snippet = i - NUMBER_OF_ROWS_IN_SNIPPET_FILE
+    #         lines.append(
+    #             Line(quotes[left_border_of_snippet].date, quotes[left_border_of_snippet].close_price, quotes[i].date,
+    #                  quotes[i].close_price, Colors(return_parameters[SNIPPET_TYPE].value).name))
+    # draw_candlestick_chart(company, lines, SNIPPET_X_AXIS_TEXT)
 
 
 if __name__ == "__main__":

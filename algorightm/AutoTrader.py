@@ -54,7 +54,7 @@ def get_analytics_for_company(company):
     final_money = round(money + stocks * quotes[len(quotes) - 1].close_price, 2)
     print('{0:<5} from '.format(company[0:len(company) - 4]) + str(quotes[100].date) + ' and 50000$ to ' +
           str(quotes[len(quotes) - 1].date) + ' and ' + str(final_money) + '$')
-    # draw_candlestick_chart(PATH_TO_HISTORICAL_DATA, company, lines, TRADER_X_AXIS_TEXT)
+    draw_candlestick_chart(company, lines, TRADER_X_AXIS_TEXT)
     return final_money - initial_money
 
 

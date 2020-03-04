@@ -1,12 +1,20 @@
 import os, shutil, enum
 from datetime import date, timedelta
-from typing import List
+from typing import List, Dict
 
 from historical_data.Quote import Quote, CSV_HEADER_ROW_WITH_GICS
-from snippets.SnippetConfiguration import PERIOD_OF_GROWTH_OR_FALL_AFTER_SNIPPET_IN_DAYS, NUMBER_OF_ROWS_IN_SNIPPET_FILE
+from snippets.SnippetConfiguration import NUMBER_OF_ROWS_IN_SNIPPET_FILE
 
 PATH_TO_SNIPPETS = '../snippets/snippets_data/'
 SNIPPET_X_AXIS_TEXT = "After green = buy, after red = sell, after blue = hold"
+
+# MAP_KEYS
+GICS = "gics"
+SPLIT_POINT = "split_point"
+QUOTES = "quotes"
+COMPANY = "company"
+SNIPPET_TYPE = "snippet_type"
+CUSTOM_FILE_NAME = "custom_file_name"
 
 
 # Using enum class create enumerations
@@ -16,23 +24,27 @@ class SnippetTypes(enum.Enum):
     hold = 3
 
 
-def less_than_interval(date_from: date, date_to: date) -> bool:
-    return date_to - date_from < timedelta(days=PERIOD_OF_GROWTH_OR_FALL_AFTER_SNIPPET_IN_DAYS)
-
-
-def create_snippet(quotes: List[Quote], right_border: int, snippet_type: SnippetTypes, gics: int, company: str):
-    left_border = right_border - NUMBER_OF_ROWS_IN_SNIPPET_FILE
-    write_snippet_to_csv_file(quotes[left_border:right_border], snippet_type, gics, company)
-    return [left_border, right_border, snippet_type]
-
-
-def write_snippet_to_csv_file(quotes: List[Quote], snippet_type: SnippetTypes, gics: int, company: str):
-    with open(get_next_file_path(PATH_TO_SNIPPETS + company + '/' + snippet_type.name) + '.csv', 'w') as csv_file:
+def create_snippet(parameters: Dict):
+    left_border = parameters[SPLIT_POINT] - NUMBER_OF_ROWS_IN_SNIPPET_FILE
+    if CUSTOM_FILE_NAME in parameters.keys():
+        file_name = get_directory_path(parameters[COMPANY]) + parameters[CUSTOM_FILE_NAME]
+    else:
+        file_name = get_next_file_path(
+            get_directory_path(parameters[COMPANY]) + parameters[SNIPPET_TYPE].name) + '.csv'
+    with open(file_name, 'w') as csv_file:
         csv_file.write(str(CSV_HEADER_ROW_WITH_GICS))
-        for quote in quotes:
+        for quote in parameters[QUOTES][left_border: parameters[SPLIT_POINT] + 1]:
             csv_file.write(str(quote.date) + ',' + str(quote.open_price) + ',' + str(quote.high_price) + ','
-                           + str(quote.low_price) + ',' + str(quote.close_price) + ','
-                           + str(quote.adj_close_price) + ',' + str(quote.volume) + ',' + str(gics) + '\n')
+                           + str(quote.low_price) + ',' + str(quote.close_price) + ',' + str(quote.adj_close_price)
+                           + ',' + str(quote.volume) + ',' + str(parameters[GICS]) + '\n')
+    return {x: parameters[x] for x in parameters}
+
+
+def get_directory_path(company_name):
+    path = PATH_TO_SNIPPETS + company_name + '/'
+    if not os.path.exists(path):
+        os.makedirs(path)
+    return path
 
 
 def get_next_file_path(output_folder):
@@ -50,16 +62,6 @@ def get_next_file_path(output_folder):
                 'The file name "%s" is not an integer. Skipping' % file_name
 
     return os.path.join(output_folder, str(highest_num + 1))
-
-
-def analyze_to(quotes: List[Quote]) -> int:
-    last = len(quotes) - 1
-    pointer = last
-    while less_than_interval(quotes[pointer].date, quotes[last].date):
-        pointer -= 1
-        if pointer == -1:
-            return 0
-    return pointer + 1
 
 
 def clear_snippets_directory():

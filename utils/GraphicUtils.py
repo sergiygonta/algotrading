@@ -5,6 +5,8 @@ from typing import NamedTuple, List
 import plotly.graph_objects as go
 import pandas as pd
 
+from historical_data.Quote import PATH_TO_HISTORICAL_DATA
+
 TRADER_X_AXIS_TEXT = "End of green line - buy date. End of red line - sell date."
 
 
@@ -22,8 +24,8 @@ class Line(NamedTuple):
     color: str
 
 
-def draw_candlestick_chart(path: str, company: str, lines: List[Line], x_title: str):
-    df = pd.read_csv(path + company)
+def draw_candlestick_chart(company: str, lines: List[Line], x_title: str):
+    df = pd.read_csv(PATH_TO_HISTORICAL_DATA + company)
     fig = go.Figure(data=[go.Candlestick(x=df['Date'],
                                          open=df['Open'],
                                          high=df['High'],
