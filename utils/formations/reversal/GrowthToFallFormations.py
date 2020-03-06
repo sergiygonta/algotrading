@@ -5,7 +5,7 @@ from historical_data.Quote import Quote, lower_shadow, upper_shadow, body_length
 
 
 # assume that third candle is split point
-def is_fall_to_growth(quotes: List[Quote]) -> float:
+def is_growth_to_fall(quotes: List[Quote]) -> float:
     if len(quotes) != 6:
         return 0
     bearish_takeover_power = isBearishTakeover(quotes[1:3])
