@@ -2,7 +2,6 @@ from typing import List
 
 from historical_data.Quote import Quote, lower_shadow, upper_shadow, body_length, is_green, is_red, body_bottom, \
     body_top
-from utils.TrendUtils import confirm_trend_reversal
 
 
 class GrowthToFallFormations:
@@ -66,3 +65,12 @@ class GrowthToFallFormations:
                                                     upper_shadow(quotes[1])) / body_length(quotes[1]) > 2):
             return confirm_trend_reversal(quotes, 5)
         return 0
+
+
+def confirm_trend_reversal(quotes: List[Quote], power_of_signal: float) -> float:
+    for i in range[2:6]:
+        if quotes[i].close_price < quotes[0].open_price:
+            return power_of_signal
+        if i == len(quotes) - 1:
+            return 0
+    return 0
