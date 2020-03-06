@@ -4,7 +4,8 @@ from multiprocessing.pool import ThreadPool
 
 from historical_data.Quote import PATH_TO_HISTORICAL_DATA
 from historical_data.SP_list.GicsSectors import get_gics_code_by_company
-from snippets import SnippetHybridDataAnalyzer, SnippetDataAnalyzer, SnippetAnalyzerForSpecificDay
+from snippets.snippet_analyzers import SnippetHybridDataAnalyzer, SnippetDataAnalyzer, SnippetAnalyzerForSpecificDay, \
+    SnippetPatternsAnalyzer
 from snippets.SnippetConfiguration import NUMBER_OF_ROWS_IN_SNIPPET_FILE, PREDICTION_SIZE_IN_BUSINESS_DAYS
 from utils.FileUtils import simple_load_market_data
 from utils.GraphicUtils import draw_candlestick_chart, Colors, Line
@@ -28,7 +29,7 @@ def create_snippets_for_company(company: str):
     parameters = {QUOTES: quotes, GICS: get_gics_code_by_company(comp_name), COMPANY: comp_name}
     for i in range(NUMBER_OF_ROWS_IN_SNIPPET_FILE, len(quotes) - PREDICTION_SIZE_IN_BUSINESS_DAYS):
         parameters[SPLIT_POINT] = i
-        return_parameters = SnippetAnalyzerForSpecificDay.check_snippet(parameters)
+        return_parameters = SnippetPatternsAnalyzer.check_snippet(parameters)
     #     if return_parameters is not None and SNIPPET_TYPE in return_parameters.keys():
     #         left_border_of_snippet = i - NUMBER_OF_ROWS_IN_SNIPPET_FILE
     #         lines.append(
