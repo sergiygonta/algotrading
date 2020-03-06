@@ -4,6 +4,33 @@ from historical_data.Quote import Quote, lower_shadow, body_length, upper_shadow
     body_bottom
 
 
+# assume that third candle is split point
+def is_fall_to_growth(quotes: List[Quote]) -> float:
+    if len(quotes) != 6:
+        return 0
+    bull_takeover_power = isBullTakeover(quotes[1:3])
+    if bull_takeover_power != 0:
+        return bull_takeover_power
+    if not confirm_fall_to_growth_trend_reversal:
+        return False
+    hammer_power = isHammer(quotes)
+    if hammer_power != 0:
+        return hammer_power
+    doji_dragonfly_power = isDojiDragonfly(quotes)
+    if doji_dragonfly_power != 0:
+        return doji_dragonfly_power
+    abandoned_baby_power = isAbandonedBaby(quotes)
+    if abandoned_baby_power != 0:
+        return abandoned_baby_power
+    doji_morning_star_power = isDojiMorningStar(quotes)
+    if doji_morning_star_power != 0:
+        return doji_morning_star_power
+    bull_harami_power = isBullHarami(quotes)
+    if bull_harami_power != 0:
+        return bull_harami_power
+    return 0
+
+
 # молот
 def isHammer(quotes: List[Quote]) -> float:
     if len(quotes) < 3:
@@ -70,10 +97,10 @@ def isAbandonedBaby(quotes: List[Quote]) -> float:
     return 0
 
 
-def confirm_fall_to_growth_trend_reversal(quotes: List[Quote], power_of_signal: float) -> float:
+def confirm_fall_to_growth_trend_reversal(quotes: List[Quote]) -> bool:
     for i in range[2:6]:
         if quotes[i].close_price > quotes[0].open_price:
-            return power_of_signal
+            return True
         if i == len(quotes) - 1:
-            return 0
-    return 0
+            return False
+    return False
