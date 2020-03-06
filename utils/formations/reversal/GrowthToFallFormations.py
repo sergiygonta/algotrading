@@ -98,7 +98,7 @@ def isAbandonedBaby(quotes: List[Quote]) -> float:
 
 
 def confirm_growth_to_fall_trend_reversal(quotes: List[Quote]) -> bool:
-    for i in range[2:6]:
+    for i in range(2, 6):
         if quotes[i].close_price < quotes[0].open_price:
             return True
         if i == len(quotes) - 1:

@@ -2,8 +2,8 @@ from typing import Dict
 from algorightm.DecisionMaker import DecisionMaker
 from historical_data.Quote import is_red, is_green
 from snippets.SnippetConfiguration import PERCENT_OF_GROWTH_OR_FALL_AFTER_SNIPPET, PERCENT_OF_MAXIMUM_ALLOWED_ROLLBACK, \
-    PREDICTION_SIZE_IN_BUSINESS_DAYS
-from utils.SnippetUtils import create_snippet, SnippetTypes, QUOTES, SPLIT_POINT, SNIPPET_TYPE
+    PREDICTION_SIZE_IN_BUSINESS_DAYS, NUMBER_OF_ROWS_IN_SNIPPET_FILE
+from utils.SnippetUtils import create_snippet, SnippetTypes, QUOTES, SPLIT_POINT, SNIPPET_TYPE, CUSTOM_FILE_NAME
 
 #
 from utils.formations.reversal.FallToGrowthFormations import isBullTakeover, is_fall_to_growth
@@ -21,9 +21,11 @@ def check_snippet(parameters: Dict):
 def growing_snippet(parameters: Dict):
     split_point = parameters[SPLIT_POINT]
     quotes = parameters[QUOTES]
-    fall_to_growth_power = is_fall_to_growth(quotes[split_point-2, split_point+4])
+    fall_to_growth_power = round(is_fall_to_growth(quotes[split_point - 2: split_point + 4]), 3)
     if fall_to_growth_power == 0:
         return None
+    parameters[CUSTOM_FILE_NAME] = str(quotes[split_point - NUMBER_OF_ROWS_IN_SNIPPET_FILE].date) + "_" + str(
+        quotes[split_point].date) + "." + str(fall_to_growth_power)
     amplitude_of_growth = quotes[split_point].close_price * (1 + PERCENT_OF_GROWTH_OR_FALL_AFTER_SNIPPET / 100)
     amplitude_of_rollback = quotes[split_point].low_price * (1 - PERCENT_OF_MAXIMUM_ALLOWED_ROLLBACK / 100)
     for pointer in range(split_point + 1,
@@ -43,9 +45,11 @@ def growing_snippet(parameters: Dict):
 def falling_snippet(parameters: Dict):
     split_point = parameters[SPLIT_POINT]
     quotes = parameters[QUOTES]
-    growth_to_fall_power = is_growth_to_fall(quotes[split_point - 2, split_point + 4])
+    growth_to_fall_power = -round(is_growth_to_fall(quotes[split_point - 2: split_point + 4]), 3)
     if growth_to_fall_power == 0:
         return None
+    parameters[CUSTOM_FILE_NAME] = str(quotes[split_point - NUMBER_OF_ROWS_IN_SNIPPET_FILE].date) + "_" + str(
+        quotes[split_point].date) + "." + str(growth_to_fall_power)
     amplitude_of_fall = quotes[split_point].close_price * (1 - PERCENT_OF_GROWTH_OR_FALL_AFTER_SNIPPET / 100)
     amplitude_of_rollback = quotes[split_point].high_price * (1 + PERCENT_OF_MAXIMUM_ALLOWED_ROLLBACK / 100)
     for pointer in range(split_point + 1,
